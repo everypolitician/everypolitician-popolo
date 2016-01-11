@@ -19,30 +19,17 @@ class Everypolitician::PopoloTest < Minitest::Test
     assert_equal '123', person[:id]
   end
 
-  def test_person_twitter
-    twitter_handles = [
-      'bob',
-      '@bob',
-      'http://twitter.com/bob',
-      'https://twitter.com/bob',
-      'http://www.twitter.com/bob',
-      'https://www.twitter.com/bob',
-      'http://twitter.com/#!/bob',
-      'https://twitter.com/#!/bob',
-      'http://twitter.com/@bob',
-      'https://twitter.com/@bob',
-      'http://twitter.com/search?q=%23bob',
-      'https://twitter.com/search?q=%23bob',
-    ]
-    twitter_handles.each do |handle|
-      person = Everypolitician::Popolo::Person.new(
-        contact_details: [{ type: 'twitter', value: handle }]
-      )
-      assert_equal 'bob', person.twitter
-      person = Everypolitician::Popolo::Person.new(
-        links: [{ note: 'twitter', url: handle }]
-      )
-      assert_equal 'bob', person.twitter
-    end
+  def test_person_twitter_contact_details
+    person = Everypolitician::Popolo::Person.new(
+      contact_details: [{ type: 'twitter', value: 'bob' }]
+    )
+    assert_equal 'bob', person.twitter
+  end
+
+  def test_person_twitter_links
+    person = Everypolitician::Popolo::Person.new(
+      links: [{ note: 'twitter', url: 'https://twitter.com/bob' }]
+    )
+    assert_equal 'https://twitter.com/bob', person.twitter
   end
 end
