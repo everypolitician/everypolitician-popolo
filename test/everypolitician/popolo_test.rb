@@ -72,4 +72,11 @@ class Everypolitician::PopoloTest < Minitest::Test
     )
     assert_equal 'https://www.facebook.com/bob', person.facebook
   end
+
+  def test_person_sort_name
+    person = Everypolitician::Popolo::Person.new(name: 'Bob')
+    assert_equal 'Bob', person.sort_name
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', sort_name: 'Robert')
+    assert_equal 'Robert', person.sort_name
+  end
 end
