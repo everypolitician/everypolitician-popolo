@@ -6,14 +6,14 @@ class Everypolitician::PopoloTest < Minitest::Test
   end
 
   def test_reading_popolo_people
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{id: '123', name: 'Bob'}])
+    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     assert_instance_of Everypolitician::Popolo::People, popolo.persons
     person = popolo.persons.first
     assert_instance_of Everypolitician::Popolo::Person, person
   end
 
   def test_accessing_person_properties
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{id: '123', name: 'Bob'}])
+    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     person = popolo.persons.first
     assert person.key?(:id)
     assert_equal '123', person[:id]
@@ -31,5 +31,36 @@ class Everypolitician::PopoloTest < Minitest::Test
       links: [{ note: 'twitter', url: 'https://twitter.com/bob' }]
     )
     assert_equal 'https://twitter.com/bob', person.twitter
+  end
+
+  def test_accessing_basic_person_attributes
+    person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', other_names: [])
+    assert_equal '123', person.id
+    assert_equal 'Bob', person.name
+    assert_equal [], person.other_names
+  end
+
+  def test_person_name_at
+    person = Everypolitician::Popolo::Person.new(name: 'Bob')
+    assert_equal person.name_at('2016-01-11'), 'Bob'
+    person = Everypolitician::Popolo::Person.new(
+      name: 'Bob',
+      other_names: [
+        { name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' }
+      ]
+    )
+    assert_equal 'Robert', person.name_at('1990-06-01')
+
+    person = Everypolitician::Popolo::Person.new(
+      name: 'Bob',
+      other_names: [
+        { name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' },
+        { name: 'Bobby', start_date: '1989-01-01', end_date: '2012-12-31' }
+      ]
+    )
+
+    assert_raises Everypolitician::Popolo::Person::Error do
+      person.name_at('1996-01-01')
+    end
   end
 end
