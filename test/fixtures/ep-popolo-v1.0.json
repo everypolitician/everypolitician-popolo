@@ -1,0 +1,8 @@
+{
+  "persons": [
+    {
+      "id": "person/123",
+      "name": "Bob Smith"
+    }
+  ]
+}
