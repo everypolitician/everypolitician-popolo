@@ -1,8 +1,14 @@
 require 'everypolitician/popolo/version'
+require 'json'
 
 module Everypolitician
   module Popolo
     class Error < StandardError; end
+
+    def self.parse(popolo_string)
+      popolo = ::JSON.parse(popolo_string, symbolize_names: true)
+      Everypolitician::Popolo::JSON.new(popolo)
+    end
 
     class JSON
       attr_reader :popolo
