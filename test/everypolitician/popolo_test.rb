@@ -79,4 +79,11 @@ class Everypolitician::PopoloTest < Minitest::Test
     person = Everypolitician::Popolo::Person.new(name: 'Bob', sort_name: 'Robert')
     assert_equal 'Robert', person.sort_name
   end
+
+  def test_person_email
+    person = Everypolitician::Popolo::Person.new(name: 'Bob')
+    assert_equal nil, person.email
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', email: 'bob@example.org')
+    assert_equal 'bob@example.org', person.email
+  end
 end

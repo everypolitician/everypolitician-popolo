@@ -54,6 +54,10 @@ module Everypolitician
         document.fetch(:links, [])
       end
 
+      def email
+        self[:email]
+      end
+
       def twitter
         if key?(:contact_details)
           if twitter_contact = self[:contact_details].find { |d| d[:type] == 'twitter' }
