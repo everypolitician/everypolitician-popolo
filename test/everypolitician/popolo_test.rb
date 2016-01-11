@@ -63,4 +63,13 @@ class Everypolitician::PopoloTest < Minitest::Test
       person.name_at('1996-01-01')
     end
   end
+
+  def test_person_facebook
+    person = Everypolitician::Popolo::Person.new({})
+    assert_nil person.facebook
+    person = Everypolitician::Popolo::Person.new(
+      links: [{ note: 'facebook', url: 'https://www.facebook.com/bob' }]
+    )
+    assert_equal 'https://www.facebook.com/bob', person.facebook
+  end
 end
