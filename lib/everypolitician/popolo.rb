@@ -82,6 +82,10 @@ module Everypolitician
         fail Error, "Too many names at #{date}: #{at_date}" if at_date.count > 1
         at_date.first[:name]
       end
+
+      def sort_name
+        name
+      end
     end
   end
 end
