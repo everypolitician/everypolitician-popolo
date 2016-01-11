@@ -90,6 +90,14 @@ module Everypolitician
       def sort_name
         name
       end
+
+      def image
+        self[:image]
+      end
+
+      def gender
+        self[:gender]
+      end
     end
   end
 end
