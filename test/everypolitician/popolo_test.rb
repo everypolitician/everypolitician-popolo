@@ -32,4 +32,11 @@ class Everypolitician::PopoloTest < Minitest::Test
     )
     assert_equal 'https://twitter.com/bob', person.twitter
   end
+
+  def test_accessing_basic_person_attributes
+    person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', other_names: [])
+    assert_equal '123', person.id
+    assert_equal 'Bob', person.name
+    assert_equal [], person.other_names
+  end
 end
