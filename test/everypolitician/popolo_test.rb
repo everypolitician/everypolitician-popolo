@@ -108,4 +108,12 @@ class Everypolitician::PopoloTest < Minitest::Test
     assert_equal '123', person.id
     assert_equal 'Bob', person.name
   end
+
+  def test_reading_file
+    popolo = Everypolitician::Popolo.read('test/fixtures/ep-popolo-v1.0.json')
+    assert_equal 1, popolo.persons.count
+    person = popolo.persons.first
+    assert_equal 'person/123', person.id
+    assert_equal 'Bob Smith', person.name
+  end
 end

@@ -5,6 +5,10 @@ module Everypolitician
   module Popolo
     class Error < StandardError; end
 
+    def self.read(popolo_file)
+      parse(File.read(popolo_file))
+    end
+
     def self.parse(popolo_string)
       popolo = ::JSON.parse(popolo_string, symbolize_names: true)
       Everypolitician::Popolo::JSON.new(popolo)
