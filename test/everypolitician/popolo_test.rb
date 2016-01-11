@@ -5,7 +5,44 @@ class Everypolitician::PopoloTest < Minitest::Test
     refute_nil ::Everypolitician::Popolo::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_reading_popolo_people
+    popolo = Everypolitician::Popolo::JSON.new(persons: [{id: '123', name: 'Bob'}])
+    assert_instance_of Everypolitician::Popolo::People, popolo.persons
+    person = popolo.persons.first
+    assert_instance_of Everypolitician::Popolo::Person, person
+  end
+
+  def test_accessing_person_properties
+    popolo = Everypolitician::Popolo::JSON.new(persons: [{id: '123', name: 'Bob'}])
+    person = popolo.persons.first
+    assert person.key?(:id)
+    assert_equal '123', person[:id]
+  end
+
+  def test_person_twitter
+    twitter_handles = [
+      'bob',
+      '@bob',
+      'http://twitter.com/bob',
+      'https://twitter.com/bob',
+      'http://www.twitter.com/bob',
+      'https://www.twitter.com/bob',
+      'http://twitter.com/#!/bob',
+      'https://twitter.com/#!/bob',
+      'http://twitter.com/@bob',
+      'https://twitter.com/@bob',
+      'http://twitter.com/search?q=%23bob',
+      'https://twitter.com/search?q=%23bob',
+    ]
+    twitter_handles.each do |handle|
+      person = Everypolitician::Popolo::Person.new(
+        contact_details: [{ type: 'twitter', value: handle }]
+      )
+      assert_equal 'bob', person.twitter
+      person = Everypolitician::Popolo::Person.new(
+        links: [{ note: 'twitter', url: handle }]
+      )
+      assert_equal 'bob', person.twitter
+    end
   end
 end
