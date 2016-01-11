@@ -79,4 +79,25 @@ class Everypolitician::PopoloTest < Minitest::Test
     person = Everypolitician::Popolo::Person.new(name: 'Bob', sort_name: 'Robert')
     assert_equal 'Robert', person.sort_name
   end
+
+  def test_person_email
+    person = Everypolitician::Popolo::Person.new(name: 'Bob')
+    assert_equal nil, person.email
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', email: 'bob@example.org')
+    assert_equal 'bob@example.org', person.email
+  end
+
+  def test_person_image
+    person = Everypolitician::Popolo::Person.new(name: 'Bob')
+    assert_equal nil, person.image
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', image: 'http://example.org/img.jpeg')
+    assert_equal 'http://example.org/img.jpeg', person.image
+  end
+
+  def test_person_gender
+    person = Everypolitician::Popolo::Person.new(name: 'Bob')
+    assert_equal nil, person.gender
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', gender: 'male')
+    assert_equal 'male', person.gender
+  end
 end
