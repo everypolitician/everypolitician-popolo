@@ -50,6 +50,10 @@ module Everypolitician
         document.key?(key)
       end
 
+      def links
+        document.fetch(:links, [])
+      end
+
       def twitter
         if key?(:contact_details)
           if twitter_contact = self[:contact_details].find { |d| d[:type] == 'twitter' }
@@ -60,6 +64,11 @@ module Everypolitician
             twitter_link[:url].strip
           end
         end
+      end
+
+      def facebook
+        facebook_link = links.find { |d| d[:note] == 'facebook' }
+        facebook_link[:url] if facebook_link
       end
 
       def name_at(date)
