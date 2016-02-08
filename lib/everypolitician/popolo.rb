@@ -64,6 +64,11 @@ module Everypolitician
         document.key?(key)
       end
 
+      def ==(other)
+        id == other.id
+      end
+      alias eql? ==
+
       def links
         document.fetch(:links, [])
       end
@@ -137,6 +142,11 @@ module Everypolitician
           define_singleton_method(key) { value }
         end
       end
+
+      def ==(other)
+        id == other.id
+      end
+      alias eql? ==
     end
   end
 end
