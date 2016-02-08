@@ -24,6 +24,10 @@ module Everypolitician
       def persons
         People.new(popolo[:persons])
       end
+
+      def organizations
+        Organizations.new(popolo[:organizations])
+      end
     end
 
     class People
@@ -107,6 +111,31 @@ module Everypolitician
 
       def gender
         self[:gender]
+      end
+    end
+
+    class Organizations
+      include Enumerable
+
+      attr_reader :documents
+
+      def initialize(documents)
+        @documents = documents.map { |p| Organization.new(p) }
+      end
+
+      def each(&block)
+        documents.each(&block)
+      end
+    end
+
+    class Organization
+      attr_reader :document
+
+      def initialize(document)
+        @document = document
+        document.each do |key, value|
+          define_singleton_method(key) { value }
+        end
       end
     end
   end
