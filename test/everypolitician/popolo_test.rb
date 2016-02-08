@@ -116,4 +116,18 @@ class Everypolitician::PopoloTest < Minitest::Test
     assert_equal 'person/123', person.id
     assert_equal 'Bob Smith', person.name
   end
+
+  def test_reading_popolo_organizations
+    popolo = Everypolitician::Popolo::JSON.new(organizations: [{ id: '123', name: 'ACME' }])
+    assert_instance_of Everypolitician::Popolo::Organizations, popolo.organizations
+    organization = popolo.organizations.first
+    assert_instance_of Everypolitician::Popolo::Organization, organization
+  end
+
+  def test_accessing_organization_properties
+    popolo = Everypolitician::Popolo::JSON.new(organizations: [{ id: '123', name: 'ACME' }])
+    organization = popolo.organizations.first
+    assert_equal '123', organization.id
+    assert_equal 'ACME', organization.name
+  end
 end
