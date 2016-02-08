@@ -30,14 +30,10 @@ module Everypolitician
       end
     end
 
-    class People
+    class Collection
       include Enumerable
 
       attr_reader :documents
-
-      def initialize(documents)
-        @documents = documents.map { |p| Person.new(p) }
-      end
 
       def each(&block)
         documents.each(&block)
@@ -48,6 +44,12 @@ module Everypolitician
         other_ids = other.documents.map { |d| d.id }
         different_ids = ids - other_ids
         different_ids.map { |id| (documents + other.documents).find { |d| d.id == id } }
+      end
+    end
+
+    class People < Collection
+      def initialize(documents)
+        @documents = documents.map { |p| Person.new(p) }
       end
     end
 
@@ -126,24 +128,9 @@ module Everypolitician
       end
     end
 
-    class Organizations
-      include Enumerable
-
-      attr_reader :documents
-
+    class Organizations < Collection
       def initialize(documents)
         @documents = documents.map { |p| Organization.new(p) }
-      end
-
-      def each(&block)
-        documents.each(&block)
-      end
-
-      def -(other)
-        ids = documents.map { |d| d.id }
-        other_ids = other.documents.map { |d| d.id }
-        different_ids = ids - other_ids
-        different_ids.map { |id| documents.find { |d| d.id == id } }
       end
     end
 
