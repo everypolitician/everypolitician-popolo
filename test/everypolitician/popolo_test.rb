@@ -142,4 +142,20 @@ class Everypolitician::PopoloTest < Minitest::Test
     org2 = Everypolitician::Popolo::Organization.new(id: 'abc', name: 'ACME')
     assert_equal org1, org2
   end
+
+  def test_persons_subtraction
+    person1 = { id: '123', name: 'Alice' }
+    person2 = { id: '456', name: 'Bob', gender: 'male' }
+    all_people = Everypolitician::Popolo::People.new([person1, person2])
+    just_person_1 = Everypolitician::Popolo::People.new([person1])
+    assert_equal [Everypolitician::Popolo::Person.new(person2)], all_people - just_person_1
+  end
+
+  def test_organizations_subtraction
+    org1 = { id: 'abc', name: 'ACME' }
+    org2 = { id: 'def', name: 'TNT INC' }
+    all_orgs = Everypolitician::Popolo::Organizations.new([org1, org2])
+    just_org_1 = Everypolitician::Popolo::Organizations.new([org1])
+    assert_equal [Everypolitician::Popolo::Organization.new(org2)], all_orgs - just_org_1
+  end
 end

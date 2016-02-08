@@ -42,6 +42,13 @@ module Everypolitician
       def each(&block)
         documents.each(&block)
       end
+
+      def -(other)
+        ids = documents.map { |d| d.id }
+        other_ids = other.documents.map { |d| d.id }
+        different_ids = ids - other_ids
+        different_ids.map { |id| (documents + other.documents).find { |d| d.id == id } }
+      end
     end
 
     class Person
@@ -130,6 +137,13 @@ module Everypolitician
 
       def each(&block)
         documents.each(&block)
+      end
+
+      def -(other)
+        ids = documents.map { |d| d.id }
+        other_ids = other.documents.map { |d| d.id }
+        different_ids = ids - other_ids
+        different_ids.map { |id| documents.find { |d| d.id == id } }
       end
     end
 
