@@ -30,17 +30,24 @@ module Everypolitician
       end
     end
 
-    class People
+    class Collection
       include Enumerable
 
       attr_reader :documents
 
-      def initialize(documents)
-        @documents = documents.map { |p| Person.new(p) }
-      end
-
       def each(&block)
         documents.each(&block)
+      end
+
+      def -(other)
+        other_ids = Set.new(other.documents.map(&:id))
+        documents.reject { |d| other_ids.include?(d.id) }
+      end
+    end
+
+    class People < Collection
+      def initialize(documents)
+        @documents = documents.map { |p| Person.new(p) }
       end
     end
 
@@ -63,6 +70,11 @@ module Everypolitician
       def key?(key)
         document.key?(key)
       end
+
+      def ==(other)
+        id == other.id
+      end
+      alias eql? ==
 
       def links
         document.fetch(:links, [])
@@ -114,17 +126,9 @@ module Everypolitician
       end
     end
 
-    class Organizations
-      include Enumerable
-
-      attr_reader :documents
-
+    class Organizations < Collection
       def initialize(documents)
         @documents = documents.map { |p| Organization.new(p) }
-      end
-
-      def each(&block)
-        documents.each(&block)
       end
     end
 
@@ -137,6 +141,11 @@ module Everypolitician
           define_singleton_method(key) { value }
         end
       end
+
+      def ==(other)
+        id == other.id
+      end
+      alias eql? ==
     end
   end
 end
