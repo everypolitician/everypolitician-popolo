@@ -33,6 +33,14 @@ class Everypolitician::PopoloTest < Minitest::Test
     assert_equal 'https://twitter.com/bob', person.twitter
   end
 
+  def test_person_contact_details_and_twitter_links
+    person = Everypolitician::Popolo::Person.new(
+      contact_details: [{ note: 'cell', value: '+1-555-555-0100' }],
+      links: [{ note: 'twitter', url: 'https://twitter.com/bob' }]
+    )
+    assert_equal 'https://twitter.com/bob', person.twitter
+  end
+
   def test_accessing_basic_person_attributes
     person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', other_names: [])
     assert_equal '123', person.id
