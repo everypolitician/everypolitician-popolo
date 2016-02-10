@@ -40,10 +40,8 @@ module Everypolitician
       end
 
       def -(other)
-        ids = documents.map { |d| d.id }
-        other_ids = other.documents.map { |d| d.id }
-        different_ids = ids - other_ids
-        different_ids.map { |id| (documents + other.documents).find { |d| d.id == id } }
+        other_ids = Set.new(other.documents.map(&:id))
+        documents.reject { |d| other_ids.include?(d.id) }
       end
     end
 
