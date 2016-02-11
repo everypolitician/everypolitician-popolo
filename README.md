@@ -1,6 +1,6 @@
 # Everypolitician::Popolo
 
-[EveryPolitician](http://everypolitician.org) provides it's data in [Popolo](http://www.popoloproject.com/) format. If you want to interact with this data from Ruby then this library should make that task simpler.
+[EveryPolitician](http://everypolitician.org) provides its data in [Popolo](http://www.popoloproject.com/) format. If you want to interact with this data from Ruby then this library should make that task simpler.
 
 ## Installation
 
