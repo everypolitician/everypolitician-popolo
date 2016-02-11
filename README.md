@@ -1,8 +1,6 @@
 # Everypolitician::Popolo
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/everypolitician/popolo`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+[EveryPolitician](http://everypolitician.org) provides it's data in [Popolo](http://www.popoloproject.com/) format. If you want to interact with this data from Ruby then this library should make that task simpler.
 
 ## Installation
 
@@ -22,7 +20,26 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You'll need to download a Popolo file from [EveryPolitician](http://everypolitician.org/). The following example uses [Åland Lagting](https://github.com/everypolitician/everypolitician-data/raw/master/data/Aland/Lagting/ep-popolo-v1.0.json).
+
+First you'll need to require the library and read in a file from disk.
+
+```ruby
+require 'everypolitician/popolo'
+popolo = Everypolitician::Popolo.read('ep-popolo-v1.0.json')
+```
+
+Currently only the `persons` and `organizations` collections are implemented. Pull Requests to add support for others are welcome!
+
+There are methods defined for each property on a person.
+
+```
+popolo.persons.count # => 47
+person = popolo.persons.first
+person.id # => "e3aab23e-a883-4763-be0d-92e5936024e2"
+person.name # => "Aaltonen Carina"
+person.image # => "http://www.lagtinget.ax/files/aaltonen_carina.jpg"
+```
 
 ## Development
 
@@ -32,10 +49,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/everypolitician-popolo.
+Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/everypolitician-popolo.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
