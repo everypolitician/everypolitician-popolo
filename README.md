@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-You'll need to download a Popolo file from [EveryPolitician](http://everypolitician.org/). The following example uses [Åland Lagting](https://github.com/everypolitician/everypolitician-data/raw/master/data/Aland/Lagting/ep-popolo-v1.0.json).
+You'll need to download a Popolo file from [EveryPolitician](http://everypolitician.org/). The following example uses [Åland Lagting](https://github.com/everypolitician/everypolitician-data/raw/master/data/Aland/Lagting/ep-popolo-v1.0.json) (which is the legislature of the Åland islands,
+available as JSON data from the
+[EveryPolitician page for Åland](http://everypolitician.org/aland/)).
 
 First you'll need to require the library and read in a file from disk.
 
