@@ -81,6 +81,15 @@ class Everypolitician::PopoloTest < Minitest::Test
     assert_equal 'https://www.facebook.com/bob', person.facebook
   end
 
+  def test_person_wikidata
+    person = Everypolitician::Popolo::Person.new({})
+    assert_nil person.wikidata
+    person = Everypolitician::Popolo::Person.new(
+      identifiers: [{ scheme: 'wikidata', identifier: 'Q153149' }]
+    )
+    assert_equal 'Q153149', person.wikidata
+  end
+
   def test_person_sort_name
     person = Everypolitician::Popolo::Person.new(name: 'Bob')
     assert_equal 'Bob', person.sort_name
