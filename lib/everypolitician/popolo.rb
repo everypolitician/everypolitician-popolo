@@ -80,6 +80,14 @@ module Everypolitician
         document.fetch(:links, [])
       end
 
+      def identifiers
+        document.fetch(:identifiers, [])
+      end
+
+      def identifier(scheme)
+        identifiers.find(->{{}}) { |i| i[:scheme] == 'wikidata' }[:identifier]
+      end
+
       def email
         self[:email]
       end
@@ -100,6 +108,10 @@ module Everypolitician
       def facebook
         facebook_link = links.find { |d| d[:note] == 'facebook' }
         facebook_link[:url] if facebook_link
+      end
+
+      def wikidata
+        identifier('wikidata')
       end
 
       def name_at(date)

@@ -41,6 +41,7 @@ person = popolo.persons.first
 person.id # => "e3aab23e-a883-4763-be0d-92e5936024e2"
 person.name # => "Aaltonen Carina"
 person.image # => "http://www.lagtinget.ax/files/aaltonen_carina.jpg"
+person.wikidata # => "Q4934081"
 ```
 
 ## Development
