@@ -85,7 +85,7 @@ module Everypolitician
       end
 
       def identifier(scheme)
-        identifiers.find(->{{}}) { |i| i[:scheme] == 'wikidata' }[:identifier]
+        identifiers.find(->{{}}) { |i| i[:scheme] == scheme }[:identifier]
       end
 
       def email
