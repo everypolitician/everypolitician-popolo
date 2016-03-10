@@ -187,4 +187,13 @@ class Everypolitician::PopoloTest < Minitest::Test
     just_org_1 = Everypolitician::Popolo::Organizations.new([org1])
     assert_equal [Everypolitician::Popolo::Organization.new(org2)], all_orgs - just_org_1
   end
+
+  def test_reading_popolo_areas
+    popolo = Everypolitician::Popolo::JSON.new(
+      areas: [{ id: '123', name: 'Newtown', type: 'constituency' }]
+    )
+    assert_instance_of Everypolitician::Popolo::Areas, popolo.areas
+    area = popolo.areas.first
+    assert_instance_of Everypolitician::Popolo::Area, area
+  end
 end
