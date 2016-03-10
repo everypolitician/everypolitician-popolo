@@ -192,8 +192,9 @@ class Everypolitician::PopoloTest < Minitest::Test
     popolo = Everypolitician::Popolo::JSON.new(
       areas: [{ id: '123', name: 'Newtown', type: 'constituency' }]
     )
-    assert_instance_of Everypolitician::Popolo::Areas, popolo.areas
     area = popolo.areas.first
+
+    assert_instance_of Everypolitician::Popolo::Areas, popolo.areas
     assert_instance_of Everypolitician::Popolo::Area, area
   end
 end
