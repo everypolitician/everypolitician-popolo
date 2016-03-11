@@ -220,6 +220,10 @@ module Everypolitician
       def start_date
         @document[:start_date]
       end
+
+      def end_date
+        @document[:end_date]
+      end
     end
   end
 end
