@@ -28,6 +28,10 @@ module Everypolitician
       def organizations
         Organizations.new(popolo[:organizations])
       end
+
+      def areas
+        Areas.new(popolo[:areas])
+      end
     end
 
     class Collection
@@ -159,6 +163,21 @@ module Everypolitician
         id == other.id
       end
       alias eql? ==
+    end
+
+    class Areas < Collection
+      def initialize(documents)
+        @documents = documents.map { |p| Area.new(p) }
+      end
+    end
+
+    class Area
+      def initialize(document)
+        @document = document
+        document.each do |key, value|
+          define_singleton_method(key) { value }
+        end
+      end
     end
   end
 end
