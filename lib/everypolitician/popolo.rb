@@ -1,4 +1,5 @@
 require 'everypolitician/popolo/version'
+require 'everypolitician/popolo/collection'
 require 'json'
 
 module Everypolitician
@@ -39,21 +40,6 @@ module Everypolitician
 
       def memberships
         Memberships.new(popolo[:memberships])
-      end
-    end
-
-    class Collection
-      include Enumerable
-
-      attr_reader :documents
-
-      def each(&block)
-        documents.each(&block)
-      end
-
-      def -(other)
-        other_ids = Set.new(other.documents.map(&:id))
-        documents.reject { |d| other_ids.include?(d.id) }
       end
     end
 
