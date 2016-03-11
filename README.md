@@ -31,9 +31,15 @@ require 'everypolitician/popolo'
 popolo = Everypolitician::Popolo.read('ep-popolo-v1.0.json')
 ```
 
-Currently only the `persons` and `organizations` collections are implemented. Pull Requests to add support for others are welcome!
+All Popolo classes used by EveryPolitician are implemented:
 
-There are methods defined for each property on a person.
+* [Person](http://www.popoloproject.com/specs/person.html)
+* [Organization](http://www.popoloproject.com/specs/organization.html)
+* [Area](http://www.popoloproject.com/specs/area.html)
+* [Event](http://www.popoloproject.com/specs/event.html)
+* [Membership](http://www.popoloproject.com/specs/membership.html)
+
+There are methods defined for each property on a class, e.g. for a Person:
 
 ```
 popolo.persons.count # => 47
