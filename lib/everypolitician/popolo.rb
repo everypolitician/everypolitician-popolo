@@ -32,6 +32,10 @@ module Everypolitician
       def areas
         Areas.new(popolo[:areas])
       end
+
+      def events
+        Events.new(popolo[:events])
+      end
     end
 
     class Collection
@@ -172,6 +176,21 @@ module Everypolitician
     end
 
     class Area
+      def initialize(document)
+        @document = document
+        document.each do |key, value|
+          define_singleton_method(key) { value }
+        end
+      end
+    end
+
+    class Events < Collection
+      def initialize(documents)
+        @documents = documents.map { |p| Event.new(p) }
+      end
+    end
+
+    class Event
       def initialize(document)
         @document = document
         document.each do |key, value|
