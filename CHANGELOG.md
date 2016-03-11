@@ -5,7 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.2.0] - 2016-03-11
 
-## Added
+### Added
 
 - Support for all Popolo collections that EveryPolitician uses - People, Organizations, Areas, Memberships and Events. Thanks to @equivalentideas and @henare for this contribution!
 
