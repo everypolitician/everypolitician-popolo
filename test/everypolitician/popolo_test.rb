@@ -218,4 +218,21 @@ class Everypolitician::PopoloTest < Minitest::Test
     assert_equal '8th Verkhovna Rada', event.name
     assert_equal '2014-11-27', event.start_date
   end
+
+  def test_reading_popolo_memberships
+    popolo = Everypolitician::Popolo::JSON.new(
+      memberships: [
+        {
+          on_behalf_of_id: "456",
+          organization_id: "legislature",
+          person_id: "123",
+          role: "member"
+        }
+      ]
+    )
+    membership = popolo.memberships.first
+
+    assert_instance_of Everypolitician::Popolo::Memberships, popolo.memberships
+    assert_instance_of Everypolitician::Popolo::Membership, membership
+  end
 end

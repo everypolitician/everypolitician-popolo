@@ -36,6 +36,10 @@ module Everypolitician
       def events
         Events.new(popolo[:events])
       end
+
+      def memberships
+        Memberships.new(popolo[:memberships])
+      end
     end
 
     class Collection
@@ -191,6 +195,21 @@ module Everypolitician
     end
 
     class Event
+      def initialize(document)
+        @document = document
+        document.each do |key, value|
+          define_singleton_method(key) { value }
+        end
+      end
+    end
+
+    class Memberships < Collection
+      def initialize(documents)
+        @documents = documents.map { |p| Membership.new(p) }
+      end
+    end
+
+    class Membership
       def initialize(document)
         @document = document
         document.each do |key, value|
