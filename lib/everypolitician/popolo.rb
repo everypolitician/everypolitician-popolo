@@ -1,6 +1,6 @@
 require 'everypolitician/popolo/version'
 require 'everypolitician/popolo/collection'
-require 'everypolitician/popolo/people'
+require 'everypolitician/popolo/person'
 require 'everypolitician/popolo/organization'
 require 'everypolitician/popolo/area'
 require 'everypolitician/popolo/event'
