@@ -216,6 +216,10 @@ module Everypolitician
           define_singleton_method(key) { value }
         end
       end
+
+      def start_date
+        @document[:start_date]
+      end
     end
   end
 end

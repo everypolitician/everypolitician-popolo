@@ -235,4 +235,12 @@ class Everypolitician::PopoloTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Memberships, popolo.memberships
     assert_instance_of Everypolitician::Popolo::Membership, membership
   end
+
+  def test_membership_start_date_method_always_present
+    member_with_no_start_date = Everypolitician::Popolo::Membership.new({})
+    member_with_start_date = Everypolitician::Popolo::Membership.new({start_date: "2016-01-01"})
+
+    assert_equal member_with_no_start_date.start_date, nil
+    assert_equal member_with_start_date.start_date, "2016-01-01"
+  end
 end
