@@ -3,6 +3,7 @@ require 'everypolitician/popolo/collection'
 require 'everypolitician/popolo/people'
 require 'everypolitician/popolo/organization'
 require 'everypolitician/popolo/area'
+require 'everypolitician/popolo/event'
 require 'json'
 
 module Everypolitician
@@ -43,21 +44,6 @@ module Everypolitician
 
       def memberships
         Memberships.new(popolo[:memberships])
-      end
-    end
-
-    class Events < Collection
-      def initialize(documents)
-        @documents = documents.map { |p| Event.new(p) }
-      end
-    end
-
-    class Event
-      def initialize(document)
-        @document = document
-        document.each do |key, value|
-          define_singleton_method(key) { value }
-        end
       end
     end
 
