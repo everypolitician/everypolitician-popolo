@@ -8,6 +8,11 @@ class Everypolitician::PersonTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Person, person
   end
 
+  def test_no_persons_in_popolo_data
+    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
+    assert_equal true, popolo.persons.none?
+  end
+
   def test_accessing_person_properties
     popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     person = popolo.persons.first

@@ -11,6 +11,11 @@ class Everypolitician::EventTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Event, event
   end
 
+  def test_no_events_in_popolo_data
+    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
+    assert_equal true, popolo.events.none?
+  end
+
   def test_accessing_event_properties
     popolo = Everypolitician::Popolo::JSON.new(
       events: [{ id: 'term/8', name: '8th Verkhovna Rada', start_date: '2014-11-27' }]

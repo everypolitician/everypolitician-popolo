@@ -11,6 +11,11 @@ class Everypolitician::AreaTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Area, area
   end
 
+  def test_no_areas_in_popolo_data
+    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
+    assert_equal true, popolo.areas.none?
+  end
+
   def test_accessing_area_properties
     popolo = Everypolitician::Popolo::JSON.new(
       areas: [{ id: '123', name: 'Newtown', type: 'constituency' }]

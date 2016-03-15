@@ -1,10 +1,6 @@
 module Everypolitician
   module Popolo
-    class Organizations < Collection
-      def initialize(documents)
-        @documents = documents.map { |p| Organization.new(p) }
-      end
-    end
+    class Organizations < Collection; end
 
     class Organization
       attr_reader :document

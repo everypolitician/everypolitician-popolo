@@ -18,6 +18,11 @@ class Everypolitician::MembershipTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Membership, membership
   end
 
+  def test_no_memberships_in_popolo_data
+    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
+    assert_equal true, popolo.memberships.none?
+  end
+
   def test_membership_start_date_method_always_present
     member_with_no_start_date = Everypolitician::Popolo::Membership.new({})
     member_with_start_date = Everypolitician::Popolo::Membership.new({start_date: "2016-01-01"})
