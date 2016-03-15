@@ -1,10 +1,6 @@
 module Everypolitician
   module Popolo
-    class Areas < Collection
-      def initialize(documents)
-        @documents = documents ? documents.map { |p| Area.new(p) } : []
-      end
-    end
+    class Areas < Collection; end
 
     class Area
       def initialize(document)

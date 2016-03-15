@@ -1,10 +1,6 @@
 module Everypolitician
   module Popolo
-    class People < Collection
-      def initialize(documents)
-        @documents = documents ? documents.map { |p| Person.new(p) } : []
-      end
-    end
+    class People < Collection; end
 
     class Person
       class Error < StandardError; end
