@@ -8,6 +8,11 @@ class Everypolitician::OrganizationTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Organization, organization
   end
 
+  def test_no_organizations_in_popolo_data
+    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
+    assert_equal true, popolo.organizations.none?
+  end
+
   def test_accessing_organization_properties
     popolo = Everypolitician::Popolo::JSON.new(organizations: [{ id: '123', name: 'ACME' }])
     organization = popolo.organizations.first

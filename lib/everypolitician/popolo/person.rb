@@ -2,7 +2,7 @@ module Everypolitician
   module Popolo
     class People < Collection
       def initialize(documents)
-        @documents = documents.map { |p| Person.new(p) }
+        @documents = documents ? documents.map { |p| Person.new(p) } : []
       end
     end
 

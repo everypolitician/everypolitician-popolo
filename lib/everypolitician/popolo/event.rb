@@ -2,7 +2,7 @@ module Everypolitician
   module Popolo
     class Events < Collection
       def initialize(documents)
-        @documents = documents.map { |p| Event.new(p) }
+        @documents = documents ? documents.map { |p| Event.new(p) } : []
       end
     end
 
