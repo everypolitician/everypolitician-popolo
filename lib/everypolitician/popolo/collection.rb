@@ -19,11 +19,7 @@ module Everypolitician
       end
 
       def find_by(attributes = {})
-        find do |object|
-          !attributes.collect do |k,v|
-            object.send(k) == v
-          end.include?(false)
-        end
+        where(attributes).first
       end
 
       def where(attributes = {})
