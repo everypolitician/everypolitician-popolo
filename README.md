@@ -48,8 +48,28 @@ person.id # => "e3aab23e-a883-4763-be0d-92e5936024e2"
 person.name # => "Aaltonen Carina"
 person.image # => "http://www.lagtinget.ax/files/aaltonen_carina.jpg"
 person.wikidata # => "Q4934081"
+```
 
+You can also find individual records or collections based on their attributes:
+
+```ruby
 popolo.persons.find_by(name: "Aaltonen Carina", wikidata: "Q4934081")
+    # => #<Everypolitician::Popolo::Person:0x0000000237dfc8
+    #      @document={:id=>"0c705344-23aa-4fa2-9391-af41c1c775b7",
+    #                 :identifiers=>[{:identifier=>"Q4934081", :scheme=>"wikidata"}],
+    #                 :name=>"Aaltonen Carina"}>
+
+popolo.organizations.where(classification: "party")
+    # => [
+    #      <Everypolitician::Popolo::Organization:0x000000035779e0
+    #       @document={:classification=>"party",
+    #                  :id=>"123",
+    #                  :name=>"Sunripe Tomato Party"}>,
+    #      <Everypolitician::Popolo::Organization:0x000000035779e1
+    #       @document={:classification=>"party",
+    #                  :id=>"456",
+    #                  :name=>"The Greens"}>
+    #    ]
 ```
 
 ## Development
