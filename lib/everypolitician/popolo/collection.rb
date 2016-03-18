@@ -26,6 +26,14 @@ module Everypolitician
         end
       end
 
+      def where(attributes = {})
+        find_all do |object|
+          !attributes.collect do |k,v|
+            object.send(k) == v
+          end.include?(false)
+        end
+      end
+
       private
 
       # TODO: This feels pretty nasty, is there a better way of working out the
