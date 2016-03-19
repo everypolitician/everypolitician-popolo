@@ -24,9 +24,7 @@ module Everypolitician
 
       def where(attributes = {})
         find_all do |object|
-          !attributes.collect do |k,v|
-            object.send(k) == v
-          end.include?(false)
+          attributes.all? { |k, v| object.send(k) == v }
         end
       end
 
