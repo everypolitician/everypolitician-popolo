@@ -18,6 +18,16 @@ module Everypolitician
         documents.reject { |d| other_ids.include?(d.id) }
       end
 
+      def find_by(attributes = {})
+        where(attributes).first
+      end
+
+      def where(attributes = {})
+        find_all do |object|
+          attributes.all? { |k, v| object.send(k) == v }
+        end
+      end
+
       private
 
       # TODO: This feels pretty nasty, is there a better way of working out the

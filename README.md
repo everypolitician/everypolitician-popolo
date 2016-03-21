@@ -50,6 +50,28 @@ person.image # => "http://www.lagtinget.ax/files/aaltonen_carina.jpg"
 person.wikidata # => "Q4934081"
 ```
 
+You can also find individual records or collections based on their attributes:
+
+```ruby
+popolo.persons.find_by(name: "Aaltonen Carina", wikidata: "Q4934081")
+    # => #<Everypolitician::Popolo::Person:0x0000000237dfc8
+    #      @document={:id=>"0c705344-23aa-4fa2-9391-af41c1c775b7",
+    #                 :identifiers=>[{:identifier=>"Q4934081", :scheme=>"wikidata"}],
+    #                 :name=>"Aaltonen Carina"}>
+
+popolo.organizations.where(classification: "party")
+    # => [
+    #      <Everypolitician::Popolo::Organization:0x000000035779e0
+    #       @document={:classification=>"party",
+    #                  :id=>"123",
+    #                  :name=>"Sunripe Tomato Party"}>,
+    #      <Everypolitician::Popolo::Organization:0x000000035779e1
+    #       @document={:classification=>"party",
+    #                  :id=>"456",
+    #                  :name=>"The Greens"}>
+    #    ]
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
