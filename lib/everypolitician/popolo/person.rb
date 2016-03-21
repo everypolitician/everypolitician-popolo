@@ -6,7 +6,7 @@ module Everypolitician
       class Error < StandardError; end
 
       attr_reader :document
-      self.attributes = %i(id name email image gender).to_set
+      self.attributes = %i(id name email image gender birth_date death_date).to_set
 
       def links
         document.fetch(:links, [])
@@ -16,8 +16,25 @@ module Everypolitician
         document.fetch(:identifiers, [])
       end
 
+      def contact_details
+        document.fetch(:contact_details, [])
+      end
+
+
       def identifier(scheme)
         identifiers.find(->{{}}) { |i| i[:scheme] == scheme }[:identifier]
+      end
+
+      def contact(type)
+        contact_details.find(->{{}}) { |i| i[:type] == type }[:value]
+      end
+
+      def phone
+        contact('phone')
+      end
+
+      def fax
+        contact('fax')
       end
 
       def twitter
