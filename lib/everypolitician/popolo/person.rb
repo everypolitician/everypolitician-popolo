@@ -2,30 +2,11 @@ module Everypolitician
   module Popolo
     class People < Collection; end
 
-    class Person
+    class Person < Entity
       class Error < StandardError; end
 
       attr_reader :document
-
-      def initialize(document)
-        @document = document
-        document.each do |key, value|
-          define_singleton_method(key) { value }
-        end
-      end
-
-      def [](key)
-        document[key]
-      end
-
-      def key?(key)
-        document.key?(key)
-      end
-
-      def ==(other)
-        id == other.id
-      end
-      alias eql? ==
+      self.attributes = %i(id name email image gender).to_set
 
       def links
         document.fetch(:links, [])
@@ -37,10 +18,6 @@ module Everypolitician
 
       def identifier(scheme)
         identifiers.find(->{{}}) { |i| i[:scheme] == scheme }[:identifier]
-      end
-
-      def email
-        self[:email]
       end
 
       def twitter
@@ -65,6 +42,10 @@ module Everypolitician
         identifier('wikidata')
       end
 
+      def sort_name
+        name
+      end
+
       def name_at(date)
         return name unless key?(:other_names)
         historic = other_names.find_all { |n| n.key?(:end_date) }
@@ -75,18 +56,6 @@ module Everypolitician
         return name if at_date.empty?
         fail Error, "Too many names at #{date}: #{at_date}" if at_date.count > 1
         at_date.first[:name]
-      end
-
-      def sort_name
-        name
-      end
-
-      def image
-        self[:image]
-      end
-
-      def gender
-        self[:gender]
       end
     end
   end
