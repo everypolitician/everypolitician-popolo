@@ -1,27 +1,24 @@
-require 'active_support/core_ext'
 require 'pry'
 
 module Everypolitician
   module Popolo
     class Entity
 
-      class_attribute :attributes
-      self.attributes = %i(:id)
-
+      attr_accessor :id
       attr_reader :document
 
       def initialize(document)
         @document = document
 
-        attributes.each do |name|
-          define_singleton_method(name.to_s) { @document[name] }
-        end
-
-        document.reject { |k,_| self.class.attributes.include? k }.each do |key, value|
-          define_singleton_method(key) { value }
+        document.each do |key, value|
+          if respond_to?("#{key}=")
+            __send__("#{key}=", value)
+          else
+            define_singleton_method(key) { value }
+          end
         end
       end
-      
+
       def [](key)
         document[key]
       end

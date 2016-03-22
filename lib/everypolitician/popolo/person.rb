@@ -5,8 +5,7 @@ module Everypolitician
     class Person < Entity
       class Error < StandardError; end
 
-      attr_reader :document
-      self.attributes = %i(id name email image gender birth_date death_date).to_set
+      attr_accessor :name, :email, :image, :gender, :birth_date, :death_date
 
       def links
         document.fetch(:links, [])
