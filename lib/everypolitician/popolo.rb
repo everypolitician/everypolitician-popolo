@@ -35,22 +35,27 @@ module Everypolitician
         @popolo = popolo
       end
 
+      # @return [People] the people in this Popolo
       def persons
         People.new(popolo[:persons])
       end
 
+      # @return [Organizations] the organizations in this Popolo
       def organizations
         Organizations.new(popolo[:organizations])
       end
 
+      # @return [Areas] the areas in this Popolo
       def areas
         Areas.new(popolo[:areas])
       end
 
+      # @return [Events] the events in this Popolo
       def events
         Events.new(popolo[:events])
       end
 
+      # @return [Memberships] the memberships in this Popolo
       def memberships
         Memberships.new(popolo[:memberships])
       end
