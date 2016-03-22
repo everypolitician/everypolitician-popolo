@@ -103,6 +103,25 @@ class Everypolitician::PersonTest < Minitest::Test
     assert_equal 'Q153149', person.wikidata
   end
 
+  def test_person_contacts
+    person = Everypolitician::Popolo::Person.new(
+      contact_details: [
+        { type: "phone", value: "9304832" },
+        { type: "fax",   value: "9304833" },
+      ]
+    )
+    assert_equal '9304832', person.contact('phone')
+    assert_equal '9304832', person.phone
+    assert_equal '9304833', person.fax
+  end
+
+  def test_person_no_contacts
+    person = Everypolitician::Popolo::Person.new({})
+    assert_equal nil, person.contact('phone')
+    assert_equal nil, person.phone
+    assert_equal nil, person.fax
+  end
+
   def test_person_sort_name
     person = Everypolitician::Popolo::Person.new(name: 'Bob')
     assert_equal 'Bob', person.sort_name
