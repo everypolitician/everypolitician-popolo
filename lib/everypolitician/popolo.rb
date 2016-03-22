@@ -29,6 +29,7 @@ module Everypolitician
     end
 
     class JSON
+      # @return [::JSON] raw Popolo JSON
       attr_reader :popolo
 
       def initialize(popolo)
