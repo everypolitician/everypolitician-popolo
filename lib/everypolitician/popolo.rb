@@ -11,10 +11,18 @@ module Everypolitician
   module Popolo
     class Error < StandardError; end
 
+    # Reads and parses a Popolo file
+    #
+    # @param popolo_file [String] path to the file
+    # @return [Everypolitician::Popolo::JSON] the parsed Popolo data
     def self.read(popolo_file)
       parse(File.read(popolo_file))
     end
 
+    # Parses a string of Popolo data
+    #
+    # @param popolo_string [String] JSON Popolo data as a String
+    # @return [Everypolitician::Popolo::JSON] the parsed Popolo data
     def self.parse(popolo_string)
       popolo = ::JSON.parse(popolo_string, symbolize_names: true)
       Everypolitician::Popolo::JSON.new(popolo)
