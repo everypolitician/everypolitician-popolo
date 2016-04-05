@@ -29,23 +29,23 @@ module Everypolitician
       end
 
       def persons
-        People.new(popolo[:persons])
+        People.new(self)
       end
 
       def organizations
-        Organizations.new(popolo[:organizations])
+        Organizations.new(self)
       end
 
       def areas
-        Areas.new(popolo[:areas])
+        Areas.new(self)
       end
 
       def events
-        Events.new(popolo[:events])
+        Events.new(self)
       end
 
       def memberships
-        Memberships.new(popolo[:memberships])
+        Memberships.new(self)
       end
     end
   end

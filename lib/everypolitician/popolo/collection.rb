@@ -5,7 +5,8 @@ module Everypolitician
 
       attr_reader :documents
 
-      def initialize(documents)
+      def initialize(json)
+        documents = json.popolo[popolo_key]
         @documents = documents ? documents.map { |p| klass.new(p) } : []
       end
 
@@ -29,6 +30,12 @@ module Everypolitician
       end
 
       private
+
+      def popolo_key
+        raise "Collection subclasses must implement #popolo_key which returns " \
+          "a symbol describing which top level Popolo key the collection's " \
+          "documents live under."
+      end
 
       # TODO: This feels pretty nasty, is there a better way of working out the
       # class name?

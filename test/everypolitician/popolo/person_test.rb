@@ -159,8 +159,10 @@ class Everypolitician::PersonTest < Minitest::Test
   def test_persons_subtraction
     person1 = { id: '123', name: 'Alice' }
     person2 = { id: '456', name: 'Bob', gender: 'male' }
-    all_people = Everypolitician::Popolo::People.new([person1, person2])
-    just_person_1 = Everypolitician::Popolo::People.new([person1])
+    json = Everypolitician::Popolo::JSON.new(persons: [person1, person2])
+    json2 = Everypolitician::Popolo::JSON.new(persons: [person1])
+    all_people = Everypolitician::Popolo::People.new(json)
+    just_person_1 = Everypolitician::Popolo::People.new(json2)
     assert_equal [Everypolitician::Popolo::Person.new(person2)], all_people - just_person_1
   end
 end

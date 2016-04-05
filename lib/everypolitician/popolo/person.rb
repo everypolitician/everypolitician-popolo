@@ -1,6 +1,10 @@
 module Everypolitician
   module Popolo
-    class People < Collection; end
+    class People < Collection
+      def popolo_key
+        :persons
+      end
+    end
 
     class Person < Entity
       class Error < StandardError; end
