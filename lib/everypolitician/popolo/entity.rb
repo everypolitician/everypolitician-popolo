@@ -1,5 +1,3 @@
-require 'pry'
-
 module Everypolitician
   module Popolo
     class Entity
