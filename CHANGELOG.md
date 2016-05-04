@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.3.0] - 2016-05-04
+
+### Fixed
+
+- Return an empty array when no data is available for a collection (Thanks @henare)
+
+### Added
+
+- Support for Posts, which EveryPolitician has recently added support for.
+- `Collection#find_by` and `Collection#where` methods. See the README for more details on how to use these.
+- Explicit methods so that calling a known property on a document returns `nil` rather than blowing up if it's missing.
+
 ## [0.2.0] - 2016-03-11
 
 ### Added
@@ -14,3 +26,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Initial release
 
 [0.2.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.1.0...v0.2.0
+[0.3.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.2.0...v0.3.0
