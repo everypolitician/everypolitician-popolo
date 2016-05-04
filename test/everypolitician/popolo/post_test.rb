@@ -25,4 +25,13 @@ class Everypolitician::PostTest < Minitest::Test
     assert_equal 'womens_representative', post.id
     assert_equal "Women's Representative", post.label
   end
+
+  def test_it_returns_nil_for_missing_label
+    popolo = Everypolitician::Popolo::JSON.new(
+      posts: [{ id: 'womens_representative' }]
+    )
+    post = popolo.posts.first
+
+    assert_nil post.label
+  end
 end
