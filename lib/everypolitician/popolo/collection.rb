@@ -42,6 +42,8 @@ module Everypolitician
           Membership
         when "Events"
           Event
+        when "Posts"
+          Post
         when "Areas"
           Area
         else
