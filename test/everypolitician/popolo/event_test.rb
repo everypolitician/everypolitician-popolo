@@ -25,5 +25,6 @@ class Everypolitician::EventTest < Minitest::Test
     assert_equal 'term/8', event.id
     assert_equal '8th Verkhovna Rada', event.name
     assert_equal '2014-11-27', event.start_date
+    assert_nil event.end_date
   end
 end
