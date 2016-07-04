@@ -33,4 +33,13 @@ class Everypolitician::OrganizationTest < Minitest::Test
     just_org_1 = Everypolitician::Popolo::Organizations.new([org1])
     assert_equal [Everypolitician::Popolo::Organization.new(org2)], all_orgs - just_org_1
   end
+
+  def test_organization_wikidata
+    org = Everypolitician::Popolo::Organization.new(
+      id: 'abc', 
+      name: 'ACME', 
+      identifiers: [{identifier: "Q288523", scheme: "wikidata"}],
+    )
+    assert_equal 'Q288523', org.wikidata
+  end
 end
