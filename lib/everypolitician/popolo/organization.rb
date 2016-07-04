@@ -2,7 +2,7 @@ module Everypolitician
   module Popolo
     class Organizations < Collection; end
 
-    class Organization < Entity; 
+    class Organization < Entity
       def wikidata
         identifier('wikidata')
       end
