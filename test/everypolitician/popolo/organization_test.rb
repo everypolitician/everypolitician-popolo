@@ -40,6 +40,6 @@ class Everypolitician::OrganizationTest < Minitest::Test
       name: 'ACME', 
       identifiers: [{identifier: "Q288523", scheme: "wikidata"}],
     )
-    assert_equal org.wikidata, 'Q288523'
+    assert_equal 'Q288523', org.wikidata
   end
 end
