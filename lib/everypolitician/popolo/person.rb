@@ -19,11 +19,6 @@ module Everypolitician
         document.fetch(:contact_details, [])
       end
 
-
-      def identifier(scheme)
-        identifiers.find(->{{}}) { |i| i[:scheme] == scheme }[:identifier]
-      end
-
       def contact(type)
         contact_details.find(->{{}}) { |i| i[:type] == type }[:value]
       end

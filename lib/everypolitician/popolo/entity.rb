@@ -30,6 +30,9 @@ module Everypolitician
       end
       alias eql? ==
 
+      def identifier(scheme)
+        identifiers.find(->{{}}) { |i| i[:scheme] == scheme }[:identifier]
+      end
     end
   end
 end
