@@ -163,4 +163,19 @@ class Everypolitician::PersonTest < Minitest::Test
     just_person_1 = Everypolitician::Popolo::People.new([person1])
     assert_equal [Everypolitician::Popolo::Person.new(person2)], all_people - just_person_1
   end
+
+  def test_honorific_prefix
+    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_prefix: 'Dr')
+    person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
+    assert_equal 'Dr', person1.honorific_prefix
+    assert_nil person2.honorific_prefix
+  end
+
+  def test_honorific_suffix
+    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_suffix: 'PhD')
+    person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
+    assert_equal 'PhD', person1.honorific_suffix
+    assert_nil person2.honorific_suffix
+  end
+
 end
