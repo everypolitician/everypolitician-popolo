@@ -178,4 +178,20 @@ class Everypolitician::PersonTest < Minitest::Test
     assert_nil person2.honorific_suffix
   end
 
+  def test_name_with_honorifics
+    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_prefix: 'Dr', honorific_suffix: 'PhD')
+    person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
+    person3 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_prefix: 'Dr')
+    person4 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_suffix: 'BA(Hons)')
+    person5 = Everypolitician::Popolo::Person.new(id: '123', name: 'Dr Bob', honorific_prefix: 'Dr', honorific_suffix: 'PhD')
+    person6  = Everypolitician::Popolo::Person.new(id: '123', name: 'Dr Bob PhD', honorific_prefix: 'Dr', honorific_suffix: 'PhD')
+
+    assert_equal = 'Dr Bob PhD', person1.name_with_honorifics
+    assert_nil person2.name_with_honorifics
+    assert_equal = 'Dr Bob', person3.name_with_honorifics
+    assert_equal = 'Bob BA(Hons)', person4.name_with_honorifics
+    assert_equal = 'Dr Bob PhD', person5.name_with_honorifics
+    assert_equal = 'Dr Bob PhD', person6.name_with_honorifics
+  end
+
 end
