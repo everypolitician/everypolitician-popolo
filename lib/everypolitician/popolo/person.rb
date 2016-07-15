@@ -5,8 +5,7 @@ module Everypolitician
     class Person < Entity
       class Error < StandardError; end
 
-      attr_accessor :name, :email, :image, :gender, :birth_date, 
-                    :death_date, :honorific_prefix, :honorific_suffix
+      attr_accessor :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
 
       def links
         document.fetch(:links, [])
@@ -56,19 +55,7 @@ module Everypolitician
 
       def sort_name
         name
-      end
-
-      def name_with_honorifics
-        unless @name.match(/^#{@honorific_prefix}/)
-          name = "#{@honorific_prefix} #{@name}"
-        end
-
-        unless @name.match(/#{@honorific_suffix}$/)
-          name = "#{@name} #{@honorific_suffix}"
-        end
-
-        name
-      end
+      end 
 
       def name_at(date)
         return name unless key?(:other_names)
