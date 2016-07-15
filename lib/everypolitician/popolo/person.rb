@@ -5,7 +5,7 @@ module Everypolitician
     class Person < Entity
       class Error < StandardError; end
 
-      attr_accessor :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
+      attr_accessor :email, :name, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
 
       def links
         document.fetch(:links, [])
