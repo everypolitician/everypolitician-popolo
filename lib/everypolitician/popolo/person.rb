@@ -55,7 +55,7 @@ module Everypolitician
 
       def sort_name
         name
-      end 
+      end
 
       def name_at(date)
         return name unless key?(:other_names)
