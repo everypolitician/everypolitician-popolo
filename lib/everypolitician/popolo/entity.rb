@@ -26,7 +26,7 @@ module Everypolitician
       end
 
       def ==(other)
-        id == other.id
+        self.class == other.class && id == other.id
       end
       alias eql? ==
 

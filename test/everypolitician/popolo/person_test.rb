@@ -156,6 +156,12 @@ class Everypolitician::PersonTest < Minitest::Test
     assert_equal person1, person2
   end
 
+  def test_person_equality_based_on_class
+    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
+    organization = Everypolitician::Popolo::Organization.new(id: '123')
+    refute_equal person1, organization
+  end
+
   def test_persons_subtraction
     person1 = { id: '123', name: 'Alice' }
     person2 = { id: '456', name: 'Bob', gender: 'male' }
