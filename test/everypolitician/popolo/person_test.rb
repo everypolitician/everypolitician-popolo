@@ -155,6 +155,13 @@ class Everypolitician::PersonTest < Minitest::Test
     person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', gender: 'male')
     organization = Everypolitician::Popolo::Organization.new(id: '123')
     assert_equal person1, person2
+  end
+
+  def test_person_equality_based_on_class
+    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
+    person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Babs')
+    organization = Everypolitician::Popolo::Organization.new(id: '123')
+    assert_equal person1, person2
     refute_equal person1, organization
   end
 
