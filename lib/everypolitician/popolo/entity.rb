@@ -26,8 +26,7 @@ module Everypolitician
       end
 
       def ==(other)
-        return false unless other.instance_of?(self.class) 
-        id == other.id
+        self.class == other.class && id == other.id
       end
       alias eql? ==
 
