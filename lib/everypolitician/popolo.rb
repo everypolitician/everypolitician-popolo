@@ -59,7 +59,7 @@ module Everypolitician
       alias_method :terms, :legislative_periods
 
       def current_legislative_period
-        legislative_periods[-1]
+        legislative_periods.last
       end
       alias_method :current_term, :current_legislative_period
     end
