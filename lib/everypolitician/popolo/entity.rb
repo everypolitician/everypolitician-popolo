@@ -4,9 +4,11 @@ module Everypolitician
 
       attr_accessor :id
       attr_reader :document
+      attr_reader :popolo
 
-      def initialize(document)
+      def initialize(document, popolo = nil)
         @document = document
+        @popolo = popolo
 
         document.each do |key, value|
           if respond_to?("#{key}=")

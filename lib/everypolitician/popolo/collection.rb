@@ -7,7 +7,7 @@ module Everypolitician
       attr_reader :popolo
 
       def initialize(documents, popolo = nil)
-        @documents = documents ? documents.map { |p| klass.new(p) } : []
+        @documents = documents ? documents.map { |p| klass.new(p, popolo) } : []
         @popolo = popolo
       end
 
