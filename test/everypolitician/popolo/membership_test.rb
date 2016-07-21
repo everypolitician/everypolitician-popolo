@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class Everypolitician::MembershipTest < Minitest::Test
-  def test_reading_popolo_memberships
-    popolo = Everypolitician::Popolo::JSON.new(
+  def popolo
+    @popolo ||= Everypolitician::Popolo::JSON.new(
       memberships: [
         {
           on_behalf_of_id: "456",
@@ -10,8 +10,17 @@ class Everypolitician::MembershipTest < Minitest::Test
           person_id: "123",
           role: "member"
         }
+      ],
+      persons: [
+        {
+          id: "123",
+          name: "Bob"
+        }
       ]
     )
+  end
+
+  def test_reading_popolo_memberships
     membership = popolo.memberships.first
 
     assert_instance_of Everypolitician::Popolo::Memberships, popolo.memberships
@@ -19,8 +28,8 @@ class Everypolitician::MembershipTest < Minitest::Test
   end
 
   def test_no_memberships_in_popolo_data
-    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
-    assert_equal true, popolo.memberships.none?
+    popolo_no_memberships = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
+    assert_equal true, popolo_no_memberships.memberships.none?
   end
 
   def test_membership_start_date_method_always_present
@@ -37,5 +46,9 @@ class Everypolitician::MembershipTest < Minitest::Test
 
     assert_equal member_with_no_end_date.end_date, nil
     assert_equal member_with_end_date.end_date, "2016-12-31"
+  end
+
+  def test_membership_person
+    assert_equal 'Bob', popolo.memberships.first.person.name
   end
 end
