@@ -4,9 +4,11 @@ module Everypolitician
       include Enumerable
 
       attr_reader :documents
+      attr_reader :popolo
 
-      def initialize(documents)
+      def initialize(documents, popolo = nil)
         @documents = documents ? documents.map { |p| klass.new(p) } : []
+        @popolo = popolo
       end
 
       def each(&block)
