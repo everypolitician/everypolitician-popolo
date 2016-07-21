@@ -68,6 +68,10 @@ module Everypolitician
         fail Error, "Too many names at #{date}: #{at_date}" if at_date.count > 1
         at_date.first[:name]
       end
+
+      def memberships
+        popolo.memberships.where(person_id: id)
+      end
     end
   end
 end
