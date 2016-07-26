@@ -30,27 +30,27 @@ module Everypolitician
       end
 
       def persons
-        People.new(popolo[:persons])
+        People.new(popolo[:persons], self)
       end
 
       def organizations
-        Organizations.new(popolo[:organizations])
+        Organizations.new(popolo[:organizations], self)
       end
 
       def areas
-        Areas.new(popolo[:areas])
+        Areas.new(popolo[:areas], self)
       end
 
       def events
-        Events.new(popolo[:events])
+        Events.new(popolo[:events], self)
       end
 
       def posts
-        Posts.new(popolo[:posts])
+        Posts.new(popolo[:posts], self)
       end
 
       def memberships
-        Memberships.new(popolo[:memberships])
+        Memberships.new(popolo[:memberships], self)
       end
 
       def legislative_periods

@@ -184,4 +184,10 @@ class Everypolitician::PersonTest < Minitest::Test
     assert_nil person2.honorific_suffix
   end
 
+  def test_person_memberships
+    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }], memberships: [{ person_id: '123', start_date: '2016-01-01' }])
+    memberships = popolo.persons.first.memberships
+    assert_equal 1, memberships.size
+    assert_equal '2016-01-01', memberships.first.start_date
+  end
 end
