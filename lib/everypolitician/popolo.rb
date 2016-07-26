@@ -52,6 +52,16 @@ module Everypolitician
       def memberships
         Memberships.new(popolo[:memberships])
       end
+
+      def legislative_periods
+        events.where(classification: 'legislative period').sort_by(&:start_date)
+      end
+      alias_method :terms, :legislative_periods
+
+      def current_legislative_period
+        legislative_periods.last
+      end
+      alias_method :current_term, :current_legislative_period
     end
   end
 end
