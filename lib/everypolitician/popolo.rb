@@ -56,12 +56,12 @@ module Everypolitician
       def legislative_periods
         events.where(classification: 'legislative period').sort_by(&:start_date)
       end
-      alias_method :terms, :legislative_periods
+      alias terms legislative_periods
 
       def current_legislative_period
         legislative_periods.last
       end
-      alias_method :current_term, :current_legislative_period
+      alias current_term current_legislative_period
     end
   end
 end

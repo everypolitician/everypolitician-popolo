@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::EventTest < Minitest::Test
+class EventTest < Minitest::Test
   def test_reading_popolo_events
     popolo = Everypolitician::Popolo::JSON.new(
       events: [{ id: 'term/8', name: '8th Verkhovna Rada', start_date: '2014-11-27' }]

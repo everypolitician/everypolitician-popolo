@@ -1,13 +1,13 @@
 require 'test_helper'
 
-class Everypolitician::Popolo::JsonTest < Minitest::Test
+class JsonTest < Minitest::Test
   def popolo_json
     @popolo_json ||= Everypolitician::Popolo::JSON.new(
       events: [
         { name: 'Election 1', classification: 'general election', start_date: '2014-01-01' },
         { name: 'Term 2', classification: 'legislative period', start_date: '2015-01-01' },
         { name: 'Term 1', classification: 'legislative period', start_date: '2010-01-01' },
-      ],
+      ]
     )
   end
 

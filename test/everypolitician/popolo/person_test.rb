@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::PersonTest < Minitest::Test
+class PersonTest < Minitest::Test
   def test_reading_popolo_people
     popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     assert_instance_of Everypolitician::Popolo::People, popolo.persons
@@ -37,7 +37,7 @@ class Everypolitician::PersonTest < Minitest::Test
   def test_person_contact_details_and_twitter_links
     person = Everypolitician::Popolo::Person.new(
       contact_details: [{ note: 'cell', value: '+1-555-555-0100' }],
-      links: [{ note: 'twitter', url: 'https://twitter.com/bob' }]
+      links:           [{ note: 'twitter', url: 'https://twitter.com/bob' }]
     )
     assert_equal 'https://twitter.com/bob', person.twitter
   end
@@ -53,18 +53,18 @@ class Everypolitician::PersonTest < Minitest::Test
     person = Everypolitician::Popolo::Person.new(name: 'Bob')
     assert_equal person.name_at('2016-01-11'), 'Bob'
     person = Everypolitician::Popolo::Person.new(
-      name: 'Bob',
+      name:        'Bob',
       other_names: [
-        { name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' }
+        { name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' },
       ]
     )
     assert_equal 'Robert', person.name_at('1990-06-01')
 
     person = Everypolitician::Popolo::Person.new(
-      name: 'Bob',
+      name:        'Bob',
       other_names: [
         { name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' },
-        { name: 'Bobby', start_date: '1989-01-01', end_date: '2012-12-31' }
+        { name: 'Bobby', start_date: '1989-01-01', end_date: '2012-12-31' },
       ]
     )
 
@@ -86,7 +86,7 @@ class Everypolitician::PersonTest < Minitest::Test
     person = Everypolitician::Popolo::Person.new(
       identifiers: [
         { scheme: 'foo', identifier: 'bar' },
-        { scheme: 'wikidata', identifier: 'zap' }
+        { scheme: 'wikidata', identifier: 'zap' },
       ]
     )
 
@@ -106,8 +106,8 @@ class Everypolitician::PersonTest < Minitest::Test
   def test_person_contacts
     person = Everypolitician::Popolo::Person.new(
       contact_details: [
-        { type: "phone", value: "9304832" },
-        { type: "fax",   value: "9304833" },
+        { type: 'phone', value: '9304832' },
+        { type: 'fax',   value: '9304833' },
       ]
     )
     assert_equal '9304832', person.contact('phone')

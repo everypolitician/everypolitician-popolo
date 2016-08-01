@@ -1,7 +1,6 @@
 module Everypolitician
   module Popolo
     class Entity
-
       attr_accessor :id
       attr_reader :document
       attr_reader :popolo
@@ -33,7 +32,7 @@ module Everypolitician
       alias eql? ==
 
       def identifier(scheme)
-        identifiers.find(->{{}}) { |i| i[:scheme] == scheme }[:identifier]
+        identifiers.find(-> { {} }) { |i| i[:scheme] == scheme }[:identifier]
       end
     end
   end

@@ -1,4 +1,7 @@
 language: ruby
+script: 
+  - bundle exec rake test
+  - bundle exec rake rubocop
 cache: bundler
 rvm:
   - 2.0.0

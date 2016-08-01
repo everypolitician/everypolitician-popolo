@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::PopoloTest < Minitest::Test
+class PopoloTest < Minitest::Test
   def test_that_it_has_a_version_number
     refute_nil ::Everypolitician::Popolo::VERSION
   end
