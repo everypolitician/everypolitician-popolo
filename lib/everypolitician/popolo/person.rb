@@ -11,6 +11,10 @@ module Everypolitician
         document.fetch(:links, [])
       end
 
+      def link(type)
+        links.find(-> { {} }) { |i| i[:note] == type }[:url]
+      end
+
       def identifiers
         document.fetch(:identifiers, [])
       end
@@ -45,8 +49,7 @@ module Everypolitician
       end
 
       def facebook
-        facebook_link = links.find { |d| d[:note] == 'facebook' }
-        facebook_link[:url] if facebook_link
+        link('facebook')
       end
 
       def wikidata
