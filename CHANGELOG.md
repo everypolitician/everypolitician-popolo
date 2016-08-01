@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.5.0] - 2016-08-01
+
+### Added
+
+- Added `Person#link(type)`
+
 ## [0.4.0] - 2016-07-04
 
 ### Added

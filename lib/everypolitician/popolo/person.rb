@@ -11,6 +11,10 @@ module Everypolitician
         document.fetch(:links, [])
       end
 
+      def link(type)
+        links.find(-> { {} }) { |i| i[:note] == type }[:url]
+      end
+
       def identifiers
         document.fetch(:identifiers, [])
       end
@@ -32,21 +36,11 @@ module Everypolitician
       end
 
       def twitter
-        if key?(:contact_details)
-          if twitter_contact = self[:contact_details].find { |d| d[:type] == 'twitter' }
-            return twitter_contact[:value].strip
-          end
-        end
-        if key?(:links)
-          if twitter_link = self[:links].find { |d| d[:note][/twitter/i] }
-            return twitter_link[:url].strip
-          end
-        end
+        contact('twitter') || link('twitter')
       end
 
       def facebook
-        facebook_link = links.find { |d| d[:note] == 'facebook' }
-        facebook_link[:url] if facebook_link
+        link('facebook')
       end
 
       def wikidata
