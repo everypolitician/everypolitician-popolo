@@ -25,7 +25,7 @@ module Everypolitician
       end
 
       def where(attributes = {})
-        find_all do |object|
+        select do |object|
           attributes.all? { |k, v| object.send(k) == v }
         end
       end
@@ -35,21 +35,21 @@ module Everypolitician
       # TODO: This feels pretty nasty, is there a better way of working out the
       # class name?
       def klass
-        case self.class.to_s.split("::").last
-        when "People"
+        case self.class.to_s.split('::').last
+        when 'People'
           Person
-        when "Organizations"
+        when 'Organizations'
           Organization
-        when "Memberships"
+        when 'Memberships'
           Membership
-        when "Events"
+        when 'Events'
           Event
-        when "Posts"
+        when 'Posts'
           Post
-        when "Areas"
+        when 'Areas'
           Area
         else
-          raise "Unknown class: #{self.class.to_s}"
+          raise "Unknown class: #{self.class}"
         end
       end
     end

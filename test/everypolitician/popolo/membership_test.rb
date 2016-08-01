@@ -5,17 +5,17 @@ class Everypolitician::MembershipTest < Minitest::Test
     @popolo ||= Everypolitician::Popolo::JSON.new(
       memberships: [
         {
-          on_behalf_of_id: "456",
-          organization_id: "legislature",
-          person_id: "123",
-          role: "member"
-        }
+          on_behalf_of_id: '456',
+          organization_id: 'legislature',
+          person_id:       '123',
+          role:            'member',
+        },
       ],
-      persons: [
+      persons:     [
         {
-          id: "123",
-          name: "Bob"
-        }
+          id:   '123',
+          name: 'Bob',
+        },
       ]
     )
   end
@@ -34,18 +34,18 @@ class Everypolitician::MembershipTest < Minitest::Test
 
   def test_membership_start_date_method_always_present
     member_with_no_start_date = Everypolitician::Popolo::Membership.new({})
-    member_with_start_date = Everypolitician::Popolo::Membership.new({start_date: "2016-01-01"})
+    member_with_start_date = Everypolitician::Popolo::Membership.new(start_date: '2016-01-01')
 
     assert_equal member_with_no_start_date.start_date, nil
-    assert_equal member_with_start_date.start_date, "2016-01-01"
+    assert_equal member_with_start_date.start_date, '2016-01-01'
   end
 
   def test_membership_end_date_method_always_present
     member_with_no_end_date = Everypolitician::Popolo::Membership.new({})
-    member_with_end_date = Everypolitician::Popolo::Membership.new({end_date: "2016-12-31"})
+    member_with_end_date = Everypolitician::Popolo::Membership.new(end_date: '2016-12-31')
 
     assert_equal member_with_no_end_date.end_date, nil
-    assert_equal member_with_end_date.end_date, "2016-12-31"
+    assert_equal member_with_end_date.end_date, '2016-12-31'
   end
 
   def test_membership_person

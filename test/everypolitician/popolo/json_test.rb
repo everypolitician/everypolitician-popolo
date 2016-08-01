@@ -7,7 +7,7 @@ class Everypolitician::Popolo::JsonTest < Minitest::Test
         { name: 'Election 1', classification: 'general election', start_date: '2014-01-01' },
         { name: 'Term 2', classification: 'legislative period', start_date: '2015-01-01' },
         { name: 'Term 1', classification: 'legislative period', start_date: '2010-01-01' },
-      ],
+      ]
     )
   end
 
