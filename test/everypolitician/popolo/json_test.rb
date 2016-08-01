@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::Popolo::JsonTest < Minitest::Test
+class JsonTest < Minitest::Test
   def popolo_json
     @popolo_json ||= Everypolitician::Popolo::JSON.new(
       events: [

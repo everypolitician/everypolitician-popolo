@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::PostTest < Minitest::Test
+class PostTest < Minitest::Test
   def test_reading_popolo_posts
     popolo = Everypolitician::Popolo::JSON.new(
       posts: [{ id: 'womens_representative', label: "Women's Representative" }]

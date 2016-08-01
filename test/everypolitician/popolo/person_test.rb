@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::PersonTest < Minitest::Test
+class PersonTest < Minitest::Test
   def test_reading_popolo_people
     popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     assert_instance_of Everypolitician::Popolo::People, popolo.persons

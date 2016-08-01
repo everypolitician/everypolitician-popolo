@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::CollectionTest < Minitest::Test
+class CollectionTest < Minitest::Test
   def test_find_by_finding_a_person
     popolo = Everypolitician::Popolo::JSON.new(
       persons: [{ id: 'abc', name: 'Jane' }, { id: '123', name: 'Bob' }]

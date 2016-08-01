@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Everypolitician::MembershipTest < Minitest::Test
+class MembershipTest < Minitest::Test
   def popolo
     @popolo ||= Everypolitician::Popolo::JSON.new(
       memberships: [
