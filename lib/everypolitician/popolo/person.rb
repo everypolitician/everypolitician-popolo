@@ -36,16 +36,7 @@ module Everypolitician
       end
 
       def twitter
-        if key?(:contact_details)
-          if twitter_contact = self[:contact_details].find { |d| d[:type] == 'twitter' }
-            return twitter_contact[:value].strip
-          end
-        end
-        if key?(:links)
-          if twitter_link = self[:links].find { |d| d[:note][/twitter/i] }
-            return twitter_link[:url].strip
-          end
-        end
+        contact('twitter') || link('twitter')
       end
 
       def facebook
