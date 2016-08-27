@@ -1,7 +1,7 @@
 module Everypolitician
   module Popolo
     class Entity
-      attr_writer :id
+      attr_accessor :id
       attr_reader :document
       attr_reader :popolo
 
@@ -30,10 +30,6 @@ module Everypolitician
         self.class == other.class && id == other.id
       end
       alias eql? ==
-
-      def id
-        @id.to_s.split('/').last
-      end
 
       def identifier(scheme)
         identifiers.find(-> { {} }) { |i| i[:scheme] == scheme }[:identifier]

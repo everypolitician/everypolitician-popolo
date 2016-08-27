@@ -21,7 +21,7 @@ class OrganizationTest < Minitest::Test
   end
 
   def test_organization_equality_based_on_id
-    org1 = Everypolitician::Popolo::Organization.new(id: 'org/abc', name: 'ACME')
+    org1 = Everypolitician::Popolo::Organization.new(id: 'abc', name: 'ACME')
     org2 = Everypolitician::Popolo::Organization.new(id: 'abc', name: 'ACME')
     assert_equal org1, org2
   end
