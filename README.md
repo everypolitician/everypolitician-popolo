@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-You'll need to download a Popolo file from [EveryPolitician](http://everypolitician.org/). The following example uses [Åland Lagting](https://github.com/everypolitician/everypolitician-data/raw/master/data/Aland/Lagting/ep-popolo-v1.0.json) (which is the legislature of the Åland islands,
+You can download a Popolo file manually from [EveryPolitician](http://everypolitician.org/)
+(although there's [another library](#everypolitician-ruby)
+if you want to automate that). The following example uses [Åland Lagting](https://github.com/everypolitician/everypolitician-data/raw/master/data/Aland/Lagting/ep-popolo-v1.0.json) (which is the legislature of the Åland islands,
 available as JSON data from the
 [EveryPolitician page for Åland](http://everypolitician.org/aland/)).
 
@@ -71,6 +73,27 @@ popolo.organizations.where(classification: "party")
     #                  :name=>"The Greens"}>
     #    ]
 ```
+
+### See also: everypolitician-ruby
+
+In the example above, the Popolo data comes from a downloaded file
+(`ep-popolo-v1.0.json`), which is the kind of file you can get from the 
+[EveryPolitician website](http://everypolitician.org).
+But your Ruby application can also interact directly with the EveryPolitician
+data using the
+[everypolitician-ruby gem](http://github.com/everypolitician/everypolitcian-ruby),
+so you don't need to handle JSON files at all. The data the gem returns is in
+`Everypolitician::Popolo` format.
+
+```ruby
+require 'everypolitician'
+
+australia = Everypolitician.country('Australia')
+australia.code # => "AU"
+senate = australia.legislature('Senate')
+senate.persons.find_by(name: "Aden Ridgeway", openaustralia: "10540")
+```
+
 
 ## Development
 
