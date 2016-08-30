@@ -88,7 +88,7 @@ so you don't need to handle JSON files at all. The data the gem returns is in
 ```ruby
 require 'everypolitician'
 
-australia = Everypolitician.country('Australia')
+australia = Everypolitician::Index.new.country('Australia')
 australia.code # => "AU"
 senate = australia.legislature('Senate')
 senate.persons.find_by(name: "Aden Ridgeway")
