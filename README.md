@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 You can download a Popolo file manually from [EveryPolitician](http://everypolitician.org/)
-(although there's [another library](#everypolitician-ruby)
+(although there's [another library](#see-also-everypolitician-ruby)
 if you want to automate that). The following example uses [Åland Lagting](https://github.com/everypolitician/everypolitician-data/raw/master/data/Aland/Lagting/ep-popolo-v1.0.json) (which is the legislature of the Åland islands,
 available as JSON data from the
 [EveryPolitician page for Åland](http://everypolitician.org/aland/)).
