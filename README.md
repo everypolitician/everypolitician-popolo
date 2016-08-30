@@ -55,7 +55,7 @@ person.wikidata # => "Q4934081"
 You can also find individual records or collections based on their attributes:
 
 ```ruby
-popolo.persons.find_by(name: "Aaltonen Carina", wikidata: "Q4934081")
+popolo.persons.find_by(name: "Aaltonen Carina")
     # => #<Everypolitician::Popolo::Person:0x0000000237dfc8
     #      @document={:id=>"0c705344-23aa-4fa2-9391-af41c1c775b7",
     #                 :identifiers=>[{:identifier=>"Q4934081", :scheme=>"wikidata"}],
@@ -91,7 +91,7 @@ require 'everypolitician'
 australia = Everypolitician.country('Australia')
 australia.code # => "AU"
 senate = australia.legislature('Senate')
-senate.persons.find_by(name: "Aden Ridgeway", openaustralia: "10540")
+senate.persons.find_by(name: "Aden Ridgeway")
 ```
 
 
