@@ -81,7 +81,7 @@ In the example above, the Popolo data comes from a downloaded file
 [EveryPolitician website](http://everypolitician.org).
 But your Ruby application can also interact directly with the EveryPolitician
 data using the
-[everypolitician-ruby gem](http://github.com/everypolitician/everypolitcian-ruby),
+[everypolitician-ruby gem](http://github.com/everypolitician/everypolitician-ruby),
 so you don't need to handle JSON files at all. The data the gem returns is in
 `Everypolitician::Popolo` format.
 
