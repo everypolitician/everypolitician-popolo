@@ -95,12 +95,15 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_wikidata
-    person = Everypolitician::Popolo::Person.new({})
-    assert_nil person.wikidata
     person = Everypolitician::Popolo::Person.new(
       identifiers: [{ scheme: 'wikidata', identifier: 'Q153149' }]
     )
     assert_equal 'Q153149', person.wikidata
+  end
+
+  def test_person_no_wikidata
+    person = Everypolitician::Popolo::Person.new({})
+    assert_nil person.wikidata
   end
 
   def test_person_contacts
