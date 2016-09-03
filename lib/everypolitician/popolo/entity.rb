@@ -31,6 +31,10 @@ module Everypolitician
       end
       alias eql? ==
 
+      def identifiers
+        document.fetch(:identifiers, [])
+      end
+
       def identifier(scheme)
         identifiers.find(-> { {} }) { |i| i[:scheme] == scheme }[:identifier]
       end
