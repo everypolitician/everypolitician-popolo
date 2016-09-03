@@ -1,8 +1,11 @@
 require 'test_helper'
 
 class PersonTest < Minitest::Test
+  def popolo
+    Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
+  end
+
   def test_reading_popolo_people
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     assert_instance_of Everypolitician::Popolo::People, popolo.persons
     person = popolo.persons.first
     assert_instance_of Everypolitician::Popolo::Person, person
@@ -14,7 +17,6 @@ class PersonTest < Minitest::Test
   end
 
   def test_accessing_person_properties
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     person = popolo.persons.first
     assert person.key?(:id)
     assert_equal '123', person[:id]
