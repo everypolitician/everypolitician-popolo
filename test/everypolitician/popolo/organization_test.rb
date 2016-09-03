@@ -42,4 +42,12 @@ class OrganizationTest < Minitest::Test
     )
     assert_equal 'Q288523', org.wikidata
   end
+
+  def test_organization_no_wikidata
+    org = Everypolitician::Popolo::Organization.new(
+      id:   'abc',
+      name: 'ACME'
+    )
+    assert_nil org.wikidata
+  end
 end

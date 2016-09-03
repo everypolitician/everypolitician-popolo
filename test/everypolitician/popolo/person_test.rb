@@ -1,11 +1,17 @@
 require 'test_helper'
 
 class PersonTest < Minitest::Test
+  def popolo
+    Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
+  end
+
+  def bob
+    popolo.persons.first
+  end
+
   def test_reading_popolo_people
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
     assert_instance_of Everypolitician::Popolo::People, popolo.persons
-    person = popolo.persons.first
-    assert_instance_of Everypolitician::Popolo::Person, person
+    assert_instance_of Everypolitician::Popolo::Person, bob
   end
 
   def test_no_persons_in_popolo_data
@@ -14,10 +20,8 @@ class PersonTest < Minitest::Test
   end
 
   def test_accessing_person_properties
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
-    person = popolo.persons.first
-    assert person.key?(:id)
-    assert_equal '123', person[:id]
+    assert bob.key?(:id)
+    assert_equal '123', bob[:id]
   end
 
   def test_person_twitter_contact_details
@@ -50,8 +54,7 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_name_at
-    person = Everypolitician::Popolo::Person.new(name: 'Bob')
-    assert_equal person.name_at('2016-01-11'), 'Bob'
+    assert_equal bob.name_at('2016-01-11'), 'Bob'
     person = Everypolitician::Popolo::Person.new(
       name:        'Bob',
       other_names: [
@@ -74,8 +77,7 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_facebook
-    person = Everypolitician::Popolo::Person.new({})
-    assert_nil person.facebook
+    assert_nil bob.facebook
     person = Everypolitician::Popolo::Person.new(
       links: [{ note: 'facebook', url: 'https://www.facebook.com/bob' }]
     )
@@ -95,12 +97,14 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_wikidata
-    person = Everypolitician::Popolo::Person.new({})
-    assert_nil person.wikidata
     person = Everypolitician::Popolo::Person.new(
       identifiers: [{ scheme: 'wikidata', identifier: 'Q153149' }]
     )
     assert_equal 'Q153149', person.wikidata
+  end
+
+  def test_person_no_wikidata
+    assert_nil bob.wikidata
   end
 
   def test_person_contacts
@@ -116,50 +120,43 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_no_contacts
-    person = Everypolitician::Popolo::Person.new({})
-    assert_equal nil, person.contact('phone')
-    assert_equal nil, person.phone
-    assert_equal nil, person.fax
+    assert_equal nil, bob.contact('phone')
+    assert_equal nil, bob.phone
+    assert_equal nil, bob.fax
   end
 
   def test_person_sort_name
-    person = Everypolitician::Popolo::Person.new(name: 'Bob')
-    assert_equal 'Bob', person.sort_name
+    assert_equal 'Bob', bob.sort_name
     person = Everypolitician::Popolo::Person.new(name: 'Bob', sort_name: 'Robert')
     assert_equal 'Robert', person.sort_name
   end
 
   def test_person_email
-    person = Everypolitician::Popolo::Person.new(name: 'Bob')
-    assert_equal nil, person.email
+    assert_equal nil, bob.email
     person = Everypolitician::Popolo::Person.new(name: 'Bob', email: 'bob@example.org')
     assert_equal 'bob@example.org', person.email
   end
 
   def test_person_image
-    person = Everypolitician::Popolo::Person.new(name: 'Bob')
-    assert_equal nil, person.image
+    assert_equal nil, bob.image
     person = Everypolitician::Popolo::Person.new(name: 'Bob', image: 'http://example.org/img.jpeg')
     assert_equal 'http://example.org/img.jpeg', person.image
   end
 
   def test_person_gender
-    person = Everypolitician::Popolo::Person.new(name: 'Bob')
-    assert_equal nil, person.gender
+    assert_equal nil, bob.gender
     person = Everypolitician::Popolo::Person.new(name: 'Bob', gender: 'male')
     assert_equal 'male', person.gender
   end
 
   def test_person_equality_based_on_id
-    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
     person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', gender: 'male')
-    assert_equal person1, person2
+    assert_equal bob, person2
   end
 
   def test_person_equality_based_on_class
-    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
     organization = Everypolitician::Popolo::Organization.new(id: '123')
-    refute_equal person1, organization
+    refute_equal bob, organization
   end
 
   def test_persons_subtraction
@@ -171,17 +168,15 @@ class PersonTest < Minitest::Test
   end
 
   def test_honorific_prefix
-    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_prefix: 'Dr')
-    person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
-    assert_equal 'Dr', person1.honorific_prefix
-    assert_nil person2.honorific_prefix
+    assert_nil bob.honorific_prefix
+    person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_prefix: 'Dr')
+    assert_equal 'Dr', person.honorific_prefix
   end
 
   def test_honorific_suffix
-    person1 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_suffix: 'PhD')
-    person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob')
-    assert_equal 'PhD', person1.honorific_suffix
-    assert_nil person2.honorific_suffix
+    assert_nil bob.honorific_suffix
+    person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_suffix: 'PhD')
+    assert_equal 'PhD', person.honorific_suffix
   end
 
   def test_person_memberships

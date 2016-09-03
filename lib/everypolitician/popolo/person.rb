@@ -15,10 +15,6 @@ module Everypolitician
         links.find(-> { {} }) { |i| i[:note] == type }[:url]
       end
 
-      def identifiers
-        document.fetch(:identifiers, [])
-      end
-
       def contact_details
         document.fetch(:contact_details, [])
       end
