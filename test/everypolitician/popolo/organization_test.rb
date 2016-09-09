@@ -1,6 +1,18 @@
 require 'test_helper'
 
 class OrganizationTest < Minitest::Test
+  def test_popolo
+    Everypolitician::Popolo::JSON.new(organizations: [{ id:             '123',
+                                                        name:           'ACME',
+                                                        classification: 'party',
+                                                        identifier:     'Q288523',
+                                                        image:          'http://www.parlamentra.org/upload/iblock/09f/avidzba-f.jpg',
+                                                        links:          [{ url: 'http://www.test.com' }],
+                                                        other_names:    [{ name: 'ACME Inc' }],
+                                                        identifiers:    [{ identifier: 'Q288523', scheme: 'wikidata' }],
+                                                        seats:          42, },])
+  end
+
   def test_reading_popolo_organizations
     popolo = Everypolitician::Popolo::JSON.new(organizations: [{ id: '123', name: 'ACME' }])
     assert_instance_of Everypolitician::Popolo::Organizations, popolo.organizations
@@ -14,10 +26,15 @@ class OrganizationTest < Minitest::Test
   end
 
   def test_accessing_organization_properties
-    popolo = Everypolitician::Popolo::JSON.new(organizations: [{ id: '123', name: 'ACME' }])
-    organization = popolo.organizations.first
+    organization = test_popolo.organizations.first
     assert_equal '123', organization.id
     assert_equal 'ACME', organization.name
+    assert_equal 'party', organization.classification
+    assert_equal 'http://www.parlamentra.org/upload/iblock/09f/avidzba-f.jpg', organization.image
+    assert_equal [{ url: 'http://www.test.com' }], organization.links
+    assert_equal [{ name: 'ACME Inc' }], organization.other_names
+    assert_equal [{ identifier: 'Q288523', scheme: 'wikidata' }], organization.identifiers
+    assert_equal 42, organization.seats
   end
 
   def test_organization_equality_based_on_id
