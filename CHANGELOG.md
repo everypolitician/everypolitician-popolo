@@ -3,7 +3,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [0.6.0] - 2016-09-03
+## [0.6.1]
+
+### Fixes
+
+- Version 0.6.0 was accidentally tagged at the wrong (broken) point in history, which included a broken fix for removing the `id` prefix from entities ([#48](https://github.com/everypolitician/everypolitician-popolo/pull/48)), but not the pull request reverting that change ([#49](https://github.com/everypolitician/everypolitician-popolo/pull/49)). 0.6.0 has been yanked from RubyGems and we recommend using version 0.6.1.
+
+## [0.6.0] (yanked from RubyGems.org) - 2016-09-03
 
 ### Fixed
 
