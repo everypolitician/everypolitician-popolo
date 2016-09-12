@@ -131,6 +131,16 @@ class PersonTest < Minitest::Test
     assert_equal 'Robert', person.sort_name
   end
 
+  def test_person_family_name
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', family_name: 'Roberts')
+    assert_equal 'Roberts', person.family_name
+  end
+
+  def test_person_given_name
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', given_name: 'Robert')
+    assert_equal 'Robert', person.given_name
+  end
+
   def test_person_email
     assert_equal nil, bob.email
     person = Everypolitician::Popolo::Person.new(name: 'Bob', email: 'bob@example.org')
@@ -141,6 +151,16 @@ class PersonTest < Minitest::Test
     assert_equal nil, bob.image
     person = Everypolitician::Popolo::Person.new(name: 'Bob', image: 'http://example.org/img.jpeg')
     assert_equal 'http://example.org/img.jpeg', person.image
+  end
+
+  def test_person_images
+    images = [
+      {
+        url: 'http://www.parliament.gov.zm/sites/default/files/styles/naz-mp-teaser/public/images/mp/Given%20Lubinda.jpg?itok=xhxCdr64',
+      },
+    ]
+    person = Everypolitician::Popolo::Person.new(name: 'Bob', images: images)
+    assert_equal images, person.images
   end
 
   def test_person_gender
@@ -184,5 +204,14 @@ class PersonTest < Minitest::Test
     memberships = popolo.persons.first.memberships
     assert_equal 1, memberships.size
     assert_equal '2016-01-01', memberships.first.start_date
+  end
+
+  def test_person_sources
+    sources = { sources: [
+
+      url: 'http://wolesi.website/pve/document.aspx?Page=11&Cat=37',
+    ], }
+    person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', sources: sources)
+    assert_equal sources, person.sources
   end
 end
