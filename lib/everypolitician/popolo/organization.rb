@@ -1,22 +1,36 @@
 module Everypolitician
   module Popolo
     class Organization < Entity
-      attr_reader :classification,
-                  :identifiers,
-                  :image,
-                  :links,
-                  :name,
-                  :other_names,
-                  :seats
+      def initializer(document)
+        @document = document
+      end
 
-      def initializer(p, _popolo = nil)
-        @classification = p[:classification]
-        @identifiers = p[:identifiers]
-        @image = p[:image]
-        @links = p[:links]
-        @name = p[:name]
-        @other_names = p[:other_names]
-        @seats = p[:seats]
+      def classification
+        document[:classification]
+      end
+
+      def identifiers
+        document[:identifiers]
+      end
+
+      def image
+        document[:image]
+      end
+
+      def links
+        document[:links]
+      end
+
+      def name
+        document[:name]
+      end
+
+      def other_names
+        document[:other_names]
+      end
+
+      def seats
+        document[:seats]
       end
 
       def wikidata
@@ -24,6 +38,8 @@ module Everypolitician
       end
 
       private
+
+      attr_reader :document
 
       def identifier(scheme_name)
         identifiers.find { |i| i[:scheme] == scheme_name }[:identifier] rescue nil
