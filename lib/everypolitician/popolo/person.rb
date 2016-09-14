@@ -63,16 +63,8 @@ module Everypolitician
         document.fetch(:links, [])
       end
 
-      def link(type)
-        links.find(-> { {} }) { |i| i[:note] == type }[:url]
-      end
-
       def contact_details
         document.fetch(:contact_details, [])
-      end
-
-      def contact(type)
-        contact_details.find(-> { {} }) { |i| i[:type] == type }[:value]
       end
 
       def phone
@@ -96,8 +88,14 @@ module Everypolitician
       end
 
       def sort_name
-        name
+        document[:name]
       end
+
+      def memberships
+        popolo.memberships.where(person_id: id)
+      end
+
+      private
 
       def name_at(date)
         return name unless key?(:other_names)
@@ -111,12 +109,16 @@ module Everypolitician
         at_date.first[:name]
       end
 
-      def memberships
-        popolo.memberships.where(person_id: id)
-      end
-
       def identifier(scheme_name)
         identifiers.find { |i| i[:scheme] == scheme_name }[:identifier] rescue nil
+      end
+
+      def contact(type)
+        contact_details.find(-> { {} }) { |i| i[:type] == type }[:value]
+      end
+
+      def link(type)
+        links.find(-> { {} }) { |i| i[:note] == type }[:url]
       end
     end
 
