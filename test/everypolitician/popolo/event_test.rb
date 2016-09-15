@@ -1,7 +1,7 @@
 require 'test_helper'
 class EventTest < Minitest::Test
   def events
-    Everypolitician::Popolo.read('test/fixtures/turkey-ep-popolo-v1.0.json').events
+    @events ||= Everypolitician::Popolo.read('test/fixtures/turkey-ep-popolo-v1.0.json').events
   end
 
   def test_reading_popolo_events
