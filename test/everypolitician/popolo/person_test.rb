@@ -2,7 +2,7 @@ require 'test_helper'
 
 class PersonTest < Minitest::Test
   def people
-    Everypolitician::Popolo.read('test/fixtures/turkey-ep-popolo-v1.0.json').persons
+    @people ||= Everypolitician::Popolo.read('test/fixtures/turkey-ep-popolo-v1.0.json').persons
   end
 
   def abdullah
