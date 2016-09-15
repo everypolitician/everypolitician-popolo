@@ -95,6 +95,10 @@ module Everypolitician
         popolo.memberships.where(person_id: id)
       end
 
+      def identifier(scheme_name)
+        identifiers.find { |i| i[:scheme] == scheme_name }[:identifier] rescue nil
+      end
+
       private
 
       def name_at(date)
@@ -107,10 +111,6 @@ module Everypolitician
         return name if at_date.empty?
         fail Error, "Too many names at #{date}: #{at_date}" if at_date.count > 1
         at_date.first[:name]
-      end
-
-      def identifier(scheme_name)
-        identifiers.find { |i| i[:scheme] == scheme_name }[:identifier] rescue nil
       end
 
       def contact(type)
