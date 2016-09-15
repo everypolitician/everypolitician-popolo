@@ -103,8 +103,6 @@ module Everypolitician
         contact_details.find(-> { {} }) { |i| i[:type] == type }[:value]
       end
 
-      private
-
       def name_at(date)
         return name unless key?(:other_names)
         historic = other_names.select { |n| n.key?(:end_date) }
@@ -116,6 +114,8 @@ module Everypolitician
         fail Error, "Too many names at #{date}: #{at_date}" if at_date.count > 1
         at_date.first[:name]
       end
+
+      private
 
       def link(type)
         links.find(-> { {} }) { |i| i[:note] == type }[:url]
