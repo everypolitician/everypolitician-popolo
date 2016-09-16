@@ -3,10 +3,6 @@ module Everypolitician
     class Person < Entity
       class Error < StandardError; end
 
-      def initializer(document, _popolo = nil)
-        @document = document
-      end
-
       def family_name
         document[:family_name]
       end
