@@ -9,6 +9,12 @@ module Everypolitician
                     .map(&:person_id)
         popolo.persons.select { |p| ids.include? p.id }
       end
+
+      def organizations
+        ids = popolo.memberships.select { |m| m.legislative_period_id == id }
+                    .map(&:on_behalf_of_id)
+        popolo.organizations.select { |o| ids.include? o.id }
+      end
     end
   end
 end

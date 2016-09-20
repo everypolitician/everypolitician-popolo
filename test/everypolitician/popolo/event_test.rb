@@ -36,4 +36,9 @@ class EventTest < Minitest::Test
     event = popolo_wales.events.map { |e| e }[4]
     assert_instance_of Everypolitician::Popolo::Person, event.people.first
   end
+
+  def test_event_organizations
+    event = popolo_wales.events.map { |e| e }[4]
+    assert_instance_of Everypolitician::Popolo::Organization, event.organizations.first
+  end
 end
