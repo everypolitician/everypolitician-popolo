@@ -41,4 +41,14 @@ class EventTest < Minitest::Test
     event = popolo_wales.events.map { |e| e }[4]
     assert_instance_of Everypolitician::Popolo::Organization, event.organizations.first
   end
+
+  def test_event_people_raises_exception
+    event = popolo_wales.events.first
+    assert_raises(NotImplementedError) { event.people.first }
+  end
+
+  def test_event_organizations_raise_exception
+    event = popolo_wales.events.first
+    assert_raises(NotImplementedError) { event.organizations.first }
+  end
 end
