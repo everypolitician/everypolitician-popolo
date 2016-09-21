@@ -33,12 +33,12 @@ class EventTest < Minitest::Test
   end
 
   def test_event_people_returns_array_of_person_objects
-    event = popolo_wales.events.map { |e| e }[4]
+    event = popolo_wales.events.where(classification: 'legislative period').first
     assert_instance_of Everypolitician::Popolo::Person, event.people.first
   end
 
   def test_event_organizations
-    event = popolo_wales.events.map { |e| e }[4]
+    event = popolo_wales.events.where(classification: 'legislative period').first
     assert_instance_of Everypolitician::Popolo::Organization, event.organizations.first
   end
 
