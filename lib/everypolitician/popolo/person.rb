@@ -1,6 +1,7 @@
 module Everypolitician
   module Popolo
-    class People < Collection; end
+    class People < Collection
+    end
 
     class Person < Entity
       class Error < StandardError; end
