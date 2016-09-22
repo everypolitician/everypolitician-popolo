@@ -1,6 +1,10 @@
 require 'test_helper'
 
 class EventTest < Minitest::Test
+  def popolo_wales
+    Everypolitician::Popolo.read('test/fixtures/welsh-assembly-ep-popolo-v1.0.json')
+  end
+
   def test_reading_popolo_events
     popolo = Everypolitician::Popolo::JSON.new(
       events: [{ id: 'term/8', name: '8th Verkhovna Rada', start_date: '2014-11-27' }]
@@ -26,5 +30,25 @@ class EventTest < Minitest::Test
     assert_equal '8th Verkhovna Rada', event.name
     assert_equal '2014-11-27', event.start_date
     assert_nil event.end_date
+  end
+
+  def test_event_people_returns_array_of_person_objects
+    event = popolo_wales.events.map { |e| e }[4]
+    assert_instance_of Everypolitician::Popolo::Person, event.people.first
+  end
+
+  def test_event_organizations
+    event = popolo_wales.events.map { |e| e }[4]
+    assert_instance_of Everypolitician::Popolo::Organization, event.organizations.first
+  end
+
+  def test_event_people_raises_exception
+    event = popolo_wales.events.first
+    assert_raises(NotImplementedError) { event.people.first }
+  end
+
+  def test_event_organizations_raise_exception
+    event = popolo_wales.events.first
+    assert_raises(NotImplementedError) { event.organizations.first }
   end
 end
