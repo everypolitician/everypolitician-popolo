@@ -9,6 +9,7 @@ module Everypolitician
     end
 
     class Memberships < Collection
+      entity_class Membership
     end
   end
 end

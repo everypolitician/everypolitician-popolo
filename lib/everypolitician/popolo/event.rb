@@ -5,6 +5,7 @@ module Everypolitician
     end
 
     class Events < Collection
+      entity_class Event
     end
   end
 end

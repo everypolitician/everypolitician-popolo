@@ -7,6 +7,7 @@ module Everypolitician
     end
 
     class Organizations < Collection
+      entity_class Organization
     end
   end
 end

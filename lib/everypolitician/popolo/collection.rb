@@ -6,8 +6,21 @@ module Everypolitician
       attr_reader :documents
       attr_reader :popolo
 
+      # set the class that represents individual items in the
+      # collection
+      def self.entity_class(entity)
+        @entity_class = entity
+      end
+
+      # we need to do this slightly awful looking thing becuase
+      # we want a class instance variable and not an instance
+      # variable
+      def entity_class
+        self.class.instance_variable_get :@entity_class
+      end
+
       def initialize(documents, popolo = nil)
-        @documents = documents ? documents.map { |p| klass.new(p, popolo) } : []
+        @documents = documents ? documents.map { |p| entity_class.new(p, popolo) } : []
         @popolo = popolo
       end
 
@@ -27,29 +40,6 @@ module Everypolitician
       def where(attributes = {})
         select do |object|
           attributes.all? { |k, v| object.send(k) == v }
-        end
-      end
-
-      private
-
-      # TODO: This feels pretty nasty, is there a better way of working out the
-      # class name?
-      def klass
-        case self.class.to_s.split('::').last
-        when 'People'
-          Person
-        when 'Organizations'
-          Organization
-        when 'Memberships'
-          Membership
-        when 'Events'
-          Event
-        when 'Posts'
-          Post
-        when 'Areas'
-          Area
-        else
-          raise "Unknown class: #{self.class}"
         end
       end
     end

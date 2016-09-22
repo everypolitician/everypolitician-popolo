@@ -63,6 +63,7 @@ module Everypolitician
     end
 
     class People < Collection
+      entity_class Person
     end
   end
 end

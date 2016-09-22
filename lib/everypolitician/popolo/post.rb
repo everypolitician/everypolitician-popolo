@@ -5,6 +5,7 @@ module Everypolitician
     end
 
     class Posts < Collection
+      entity_class Post
     end
   end
 end
