@@ -1,7 +1,8 @@
 module Everypolitician
   module Popolo
+    class Area < Entity; end
+
     class Areas < Collection
     end
-    class Area < Entity; end
   end
 end

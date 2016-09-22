@@ -1,8 +1,5 @@
 module Everypolitician
   module Popolo
-    class People < Collection
-    end
-
     class Person < Entity
       class Error < StandardError; end
 
@@ -63,6 +60,9 @@ module Everypolitician
       def memberships
         popolo.memberships.where(person_id: id)
       end
+    end
+
+    class People < Collection
     end
   end
 end
