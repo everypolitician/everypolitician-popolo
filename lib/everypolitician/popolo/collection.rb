@@ -8,19 +8,12 @@ module Everypolitician
 
       # set the class that represents individual items in the
       # collection
-      def self.entity_class(entity)
-        @entity_class = entity
-      end
-
-      # we need to do this slightly awful looking thing becuase
-      # we want a class instance variable and not an instance
-      # variable
-      def entity_class
-        self.class.instance_variable_get :@entity_class
+      def self.entity_class(entity = nil)
+        @entity_class ||= entity
       end
 
       def initialize(documents, popolo = nil)
-        @documents = documents ? documents.map { |p| entity_class.new(p, popolo) } : []
+        @documents = documents ? documents.map { |p| self.class.entity_class.new(p, popolo) } : []
         @popolo = popolo
       end
 
