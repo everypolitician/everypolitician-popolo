@@ -1,11 +1,13 @@
 module Everypolitician
   module Popolo
-    class Organizations < Collection; end
-
     class Organization < Entity
       def wikidata
         identifier('wikidata')
       end
+    end
+
+    class Organizations < Collection
+      entity_class Organization
     end
   end
 end
