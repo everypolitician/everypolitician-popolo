@@ -31,15 +31,13 @@ module Everypolitician
       end
 
       def where(attributes = {})
-        index_attributes(attributes)
-        attributes.map { |k, v| @indexes[k.to_sym][v] }.reduce(:&) || []
+        attributes.map { |k, v| index_for(k.to_sym)[v] }.reduce(:&) || []
       end
 
-      def index_attributes(attributes = {})
-        @indexes ||= {}
-        attributes.keys.each do |k|
-          @indexes[k] ||= group_by(&:"#{k}")
-        end
+      private
+
+      def index_for(attr)
+        (@indexes ||= {}).fetch(attr) { |k| @indexes[k] = group_by(&attr) }
       end
     end
   end
