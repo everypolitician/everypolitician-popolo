@@ -6,15 +6,13 @@ module Everypolitician
 
       def people
         raise NotImplementedError unless classification == 'legislative period'
-        ids = popolo.memberships.select { |m| m.legislative_period_id == id }
-                    .map(&:person_id)
+        ids = popolo.memberships.where(legislative_period_id: id).map(&:person_id)
         popolo.persons.select { |p| ids.include? p.id }
       end
 
       def organizations
         raise NotImplementedError unless classification == 'legislative period'
-        ids = popolo.memberships.select { |m| m.legislative_period_id == id }
-                    .map(&:on_behalf_of_id)
+        ids = popolo.memberships.where(legislative_period_id: id).map(&:on_behalf_of_id)
         popolo.organizations.select { |o| ids.include? o.id }
       end
     end
