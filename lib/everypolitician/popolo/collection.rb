@@ -31,8 +31,14 @@ module Everypolitician
       end
 
       def where(attributes = {})
-        select do |object|
-          attributes.all? { |k, v| object.send(k) == v }
+        index_attributes(attributes)
+        attributes.keys.map { |k| @indexes[k.to_sym][attributes[k]] }.reduce(:&) || []
+      end
+
+      def index_attributes(attributes = {})
+        @indexes ||= {}
+        attributes.keys.each do |k|
+          @indexes[k] ||= group_by(&:"#{k}")
         end
       end
     end
