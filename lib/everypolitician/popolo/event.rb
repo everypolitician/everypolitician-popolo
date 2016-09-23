@@ -29,10 +29,6 @@ module Everypolitician
         document[:organization_id]
       end
 
-      def wikidata
-        document[:wikidata]
-      end
-
       private
 
       attr_reader :document
