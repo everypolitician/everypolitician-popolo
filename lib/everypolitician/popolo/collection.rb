@@ -15,6 +15,7 @@ module Everypolitician
       def initialize(documents, popolo = nil)
         @documents = documents ? documents.map { |p| self.class.entity_class.new(p, popolo) } : []
         @popolo = popolo
+        @indexes = {}
       end
 
       def each(&block)
@@ -37,7 +38,7 @@ module Everypolitician
       private
 
       def index_for(attr)
-        (@indexes ||= {}).fetch(attr) { |k| @indexes[k] = group_by(&attr) }
+        @indexes[attr] ||= group_by(&attr)
       end
     end
   end
