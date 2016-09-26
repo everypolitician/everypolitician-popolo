@@ -19,9 +19,9 @@ class JsonTest < Minitest::Test
     assert_equal 'Term 2', popolo_json.current_legislative_period.name
   end
 
-  def test_that_terms_returns_the_same_as_legislative_periods
-    assert_equal popolo_json.terms, popolo_json.legislative_periods
-  end
+  # def test_that_terms_returns_the_same_as_legislative_periods
+  #   assert_equal popolo_json.terms, popolo_json.legislative_periods
+  # end
 
   def test_current_term_returns_the_same_as_current_legislative_period
     assert_equal popolo_json.current_term, popolo_json.current_legislative_period
