@@ -44,6 +44,8 @@ module Everypolitician
           Membership
         when 'Events'
           Event
+        when 'LegislativePeriods'
+          LegislativePeriod
         when 'Posts'
           Post
         when 'Areas'
