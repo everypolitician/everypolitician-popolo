@@ -1,19 +1,16 @@
 module Everypolitician
   module Popolo
     class Events < Collection; end
+    class MethodNotImplementedError < StandardError; end
     class Event < Entity
       attr_accessor :start_date, :end_date
 
       def people
-        raise NotImplementedError unless classification == 'legislative period'
-        ids = popolo.memberships.where(legislative_period_id: id).map(&:person_id)
-        popolo.persons.select { |p| ids.include? p.id }
+        raise MethodNotImplementedError unless classification == 'legislative period'
       end
 
       def organizations
-        raise NotImplementedError unless classification == 'legislative period'
-        ids = popolo.memberships.where(legislative_period_id: id).map(&:on_behalf_of_id)
-        popolo.organizations.select { |o| ids.include? o.id }
+        raise MethodNotImplementedError unless classification == 'legislative period'
       end
     end
   end
