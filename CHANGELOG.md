@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.7.0] - 2016-09-26
+
+### Added
+
+- Property lookups are now cached the first time they are used so
+  multiple searches on the same property should be much quicker,
+  especially on large data sets.
+
 ## [0.6.1] - 2016-09-12
 
 ### Fixes
@@ -75,3 +83,4 @@ exist, rather than blowing up.
 [0.4.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.3.0...v0.4.0
 [0.5.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.4.0...v0.5.0
 [0.6.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.5.0...v0.6.0
+[0.7.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.6.0...v0.7.0
