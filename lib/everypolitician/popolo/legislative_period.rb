@@ -1,6 +1,21 @@
 module Everypolitician
   module Popolo
-    class LegislativePeriod < Event
+    class LegislativePeriods < Collection
+      def size
+        to_a.size
+      end
+
+      def last
+        to_a.last
+      end
+
+      def to_a
+        map { |x| x }
+      end
+    end
+    class LegislativePeriod < Entity
+      attr_accessor :start_date, :end_date
+
       def people
         ids = memberships.map(&:person_id).to_set
         popolo.persons.select { |p| ids.include? p.id }
