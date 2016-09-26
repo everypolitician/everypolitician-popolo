@@ -13074,6 +13074,10 @@
         {
           "note": "Wikipedia (pl)",
           "url": "https://pl.wikipedia.org/wiki/Mailis_Reps"
+        },
+        {
+          "note": "Wikipedia (ru)",
+          "url": "https://ru.wikipedia.org/wiki/Репс,_Майлис"
         }
       ],
       "name": "Mailis Reps",
@@ -21376,7 +21380,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/KE_Tarmo_Tamm.jpg"
         },
         {
-          "url": "https://pbs.twimg.com/profile_images/1727410287/DSCN3977.JPG"
+          "url": "https://pbs.twimg.com/profile_images/778983041431638016/wj-2YLES.jpg"
         }
       ],
       "links": [
@@ -29790,10 +29794,15 @@
       "classification": "legislative period",
       "end_date": "2015-03-23",
       "id": "term/12",
+      "identifiers": [
+        {
+          "identifier": "Q967549",
+          "scheme": "wikidata"
+        }
+      ],
       "name": "12th Riigikogu",
       "organization_id": "1ba661a9-22ad-4d0f-8a60-fe8e28f2488c",
-      "start_date": "2011-03-27",
-      "wikidata": "Q967549"
+      "start_date": "2011-03-27"
     },
     {
       "classification": "general election",
@@ -29805,10 +29814,15 @@
     {
       "classification": "legislative period",
       "id": "term/13",
+      "identifiers": [
+        {
+          "identifier": "Q20530392",
+          "scheme": "wikidata"
+        }
+      ],
       "name": "13th Riigikogu",
       "organization_id": "1ba661a9-22ad-4d0f-8a60-fe8e28f2488c",
-      "start_date": "2015-03-30",
-      "wikidata": "Q20530392"
+      "start_date": "2015-03-30"
     }
   ],
   "areas": [
