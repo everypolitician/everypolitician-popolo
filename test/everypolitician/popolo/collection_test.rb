@@ -38,4 +38,16 @@ class CollectionTest < Minitest::Test
   def test_where_finding_on_memberships
     assert_equal popolo.memberships.where(person_id: '0259486a-0410-49f3-aef9-8b79c15741a7', legislative_period_id: 'term/13').count, 1
   end
+
+  def test_where_finding_some_attributes_with_no_matches
+    popolo = Everypolitician::Popolo::JSON.new(
+      organizations: [
+        { id: 'representatives', name: "House o' Representin'", classification: 'legislature' },
+        { id: 'tomato', name: 'Sunripe Tomato Party', classification: 'party' },
+        { id: 'greens', name: 'The Greens', classification: 'party' },
+      ]
+    )
+
+    assert_equal popolo.organizations.where(classification: 'party', name: 'The Reds').count, 0
+  end
 end

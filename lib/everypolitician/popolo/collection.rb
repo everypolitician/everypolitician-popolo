@@ -32,7 +32,7 @@ module Everypolitician
       end
 
       def where(attributes = {})
-        attributes.map { |k, v| index_for(k.to_sym)[v] }.reduce(:&) || []
+          attributes.map { |k, v| index_for(k.to_sym)[v] }.reduce { |a, e| e.to_a & a } || []
       end
 
       private
