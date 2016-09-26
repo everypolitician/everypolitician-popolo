@@ -15,6 +15,7 @@ module Everypolitician
       def initialize(documents, popolo = nil)
         @documents = documents ? documents.map { |p| self.class.entity_class.new(p, popolo) } : []
         @popolo = popolo
+        @indexes = {}
       end
 
       def each(&block)
@@ -31,9 +32,13 @@ module Everypolitician
       end
 
       def where(attributes = {})
-        select do |object|
-          attributes.all? { |k, v| object.send(k) == v }
-        end
+        attributes.map { |k, v| index_for(k.to_sym)[v] }.reduce(:&) || []
+      end
+
+      private
+
+      def index_for(attr)
+        @indexes[attr] ||= group_by(&attr)
       end
     end
   end
