@@ -64,4 +64,10 @@ class CollectionTest < Minitest::Test
     assert_equal popolo.organizations.where(classification: 'party', name: 'The Greens').count, 1
     assert_equal popolo.organizations.where(classification: 'party', name: 'The Greens').first.id, 'greens'
   end
+
+  def test_where_finding_on_memberships
+    popolo = Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json')
+
+    assert_equal popolo.memberships.where(person_id: '0259486a-0410-49f3-aef9-8b79c15741a7', legislative_period_id: 'term/13').count, 1
+  end
 end
