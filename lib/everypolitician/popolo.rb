@@ -48,7 +48,10 @@ module Everypolitician
       end
 
       def legislative_periods
-        events.where(classification: 'legislative period').sort_by(&:start_date)
+        @legislative_periods ||= LegislativePeriods.new(
+          popolo[:events].select { |e| e[:classification] == 'legislative period' },
+          self
+        ).sort_by(&:start_date)
       end
       alias terms legislative_periods
 
