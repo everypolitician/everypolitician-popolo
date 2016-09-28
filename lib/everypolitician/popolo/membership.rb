@@ -8,7 +8,7 @@ module Everypolitician
       end
 
       def ==(other)
-        self.class == other.class && instance_variables.all? { |v| v == other[v] }
+        self.class == other.class && instance_variables.all? { |v| instance_variable_get(v) == other.instance_variable_get(v) }
       end
       alias eql? ==
     end
