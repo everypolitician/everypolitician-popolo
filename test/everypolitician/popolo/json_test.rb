@@ -30,4 +30,8 @@ class JsonTest < Minitest::Test
   def test_that_terms_returns_legislative_period_objects
     assert_instance_of Everypolitician::Popolo::LegislativePeriod, popolo_json.terms.first
   end
+
+  def test_that_elections_returns_election_objects
+    assert_instance_of Everypolitician::Popolo::Election, popolo_json.elections.first
+  end
 end

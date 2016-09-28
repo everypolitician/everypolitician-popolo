@@ -8,6 +8,7 @@ require 'everypolitician/popolo/event'
 require 'everypolitician/popolo/post'
 require 'everypolitician/popolo/membership'
 require 'everypolitician/popolo/legislative_period'
+require 'everypolitician/popolo/election'
 require 'json'
 
 module Everypolitician
@@ -64,6 +65,11 @@ module Everypolitician
         legislative_periods.sort_by(&:start_date).last
       end
       alias current_term current_legislative_period
+
+      def elections
+        @elections ||= Elections.new(popolo[:events], self)
+                                .where(classification: 'general election')
+      end
     end
   end
 end
