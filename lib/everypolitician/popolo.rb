@@ -7,6 +7,7 @@ require 'everypolitician/popolo/area'
 require 'everypolitician/popolo/event'
 require 'everypolitician/popolo/post'
 require 'everypolitician/popolo/membership'
+require 'everypolitician/popolo/legislative_period'
 require 'json'
 
 module Everypolitician
@@ -54,7 +55,9 @@ module Everypolitician
       end
 
       def legislative_periods
-        events.where(classification: 'legislative period').sort_by(&:start_date)
+        @legislative_periods ||= LegislativePeriods.new(popolo[:events], self)
+                                                   .where(classification: 'legislative period')
+                                                   .sort_by(&:start_date)
       end
       alias terms legislative_periods
 
