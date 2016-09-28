@@ -54,6 +54,11 @@ class MembershipTest < Minitest::Test
 
   def test_membership_equality
     memberships = Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json').memberships.to_a
-    assert_equal false, memberships[0] == memberships[1]
+    assert_equal memberships[0], memberships[0]
+  end
+
+  def test_membership_inequality
+    memberships = Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json').memberships.to_a
+    refute_equal memberships[0], memberships[1]
   end
 end
