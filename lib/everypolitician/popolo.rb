@@ -57,12 +57,11 @@ module Everypolitician
       def legislative_periods
         @legislative_periods ||= LegislativePeriods.new(popolo[:events], self)
                                                    .where(classification: 'legislative period')
-                                                   .sort_by(&:start_date)
       end
       alias terms legislative_periods
 
       def current_legislative_period
-        legislative_periods.last
+        legislative_periods.sort_by(&:start_date).last
       end
       alias current_term current_legislative_period
     end
