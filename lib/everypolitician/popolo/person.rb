@@ -3,7 +3,7 @@ module Everypolitician
     class Person < Entity
       class Error < StandardError; end
 
-      attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
+      attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix, :f, :family_name, :given_nameamily_name, :given_name
 
       def links
         document.fetch(:links, [])
@@ -45,8 +45,20 @@ module Everypolitician
         name
       end
 
+      def other_names
+        document.fetch(:other_names, [])
+      end
+
+      def sources
+        document.fetch(:sources, [])
+      end
+
+      def images
+        document.fetch(:images, [])
+      end
+
       def name_at(date)
-        return name unless key?(:other_names)
+        return name unless other_names
         historic = other_names.select { |n| n.key?(:end_date) }
         return name if historic.empty?
         at_date = historic.select do |n|
