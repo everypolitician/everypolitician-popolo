@@ -18,6 +18,8 @@
       "email": "Aadu.Must@riigikogu.ee",
       "gender": "male",
       "given_name": "Aadu",
+      "honorific_prefix": "Dr",
+      "honorific_suffix": "PhD",
       "id": "bc584d7f-86a1-4c2d-97b4-081971d8a1fa",
       "identifiers": [
         {
@@ -351,19 +353,8 @@
     },
     {
       "birth_date": "1956-09-27",
-      "gender": "male",
       "id": "fd4721db-ba4e-41b9-b110-3896ee891e82",
       "identifiers": [
-        {
-          "identifier": "Q12358088",
-          "scheme": "wikidata"
-        }
-      ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/RE_Aare_Heinvee.jpg",
-      "images": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/RE_Aare_Heinvee.jpg"
-        }
       ],
       "links": [
         {
@@ -376,11 +367,17 @@
         }
       ],
       "name": "Aare Heinvee",
+      "sort_name": "Are",
       "other_names": [
         {
           "lang": "et",
           "name": "Aare Heinvee",
           "note": "multilingual"
+        },
+        {
+          "name": "Are Heinvee",
+          "start_date": "1989-01-01",
+          "end_date": "1999-12-31"
         }
       ]
     },
