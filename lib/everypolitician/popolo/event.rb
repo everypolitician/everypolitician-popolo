@@ -33,9 +33,21 @@ module Everypolitician
         identifier('wikidata')
       end
 
+      def self.event_classes
+        @classes ||= ObjectSpace.each_object(Class).select { |klass| klass < self }
+      end
+
+      def self.matches_classification(classification)
+        classification == event_classification
+      end
+
       private
 
       attr_reader :document
+
+      def self.event_classification(classification = nil)
+        @event_classification ||= classification
+      end
     end
 
     class Events < Collection
@@ -48,13 +60,7 @@ module Everypolitician
       end
 
       def class_for_event(classification)
-        c = Event
-        if classification == 'legislative period'
-          c = LegislativePeriod
-        elsif classification.include? 'election'
-          c = Election
-        end
-        c
+        Event.event_classes.select { |e| e.matches_classification(classification) }.first || Event
       end
     end
   end
