@@ -55,6 +55,13 @@ module Everypolitician
         @memberships ||= Memberships.new(popolo[:memberships], self)
       end
 
+      def elections
+        @elections ||= Elections.new(
+          popolo[:events].select { |e| Election.matches_classification(e[:classification]) },
+          self
+        ).sort_by(&:start_date)
+      end
+
       def legislative_periods
         @legislative_periods ||= LegislativePeriods.new(
           popolo[:events].select { |e| e[:classification] == 'legislative period' },
