@@ -8,6 +8,7 @@ require 'everypolitician/popolo/event'
 require 'everypolitician/popolo/post'
 require 'everypolitician/popolo/membership'
 require 'everypolitician/popolo/legislative_period'
+require 'everypolitician/popolo/election'
 require 'json'
 
 module Everypolitician

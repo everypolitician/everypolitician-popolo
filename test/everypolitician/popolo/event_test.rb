@@ -7,7 +7,8 @@ class EventTest < Minitest::Test
   def test_reading_popolo_events
     event = events.first
     assert_instance_of Everypolitician::Popolo::Events, events
-    assert_instance_of Everypolitician::Popolo::Event, event
+    assert_kind_of Everypolitician::Popolo::Event, event
+    assert_instance_of Everypolitician::Popolo::Election, event
   end
 
   def test_no_events_in_popolo_data
