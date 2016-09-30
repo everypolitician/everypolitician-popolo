@@ -56,13 +56,14 @@ module Everypolitician
       entity_class Event
 
       def initialize(documents, popolo = nil)
+        @event_class = {}
         @documents = documents ? documents.map { |p| class_for_event(p[:classification]).new(p, popolo) } : []
         @popolo = popolo
         @indexes = {}
       end
 
       def class_for_event(classification)
-        Event.event_classes.select { |e| e.matches_classification(classification) }.first || Event
+        @event_class[classification] ||= Event.event_classes.select { |e| e.matches_classification(classification) }.first || Event
       end
     end
   end
