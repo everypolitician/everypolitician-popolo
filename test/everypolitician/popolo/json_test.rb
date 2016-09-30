@@ -27,7 +27,9 @@ class JsonTest < Minitest::Test
     assert_equal popolo_json.current_term, popolo_json.current_legislative_period
   end
 
-  def test_that_terms_returns_legislative_period_objects
+  def test_that_terms_returns_only_legislative_period_objects
+    assert_equal popolo_json.terms.count, 2
     assert_instance_of Everypolitician::Popolo::LegislativePeriod, popolo_json.terms.first
+    assert_instance_of Everypolitician::Popolo::LegislativePeriod, popolo_json.terms.last
   end
 end
