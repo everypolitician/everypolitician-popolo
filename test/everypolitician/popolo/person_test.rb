@@ -1,6 +1,22 @@
 require 'test_helper'
 
 class PersonTest < Minitest::Test
+  def people
+    @people ||= Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json').persons
+  end
+
+  def peeter
+    @peeter ||= people.select { |p| p.id == '5db703d7-bdb8-4d14-b2dd-1100aa9c1671' }.first
+  end
+
+  def kaja
+    @kaja ||= people.select { |p| p.id == '228ba218-43db-4b81-9a34-44ec36b98b24' }.first
+  end
+
+  def aadu
+    @aadu ||= people.select { |p| p.id == 'bc584d7f-86a1-4c2d-97b4-081971d8a1fa' }.first
+  end
+
   def popolo
     Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
   end
@@ -10,8 +26,8 @@ class PersonTest < Minitest::Test
   end
 
   def test_reading_popolo_people
-    assert_instance_of Everypolitician::Popolo::People, popolo.persons
-    assert_instance_of Everypolitician::Popolo::Person, bob
+    assert_instance_of Everypolitician::Popolo::People, people
+    assert_instance_of Everypolitician::Popolo::Person, peeter
   end
 
   def test_no_persons_in_popolo_data
@@ -20,21 +36,17 @@ class PersonTest < Minitest::Test
   end
 
   def test_accessing_person_properties
-    assert bob.key?(:id)
-    assert_equal '123', bob[:id]
+    assert peeter.key?(:id)
+    assert_equal '5db703d7-bdb8-4d14-b2dd-1100aa9c1671', peeter.id
   end
 
   def test_person_twitter_contact_details
-    person = Everypolitician::Popolo::Person.new(
-      contact_details: [{ type: 'twitter', value: 'bob' }]
-    )
-    assert_equal 'bob', person.twitter
+    kaja_contact_details = { type: 'twitter', value: 'kajakallas' }
+    assert_equal kaja_contact_details, kaja.contact_details.first
   end
 
   def test_person_twitter_links
-    person = Everypolitician::Popolo::Person.new(
-      links: [{ note: 'twitter', url: 'https://twitter.com/bob' }]
-    )
+    person = Everypolitician::Popolo::Person.new(links: [{ note: 'twitter', url: 'https://twitter.com/bob' }])
     assert_equal 'https://twitter.com/bob', person.twitter
   end
 
@@ -47,19 +59,17 @@ class PersonTest < Minitest::Test
   end
 
   def test_accessing_basic_person_attributes
-    person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', other_names: [])
-    assert_equal '123', person.id
-    assert_equal 'Bob', person.name
-    assert_equal [], person.other_names
+    assert_equal '5db703d7-bdb8-4d14-b2dd-1100aa9c1671', peeter.id
+    assert_equal 'Peeter Kreitzberg', peeter.name
+    peeter_other_names = { lang: 'ca', name: 'Peeter Kreitzberg', note: 'multilingual' }
+    assert_equal peeter_other_names, peeter.other_names.first
   end
 
   def test_person_name_at
     assert_equal bob.name_at('2016-01-11'), 'Bob'
     person = Everypolitician::Popolo::Person.new(
       name:        'Bob',
-      other_names: [
-        { name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' },
-      ]
+      other_names: [{ name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' }]
     )
     assert_equal 'Robert', person.name_at('1990-06-01')
 
@@ -77,30 +87,13 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_facebook
-    assert_nil bob.facebook
-    person = Everypolitician::Popolo::Person.new(
-      links: [{ note: 'facebook', url: 'https://www.facebook.com/bob' }]
-    )
-    assert_equal 'https://www.facebook.com/bob', person.facebook
+    assert_nil peeter.facebook
+    assert_equal 'https://facebook.com/100000744087901', aadu.facebook
   end
 
   def test_person_identifier
-    person = Everypolitician::Popolo::Person.new(
-      identifiers: [
-        { scheme: 'foo', identifier: 'bar' },
-        { scheme: 'wikidata', identifier: 'zap' },
-      ]
-    )
-
-    assert_equal 'bar', person.identifier('foo')
-    assert_equal 'zap', person.identifier('wikidata')
-  end
-
-  def test_person_wikidata
-    person = Everypolitician::Popolo::Person.new(
-      identifiers: [{ scheme: 'wikidata', identifier: 'Q153149' }]
-    )
-    assert_equal 'Q153149', person.wikidata
+    assert_equal 'Q3741792', peeter.identifier('wikidata')
+    assert_nil peeter.identifier('twitter')
   end
 
   def test_person_no_wikidata
@@ -120,15 +113,13 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_no_contacts
-    assert_equal nil, bob.contact('phone')
-    assert_equal nil, bob.phone
-    assert_equal nil, bob.fax
+    assert_equal nil, peeter.contact('phone')
+    assert_equal nil, peeter.phone
+    assert_equal nil, peeter.fax
   end
 
   def test_person_sort_name
-    assert_equal 'Bob', bob.sort_name
-    person = Everypolitician::Popolo::Person.new(name: 'Bob', sort_name: 'Robert')
-    assert_equal 'Robert', person.sort_name
+    assert_equal 'Peeter Kreitzberg', peeter.sort_name
   end
 
   def test_person_email
@@ -139,14 +130,12 @@ class PersonTest < Minitest::Test
 
   def test_person_image
     assert_equal nil, bob.image
-    person = Everypolitician::Popolo::Person.new(name: 'Bob', image: 'http://example.org/img.jpeg')
-    assert_equal 'http://example.org/img.jpeg', person.image
+    assert_equal 'https://upload.wikimedia.org/wikipedia/commons/1/1c/SDE_Peeter_Kreitzberg.jpg', peeter.image
   end
 
   def test_person_gender
     assert_equal nil, bob.gender
-    person = Everypolitician::Popolo::Person.new(name: 'Bob', gender: 'male')
-    assert_equal 'male', person.gender
+    assert_equal 'male', peeter.gender
   end
 
   def test_person_equality_based_on_id
@@ -155,8 +144,7 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_equality_based_on_class
-    organization = Everypolitician::Popolo::Organization.new(id: '123')
-    refute_equal bob, organization
+    refute_equal bob, String
   end
 
   def test_persons_subtraction
@@ -180,9 +168,38 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_memberships
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }], memberships: [{ person_id: '123', start_date: '2016-01-01' }])
-    memberships = popolo.persons.first.memberships
-    assert_equal 1, memberships.size
-    assert_equal '2016-01-01', memberships.first.start_date
+    peeter_membership_organization_id = '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c'
+    assert_equal peeter_membership_organization_id, peeter.memberships.first.organization_id
+  end
+
+  def test_person_links
+    peeter_link = { note: 'Wikipedia (commons)', url: 'https://commons.wikipedia.org/wiki/Category:Peeter_Kreitzberg' }
+    assert_equal peeter_link, peeter.links.first
+  end
+
+  def test_person_birth_date
+    assert_equal '1948-12-14', peeter.birth_date
+  end
+
+  def test_person_death_date
+    assert_equal '2011-11-03', peeter.death_date
+  end
+
+  def test_person_images
+    peeter_image = { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/SDE_Peeter_Kreitzberg.jpg' }
+    assert_equal peeter_image, peeter.images.first
+  end
+
+  def test_person_family_name
+    assert_equal 'Kallas', kaja.family_name
+  end
+
+  def test_person_given_name
+    assert_equal 'Aadu', aadu.given_name
+  end
+
+  def test_person_sources
+    aadu_source = { url: 'http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/233ac42e-573c-400e-8568-0ac3d4c107f9/Aadu-Must' }
+    assert_equal aadu_source, aadu.sources.first
   end
 end

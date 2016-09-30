@@ -3,22 +3,64 @@ module Everypolitician
     class Person < Entity
       class Error < StandardError; end
 
-      attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
+      def family_name
+        document[:family_name]
+      end
+
+      def given_name
+        document[:given_name]
+      end
+
+      def identifiers
+        document[:identifiers]
+      end
+
+      def images
+        document[:images]
+      end
+
+      def other_names
+        document[:other_names]
+      end
+
+      def sources
+        document[:sources]
+      end
+
+      def email
+        document[:email]
+      end
+
+      def image
+        document[:image]
+      end
+
+      def gender
+        document[:gender]
+      end
+
+      def birth_date
+        document[:birth_date]
+      end
+
+      def death_date
+        document[:death_date]
+      end
+
+      def honorific_prefix
+        document[:honorific_prefix]
+      end
+
+      def honorific_suffix
+        document[:honorific_suffix]
+      end
 
       def links
         document.fetch(:links, [])
       end
 
-      def link(type)
-        links.find(-> { {} }) { |i| i[:note] == type }[:url]
-      end
-
       def contact_details
         document.fetch(:contact_details, [])
-      end
-
-      def contact(type)
-        contact_details.find(-> { {} }) { |i| i[:type] == type }[:value]
       end
 
       def phone
@@ -42,7 +84,19 @@ module Everypolitician
       end
 
       def sort_name
-        name
+        document[:name]
+      end
+
+      def memberships
+        popolo.memberships.where(person_id: id)
+      end
+
+      def identifier(scheme_name)
+        identifiers.find { |i| i[:scheme] == scheme_name }[:identifier] rescue nil
+      end
+
+      def contact(type)
+        contact_details.find(-> { {} }) { |i| i[:type] == type }[:value]
       end
 
       def name_at(date)
@@ -57,8 +111,10 @@ module Everypolitician
         at_date.first[:name]
       end
 
-      def memberships
-        popolo.memberships.where(person_id: id)
+      private
+
+      def link(type)
+        links.find(-> { {} }) { |i| i[:note] == type }[:url]
       end
     end
 
