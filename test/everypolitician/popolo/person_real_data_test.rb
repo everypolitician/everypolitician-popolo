@@ -20,35 +20,35 @@ class PersonTest < Minitest::Test
 
   def test_person_has_family_name
     family_name = 'Nestor'
-    assert_equal person_two.family_name, family_name
+    assert_equal family_name, person_two.family_name
   end
 
   def test_person_has_given_name
     given_name = 'Eiki'
-    assert_equal person_two.given_name, given_name
+    assert_equal given_name, person_two.given_name
   end
 
   def test_person_has_identifiers
     identifier = { identifier: '3659', scheme: 'pace' }
-    assert_equal person_two.identifiers.count, 6
+    assert_equal 6, person_two.identifiers.count
     assert_includes person_two.identifiers, identifier
   end
 
   def test_person_has_images
     image = { url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/SDE_Eiki_Nestor.jpg' }
-    assert_equal person_two.images.count, 2
+    assert_equal 2, person_two.images.count
     assert_includes person_two.images, image
   end
 
   def test_person_has_links
     link = { note: 'facebook', url: 'https://facebook.com/100000658185044' }
-    assert_equal person_two.links.count, 9
+    assert_equal 9, person_two.links.count
     assert_includes person_two.links, link
   end
 
   def test_person_has_other_names
     other_name = { lang: 'et', name: 'Eiki Nestor', note: 'multilingual' }
-    assert_equal person_two.other_names.count, 24
+    assert_equal 24, person_two.other_names.count
     assert_includes person_two.other_names, other_name
   end
 
