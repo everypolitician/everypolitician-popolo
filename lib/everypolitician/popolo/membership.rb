@@ -6,6 +6,11 @@ module Everypolitician
       def person
         popolo.persons.find_by(id: person_id)
       end
+
+      def ==(other)
+        self.class == other.class && instance_variables.all? { |v| instance_variable_get(v) == other.instance_variable_get(v) }
+      end
+      alias eql? ==
     end
 
     class Memberships < Collection
