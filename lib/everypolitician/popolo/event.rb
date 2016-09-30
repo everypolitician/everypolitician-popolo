@@ -41,13 +41,15 @@ module Everypolitician
         classification == event_classification
       end
 
-      private
-
-      attr_reader :document
+      private_class_method
 
       def self.event_classification(classification = nil)
         @event_classification ||= classification
       end
+
+      private
+
+      attr_reader :document
     end
 
     class Events < Collection
