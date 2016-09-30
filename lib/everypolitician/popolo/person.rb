@@ -5,7 +5,7 @@ module Everypolitician
 
       attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
 
-      attr_writer :family_name, :given_name
+      attr_writer :family_name, :given_name, :identifiers
 
       def links
         document.fetch(:links, [])
@@ -53,6 +53,10 @@ module Everypolitician
 
       def given_name
         document.fetch(:given_name, [])
+      end
+
+      def identifiers
+        document.fetch(:identifiers, [])
       end
 
       def name_at(date)
