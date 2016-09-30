@@ -46,9 +46,7 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_twitter_links
-    person = Everypolitician::Popolo::Person.new(
-      links: [{ note: 'twitter', url: 'https://twitter.com/bob' }]
-    )
+    person = Everypolitician::Popolo::Person.new(links: [{ note: 'twitter', url: 'https://twitter.com/bob' }])
     assert_equal 'https://twitter.com/bob', person.twitter
   end
 
@@ -63,7 +61,7 @@ class PersonTest < Minitest::Test
   def test_accessing_basic_person_attributes
     assert_equal '5db703d7-bdb8-4d14-b2dd-1100aa9c1671', peeter.id
     assert_equal 'Peeter Kreitzberg', peeter.name
-    peeter_other_names = {:lang=>"ca", :name=>"Peeter Kreitzberg", :note=>"multilingual"}
+    peeter_other_names = { lang: 'ca', name: 'Peeter Kreitzberg', note: 'multilingual' }
     assert_equal peeter_other_names, peeter.other_names.first
   end
 
@@ -71,9 +69,7 @@ class PersonTest < Minitest::Test
     assert_equal bob.name_at('2016-01-11'), 'Bob'
     person = Everypolitician::Popolo::Person.new(
       name:        'Bob',
-      other_names: [
-        { name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' },
-      ]
+      other_names: [{ name: 'Robert', start_date: '1989-01-01', end_date: '1999-12-31' }]
     )
     assert_equal 'Robert', person.name_at('1990-06-01')
 
