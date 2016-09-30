@@ -62,6 +62,13 @@ module Everypolitician
         @indexes = {}
       end
 
+      def get_events_of_type(event_class)
+        event_class.new(
+          @documents.select { |e| event_class.entity_class.matches_classification(e[:classification]) },
+          @popolo
+        ).sort_by(&:start_date)
+      end
+
       def class_for_event(classification)
         @event_class[classification] ||= Event.event_classes.select { |e| e.matches_classification(classification) }.first || Event
       end

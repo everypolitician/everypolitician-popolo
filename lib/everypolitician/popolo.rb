@@ -56,17 +56,11 @@ module Everypolitician
       end
 
       def elections
-        @elections ||= Elections.new(
-          popolo[:events].select { |e| Election.matches_classification(e[:classification]) },
-          self
-        ).sort_by(&:start_date)
+        @elections ||= events.get_events_of_type(Elections)
       end
 
       def legislative_periods
-        @legislative_periods ||= LegislativePeriods.new(
-          popolo[:events].select { |e| LegislativePeriod.matches_classification(e[:classification]) },
-          self
-        ).sort_by(&:start_date)
+        @elections ||= events.get_events_of_type(LegislativePeriods)
       end
       alias terms legislative_periods
 
