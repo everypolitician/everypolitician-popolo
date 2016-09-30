@@ -45,6 +45,10 @@ module Everypolitician
         name
       end
 
+      def family_name
+        document.fetch(:family_name, [])
+      end
+
       def name_at(date)
         return name unless key?(:other_names)
         historic = other_names.select { |n| n.key?(:end_date) }
