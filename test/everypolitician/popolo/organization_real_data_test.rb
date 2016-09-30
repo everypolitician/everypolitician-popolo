@@ -47,4 +47,11 @@ class OrganizationTest < Minitest::Test
   def test_organizatioins_has_seats
     assert_equal 101, organization_two.seats
   end
+
+  def test_organization_should_return_an_empty_array_for_any_data_not_defined
+    assert_equal [], organization_one.seats
+    assert_equal [], organization_two.image
+    assert_equal [], organization_two.links
+    assert_equal [], organization_two.other_names
+  end
 end
