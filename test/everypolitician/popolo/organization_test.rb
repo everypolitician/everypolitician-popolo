@@ -1,53 +1,40 @@
 require 'test_helper'
 
 class OrganizationTest < Minitest::Test
-  def test_reading_popolo_organizations
-    popolo = Everypolitician::Popolo::JSON.new(organizations: [{ id: '123', name: 'ACME' }])
-    assert_instance_of Everypolitician::Popolo::Organizations, popolo.organizations
-    organization = popolo.organizations.first
-    assert_instance_of Everypolitician::Popolo::Organization, organization
+  def fixture
+    'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
-  def test_no_organizations_in_popolo_data
-    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
-    assert_equal true, popolo.organizations.none?
+  def orgs
+    @orgs ||= Everypolitician::Popolo.read(fixture).organizations
   end
 
-  def test_accessing_organization_properties
-    popolo = Everypolitician::Popolo::JSON.new(organizations: [{ id: '123', name: 'ACME' }])
-    organization = popolo.organizations.first
-    assert_equal '123', organization.id
-    assert_equal 'ACME', organization.name
+  def irl
+    orgs.find_by(id: 'IRL')
   end
 
-  def test_organization_equality_based_on_id
-    org1 = Everypolitician::Popolo::Organization.new(id: 'abc', name: 'ACME')
-    org2 = Everypolitician::Popolo::Organization.new(id: 'abc', name: 'ACME')
-    assert_equal org1, org2
+  def test_organizations_type
+    assert_instance_of Everypolitician::Popolo::Organizations, orgs
   end
 
-  def test_organizations_subtraction
-    org1 = { id: 'abc', name: 'ACME' }
-    org2 = { id: 'def', name: 'TNT INC' }
-    all_orgs = Everypolitician::Popolo::Organizations.new([org1, org2])
-    just_org_1 = Everypolitician::Popolo::Organizations.new([org1])
-    assert_equal [Everypolitician::Popolo::Organization.new(org2)], all_orgs - just_org_1
+  def test_organization_type
+    assert_instance_of Everypolitician::Popolo::Organization, orgs.first
   end
 
-  def test_organization_wikidata
-    org = Everypolitician::Popolo::Organization.new(
-      id:          'abc',
-      name:        'ACME',
-      identifiers: [{ identifier: 'Q288523', scheme: 'wikidata' }]
-    )
-    assert_equal 'Q288523', org.wikidata
+  def test_name
+    assert_equal 'Isamaa ja Res Publica Liidu fraktsioon', irl.name
   end
 
-  def test_organization_no_wikidata
-    org = Everypolitician::Popolo::Organization.new(
-      id:   'abc',
-      name: 'ACME'
-    )
-    assert_nil org.wikidata
+  def test_wikidata
+    assert_equal 'Q163347', irl.wikidata
+  end
+
+  def test_website
+    assert_equal 'http://www.irl.ee/', irl.links.first[:url]
+  end
+
+  def test_equality
+    assert_equal orgs.first, orgs.first
+    refute_equal orgs.first, orgs.drop(1).first
   end
 end
