@@ -1,60 +1,59 @@
 require 'test_helper'
 
 class PersonTest < Minitest::Test
-  def popolo
-    Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }])
+  def fixture
+    'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
-  def bob
-    popolo.persons.first
+  def people
+    @ppl ||= Everypolitician::Popolo.read(fixture).persons
   end
 
-  def test_reading_popolo_people
-    assert_instance_of Everypolitician::Popolo::People, popolo.persons
-    assert_instance_of Everypolitician::Popolo::Person, bob
+  def taavi
+    people.find_by(name: 'Taavi Rõivas')
   end
 
-  def test_no_persons_in_popolo_data
-    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
-    assert_equal true, popolo.persons.none?
+  def eiki
+    people.find_by(name: 'Eiki Nestor')
   end
 
-  def test_accessing_person_properties
-    assert bob.key?(:id)
-    assert_equal '123', bob[:id]
+  def etti
+    people.find_by(name: 'Etti Kagarov')
   end
 
-  def test_person_twitter_contact_details
-    person = Everypolitician::Popolo::Person.new(
-      contact_details: [{ type: 'twitter', value: 'bob' }]
-    )
-    assert_equal 'bob', person.twitter
+  def test_people_class
+    assert_instance_of Everypolitician::Popolo::People, people
   end
 
-  def test_person_twitter_links
-    person = Everypolitician::Popolo::Person.new(
-      links: [{ note: 'twitter', url: 'https://twitter.com/bob' }]
-    )
-    assert_equal 'https://twitter.com/bob', person.twitter
+  def test_class
+    assert_instance_of Everypolitician::Popolo::Person, people.first
   end
 
-  def test_person_contact_details_and_twitter_links
-    person = Everypolitician::Popolo::Person.new(
-      contact_details: [{ note: 'cell', value: '+1-555-555-0100' }],
-      links:           [{ note: 'twitter', url: 'https://twitter.com/bob' }]
-    )
-    assert_equal 'https://twitter.com/bob', person.twitter
+  def test_id_attribute
+    assert_equal '6b71eefc-413d-4db6-88f0-d7ff845ebaf1', taavi[:id]
   end
 
-  def test_accessing_basic_person_attributes
-    person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', other_names: [])
-    assert_equal '123', person.id
-    assert_equal 'Bob', person.name
-    assert_equal [], person.other_names
+  def test_id_method
+    assert_equal '6b71eefc-413d-4db6-88f0-d7ff845ebaf1', taavi.id
   end
 
-  def test_person_name_at
-    assert_equal bob.name_at('2016-01-11'), 'Bob'
+  def test_name
+    assert_equal 'Taavi Rõivas', taavi.name
+    assert_equal 'Taavi Rõivas', taavi.name_at('2015-01-01')
+  end
+
+  def test_twitter
+    assert_equal 'taaviroivas', taavi.twitter
+    assert_equal nil, eiki.twitter
+  end
+
+  def test_facebook
+    assert_equal 'https://facebook.com/100000658185044', eiki.facebook
+    assert_equal nil, taavi.facebook
+  end
+
+  # TODO: switch this test to be against live data
+  def test_name_at
     person = Everypolitician::Popolo::Person.new(
       name:        'Bob',
       other_names: [
@@ -76,87 +75,48 @@ class PersonTest < Minitest::Test
     end
   end
 
-  def test_person_facebook
-    assert_nil bob.facebook
-    person = Everypolitician::Popolo::Person.new(
-      links: [{ note: 'facebook', url: 'https://www.facebook.com/bob' }]
-    )
-    assert_equal 'https://www.facebook.com/bob', person.facebook
+  def test_identifier
+    assert_equal '1105987868', taavi.identifier('gnd')
   end
 
-  def test_person_identifier
-    person = Everypolitician::Popolo::Person.new(
-      identifiers: [
-        { scheme: 'foo', identifier: 'bar' },
-        { scheme: 'wikidata', identifier: 'zap' },
-      ]
-    )
-
-    assert_equal 'bar', person.identifier('foo')
-    assert_equal 'zap', person.identifier('wikidata')
+  def test_wikidata
+    assert_equal 'Q3785077', taavi.wikidata
   end
 
-  def test_person_wikidata
-    person = Everypolitician::Popolo::Person.new(
-      identifiers: [{ scheme: 'wikidata', identifier: 'Q153149' }]
-    )
-    assert_equal 'Q153149', person.wikidata
+  def test_contacts
+    assert_equal '6316301', eiki.contact('phone')
+    assert_equal '6316301', eiki.phone
+    assert_equal nil, eiki.fax
   end
 
-  def test_person_no_wikidata
-    assert_nil bob.wikidata
+  def test_no_contacts
+    assert_equal nil, taavi.contact('phone')
+    assert_equal nil, taavi.phone
+    assert_equal nil, taavi.fax
   end
 
-  def test_person_contacts
-    person = Everypolitician::Popolo::Person.new(
-      contact_details: [
-        { type: 'phone', value: '9304832' },
-        { type: 'fax',   value: '9304833' },
-      ]
-    )
-    assert_equal '9304832', person.contact('phone')
-    assert_equal '9304832', person.phone
-    assert_equal '9304833', person.fax
+  def test_sort_name
+    assert_equal nil, taavi['sort_name']
+    assert_equal 'Taavi Rõivas', taavi.sort_name
   end
 
-  def test_person_no_contacts
-    assert_equal nil, bob.contact('phone')
-    assert_equal nil, bob.phone
-    assert_equal nil, bob.fax
+  def test_email
+    assert_equal 'Taavi.Roivas@riigikogu.ee', taavi.email
   end
 
-  def test_person_sort_name
-    assert_equal 'Bob', bob.sort_name
-    person = Everypolitician::Popolo::Person.new(name: 'Bob', sort_name: 'Robert')
-    assert_equal 'Robert', person.sort_name
+  def test_image
+    assert_equal 'http://www.riigikogu.ee/wpcms/wp-content/uploads/ems/temp/8a941c7a-8333-484b-a720-8207dee2e4cc.jpg', eiki.image
+    assert_equal nil, etti.image
   end
 
-  def test_person_email
-    assert_equal nil, bob.email
-    person = Everypolitician::Popolo::Person.new(name: 'Bob', email: 'bob@example.org')
-    assert_equal 'bob@example.org', person.email
+  def test_gender
+    assert_equal 'male', taavi.gender
+    assert_equal nil, etti.gender
   end
 
-  def test_person_image
-    assert_equal nil, bob.image
-    person = Everypolitician::Popolo::Person.new(name: 'Bob', image: 'http://example.org/img.jpeg')
-    assert_equal 'http://example.org/img.jpeg', person.image
-  end
-
-  def test_person_gender
-    assert_equal nil, bob.gender
-    person = Everypolitician::Popolo::Person.new(name: 'Bob', gender: 'male')
-    assert_equal 'male', person.gender
-  end
-
-  def test_person_equality_based_on_id
-    person2 = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', gender: 'male')
-    assert_equal bob, person2
-  end
-
-  def test_person_equality_based_on_class
-    organization = Everypolitician::Popolo::Organization.new(id: '123')
-    refute_equal bob, organization
+  def test_equality
+    assert_equal taavi, taavi
+    refute_equal taavi, etti
   end
 
   def test_persons_subtraction
@@ -168,21 +128,19 @@ class PersonTest < Minitest::Test
   end
 
   def test_honorific_prefix
-    assert_nil bob.honorific_prefix
+    assert_equal nil, taavi.honorific_prefix
     person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_prefix: 'Dr')
     assert_equal 'Dr', person.honorific_prefix
   end
 
   def test_honorific_suffix
-    assert_nil bob.honorific_suffix
+    assert_equal nil, taavi.honorific_suffix
     person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_suffix: 'PhD')
     assert_equal 'PhD', person.honorific_suffix
   end
 
-  def test_person_memberships
-    popolo = Everypolitician::Popolo::JSON.new(persons: [{ id: '123', name: 'Bob' }], memberships: [{ person_id: '123', start_date: '2016-01-01' }])
-    memberships = popolo.persons.first.memberships
-    assert_equal 1, memberships.size
-    assert_equal '2016-01-01', memberships.first.start_date
+  def test_memberships
+    assert_equal 2, etti.memberships.size
+    assert_equal '2014-03-27', etti.memberships.first.start_date
   end
 end
