@@ -1,64 +1,51 @@
 require 'test_helper'
 
 class MembershipTest < Minitest::Test
-  def popolo
-    @popolo ||= Everypolitician::Popolo::JSON.new(
-      memberships: [
-        {
-          on_behalf_of_id: '456',
-          organization_id: 'legislature',
-          person_id:       '123',
-          role:            'member',
-        },
-      ],
-      persons:     [
-        {
-          id:   '123',
-          name: 'Bob',
-        },
-      ]
-    )
+  def fixture
+    'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
-  def test_reading_popolo_memberships
-    membership = popolo.memberships.first
-
-    assert_instance_of Everypolitician::Popolo::Memberships, popolo.memberships
-    assert_instance_of Everypolitician::Popolo::Membership, membership
+  def memberships
+    @mems ||= Everypolitician::Popolo.read(fixture).memberships
   end
 
-  def test_no_memberships_in_popolo_data
-    popolo_no_memberships = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
-    assert_equal true, popolo_no_memberships.memberships.none?
+  def test_memberships_class
+    assert_instance_of Everypolitician::Popolo::Memberships, memberships
   end
 
-  def test_membership_start_date_method_always_present
-    member_with_no_start_date = Everypolitician::Popolo::Membership.new({})
-    member_with_start_date = Everypolitician::Popolo::Membership.new(start_date: '2016-01-01')
-
-    assert_equal member_with_no_start_date.start_date, nil
-    assert_equal member_with_start_date.start_date, '2016-01-01'
+  def test_membership_class
+    assert_instance_of Everypolitician::Popolo::Membership, memberships.first
   end
 
-  def test_membership_end_date_method_always_present
-    member_with_no_end_date = Everypolitician::Popolo::Membership.new({})
-    member_with_end_date = Everypolitician::Popolo::Membership.new(end_date: '2016-12-31')
+  def test_membership_with_start_date
+    with_start_date = memberships.partition(&:start_date).first
+    assert_equal '2015-04-09', with_start_date.first.start_date
+  end
 
-    assert_equal member_with_no_end_date.end_date, nil
-    assert_equal member_with_end_date.end_date, '2016-12-31'
+  def test_membership_with_no_start_date
+    with_no_start_date = memberships.partition(&:start_date).last
+    assert_equal nil, with_no_start_date.first.start_date
+  end
+
+  def test_membership_with_end_date
+    with_end_date = memberships.partition(&:end_date).first
+    assert_equal '2015-04-08', with_end_date.first.end_date
+  end
+
+  def test_membership_with_no_end_date
+    with_no_end_date = memberships.partition(&:end_date).last
+    assert_equal nil, with_no_end_date.first.end_date
   end
 
   def test_membership_person
-    assert_equal 'Bob', popolo.memberships.first.person.name
+    assert_equal 'Kalle Muuli', memberships.first.person.name
   end
 
   def test_membership_equality
-    memberships = Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json').memberships.to_a
-    assert_equal memberships[0], memberships[0]
+    assert_equal memberships.first, memberships.first
   end
 
   def test_membership_inequality
-    memberships = Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json').memberships.to_a
-    refute_equal memberships[0], memberships[1]
+    refute_equal memberships.first, memberships.drop(1).first
   end
 end
