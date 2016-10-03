@@ -65,7 +65,7 @@ module Everypolitician
       alias terms legislative_periods
 
       def current_legislative_period
-        legislative_periods.first
+        legislative_periods.last
       end
       alias current_term current_legislative_period
     end
