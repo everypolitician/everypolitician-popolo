@@ -47,8 +47,12 @@ module Everypolitician
         @memberships ||= Memberships.new(popolo[:memberships], self)
       end
 
+      def elections
+        @elections ||= events.elections
+      end
+
       def legislative_periods
-        events.where(classification: 'legislative period').sort_by(&:start_date)
+        @legislative_periods ||= events.legislative_periods
       end
       alias terms legislative_periods
 
