@@ -47,16 +47,17 @@ module Everypolitician
         @memberships ||= Memberships.new(popolo[:memberships], self)
       end
 
+      def elections
+        @elections ||= events.elections
+      end
+
       def legislative_periods
-        @legislative_periods ||= LegislativePeriods.new(
-          popolo[:events].select { |e| e[:classification] == 'legislative period' },
-          self
-        ).sort_by(&:start_date)
+        @legislative_periods ||= events.legislative_periods
       end
       alias terms legislative_periods
 
       def current_legislative_period
-        legislative_periods.last
+        legislative_periods.first
       end
       alias current_term current_legislative_period
     end
