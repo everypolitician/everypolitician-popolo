@@ -39,11 +39,11 @@ module Everypolitician
       entity_class DynamicEventClassFinder
 
       def elections
-        where(classification: 'general election')
+        where(classification: 'general election').sort_by(&:start_date)
       end
 
       def legislative_periods
-        where(classification: 'legislative period')
+        where(classification: 'legislative period').sort_by(&:start_date)
       end
     end
   end
