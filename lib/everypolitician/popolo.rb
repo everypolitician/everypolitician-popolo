@@ -56,16 +56,16 @@ module Everypolitician
       end
 
       def elections
-        @elections ||= events.get_events_of_type(Elections)
+        @elections ||= events.elections
       end
 
       def legislative_periods
-        @elections ||= events.get_events_of_type(LegislativePeriods)
+        @legislative_periods ||= events.legislative_periods
       end
       alias terms legislative_periods
 
       def current_legislative_period
-        legislative_periods.last
+        legislative_periods.first
       end
       alias current_term current_legislative_period
     end
