@@ -1,29 +1,40 @@
 require 'test_helper'
 
 class AreaTest < Minitest::Test
-  def test_reading_popolo_areas
-    popolo = Everypolitician::Popolo::JSON.new(
-      areas: [{ id: '123', name: 'Newtown', type: 'constituency' }]
-    )
-    area = popolo.areas.first
-
-    assert_instance_of Everypolitician::Popolo::Areas, popolo.areas
-    assert_instance_of Everypolitician::Popolo::Area, area
+  def fixture
+    'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
-  def test_no_areas_in_popolo_data
-    popolo = Everypolitician::Popolo::JSON.new(other_data: [{ id: '123', foo: 'Bar' }])
-    assert_equal true, popolo.areas.none?
+  def areas
+    @areas ||= Everypolitician::Popolo.read(fixture).areas
   end
 
-  def test_accessing_area_properties
-    popolo = Everypolitician::Popolo::JSON.new(
-      areas: [{ id: '123', name: 'Newtown', type: 'constituency' }]
-    )
-    area = popolo.areas.first
+  def tartu
+    areas.find_by(name: 'Tartu linn')
+  end
 
-    assert_equal '123', area.id
-    assert_equal 'Newtown', area.name
-    assert_equal 'constituency', area.type
+  def test_areas_class
+    assert_instance_of Everypolitician::Popolo::Areas, areas
+  end
+
+  def test_area_class
+    assert_instance_of Everypolitician::Popolo::Area, areas.first
+  end
+
+  def test_id
+    assert_equal 'area/tartu_linn', tartu.id
+  end
+
+  def test_name
+    assert_equal 'Tartu linn', tartu.name
+  end
+
+  def test_type
+    assert_equal 'constituency', tartu.type
+  end
+
+  def test_wikidata
+    skip unless tartu.respond_to? 'wikidata'
+    assert_equal 'Q3032626', tartu.wikidata
   end
 end
