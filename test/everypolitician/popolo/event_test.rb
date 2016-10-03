@@ -1,12 +1,17 @@
 require 'test_helper'
 class EventTest < Minitest::Test
+  def popolo
+    @popolo ||= Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json')
+  end
+
   def events
-    @events ||= Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json').events
+    @events ||= popolo.events
   end
 
   def test_reading_popolo_events
     event = events.first
     assert_instance_of Everypolitician::Popolo::Events, events
+    assert_kind_of Everypolitician::Popolo::Event, event
     assert_instance_of Everypolitician::Popolo::Election, event
   end
 
@@ -24,5 +29,26 @@ class EventTest < Minitest::Test
     assert_equal 'legislative period', event.classification
     assert_equal '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c', event.organization_id
     assert_equal 'Q967549', event.wikidata
+  end
+
+  def test_accessing_legislative_periods
+    terms = popolo.legislative_periods
+    assert_equal 2, terms.count
+    term = terms.first
+    assert_instance_of Everypolitician::Popolo::LegislativePeriod, term
+    assert_equal 'term/12', term.id
+  end
+
+  def test_accessing_elections
+    elections = popolo.elections
+    assert_equal 14, elections.count
+    election = elections.first
+    assert_instance_of Everypolitician::Popolo::Election, election
+    assert_equal 'Q1891860', election.id
+  end
+
+  def test_falls_back_to_event_class
+    popolo = Everypolitician::Popolo::JSON.new(events: [{ classification: 'referendum', id: '123', foo: 'Bar' }])
+    assert_instance_of EveryPolitician::Popolo::Event, popolo.events.first
   end
 end
