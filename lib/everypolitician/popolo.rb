@@ -7,6 +7,8 @@ require 'everypolitician/popolo/area'
 require 'everypolitician/popolo/event'
 require 'everypolitician/popolo/post'
 require 'everypolitician/popolo/membership'
+require 'everypolitician/popolo/legislative_period'
+require 'everypolitician/popolo/election'
 require 'json'
 
 module Everypolitician
@@ -42,7 +44,8 @@ module Everypolitician
       end
 
       def events
-        @events ||= Events.new(popolo[:events], self)
+        # do the sorting at the popolo level so we still get an Events object back
+        @events ||= Events.new(popolo[:events].to_a.sort_by { |e| e['start_date'] }, self)
       end
 
       def posts
@@ -53,8 +56,12 @@ module Everypolitician
         @memberships ||= Memberships.new(popolo[:memberships], self)
       end
 
+      def elections
+        @elections ||= events.elections
+      end
+
       def legislative_periods
-        events.where(classification: 'legislative period').sort_by(&:start_date)
+        @legislative_periods ||= events.legislative_periods
       end
       alias terms legislative_periods
 
