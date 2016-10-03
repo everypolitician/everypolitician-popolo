@@ -51,4 +51,12 @@ class EventTest < Minitest::Test
     popolo = Everypolitician::Popolo::JSON.new(events: [{ classification: 'referendum', id: '123', foo: 'Bar' }])
     assert_instance_of EveryPolitician::Popolo::Event, popolo.events.first
   end
+
+  def test_term_memberships
+    term = popolo.terms.first
+    memberships = term.memberships
+    assert_equal memberships.count, 165
+    assert_instance_of EveryPolitician::Popolo::Membership, memberships.first
+    assert_equal memberships.first.person_id, '0259486a-0410-49f3-aef9-8b79c15741a7'
+  end
 end
