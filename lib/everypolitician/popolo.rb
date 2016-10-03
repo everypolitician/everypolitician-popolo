@@ -44,7 +44,8 @@ module Everypolitician
       end
 
       def events
-        @events ||= Events.new(popolo[:events], self)
+        # do the sorting at the popolo level so we still get an Events object back
+        @events ||= Events.new(popolo[:events].to_a.sort_by { |e| e['start_date'] }, self)
       end
 
       def posts
