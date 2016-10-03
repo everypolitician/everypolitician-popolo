@@ -33,44 +33,33 @@ module Everypolitician
         identifier('wikidata')
       end
 
-      def self.event_classes
-        @classes ||= ObjectSpace.each_object(Class).select { |klass| klass < self }
-      end
-
-      def self.matches_classification(classification)
-        classification == event_classification
-      end
-
-      private_class_method
-
-      def self.event_classification(classification = nil)
-        @event_classification ||= classification
-      end
-
       private
 
       attr_reader :document
     end
 
+    class DynamicEventClassFinder
+      def self.new(doc, *args)
+        case doc[:classification]
+        when 'general election'
+          Election.new(doc, *args)
+        when 'legislative period'
+          LegislativePeriod.new(doc, *args)
+        else
+          Event.new(doc, *args)
+        end
+      end
+    end
+
     class Events < Collection
-      entity_class Event
+      entity_class DynamicEventClassFinder
 
-      def initialize(documents, popolo = nil)
-        @event_class = {}
-        @documents = documents ? documents.map { |p| class_for_event(p[:classification]).new(p, popolo) } : []
-        @popolo = popolo
-        @indexes = {}
+      def elections
+        where(classification: 'general election')
       end
 
-      def get_events_of_type(event_class)
-        event_class.new(
-          @documents.select { |e| event_class.entity_class.matches_classification(e[:classification]) },
-          @popolo
-        ).sort_by(&:start_date)
-      end
-
-      def class_for_event(classification)
-        @event_class[classification] ||= Event.event_classes.select { |e| e.matches_classification(classification) }.first || Event
+      def legislative_periods
+        where(classification: 'legislative period')
       end
     end
   end
