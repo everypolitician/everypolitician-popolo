@@ -1,6 +1,9 @@
 module Everypolitician
   module Popolo
-    class Event < Entity
+    class Event < DynamicEntity
+      subclasses [Election, LegislativePeriod]
+      default_class Event
+
       def start_date
         document.fetch(:start_date, nil)
       end
@@ -22,24 +25,8 @@ module Everypolitician
       end
     end
 
-    class DynamicEventClassFinder
-      @subclasses = {}
-
-      def self.new(doc, *args)
-        find_class(doc[:classification]).new(doc, *args)
-      end
-
-      def self.subclasses
-        [Election, LegislativePeriod]
-      end
-
-      def self.find_class(classification)
-        @subclasses[classification] ||= subclasses.select { |s| s.classification == classification }.first || Event
-      end
-    end
-
     class Events < Collection
-      entity_class DynamicEventClassFinder
+      entity_class Event
 
       def elections
         where(classification: 'general election').sort_by(&:start_date)
