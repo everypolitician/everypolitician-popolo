@@ -5,6 +5,8 @@ module Everypolitician
 
       attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
 
+      attr_writer :family_name, :given_name, :identifiers, :images, :other_names, :sources
+
       def links
         document.fetch(:links, [])
       end
@@ -43,6 +45,30 @@ module Everypolitician
 
       def sort_name
         name
+      end
+
+      def family_name
+        document.fetch(:family_name, [])
+      end
+
+      def given_name
+        document.fetch(:given_name, [])
+      end
+
+      def identifiers
+        document.fetch(:identifiers, [])
+      end
+
+      def images
+        document.fetch(:images, [])
+      end
+
+      def other_names
+        document.fetch(:other_names, [])
+      end
+
+      def sources
+        document.fetch(:sources, [])
       end
 
       def name_at(date)
