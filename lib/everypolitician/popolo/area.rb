@@ -1,6 +1,6 @@
 module Everypolitician
   module Popolo
-    class Area < Entity; end
+    class Area < EntityWithDynamicMethods; end
 
     class Areas < Collection
       entity_class Area
