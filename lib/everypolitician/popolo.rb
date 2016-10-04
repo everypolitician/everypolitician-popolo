@@ -1,13 +1,7 @@
-require 'everypolitician/popolo/version'
-require 'everypolitician/popolo/collection'
-require 'everypolitician/popolo/entity'
-require 'everypolitician/popolo/person'
-require 'everypolitician/popolo/organization'
-require 'everypolitician/popolo/area'
-require 'everypolitician/popolo/event'
-require 'everypolitician/popolo/post'
-require 'everypolitician/popolo/membership'
 require 'json'
+require 'require_all'
+
+require_rel 'popolo'
 
 module Everypolitician
   module Popolo
