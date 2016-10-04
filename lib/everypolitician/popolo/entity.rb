@@ -4,6 +4,10 @@ module Everypolitician
       attr_reader :document
       attr_reader :popolo
 
+      def self.classification(classification = nil)
+        @classification ||= classification
+      end
+
       def initialize(document, popolo = nil)
         @document = document
         @popolo = popolo

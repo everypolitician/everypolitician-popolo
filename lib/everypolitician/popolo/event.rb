@@ -23,15 +23,18 @@ module Everypolitician
     end
 
     class DynamicEventClassFinder
+      @subclasses = {}
+
       def self.new(doc, *args)
-        case doc[:classification]
-        when 'general election'
-          Election.new(doc, *args)
-        when 'legislative period'
-          LegislativePeriod.new(doc, *args)
-        else
-          Event.new(doc, *args)
-        end
+        find_class(doc[:classification]).new(doc, *args)
+      end
+
+      def self.subclasses
+        [Election, LegislativePeriod]
+      end
+
+      def self.find_class(classification)
+        @subclasses[classification] ||= subclasses.select { |s| s.classification == classification }.first || Event
       end
     end
 
