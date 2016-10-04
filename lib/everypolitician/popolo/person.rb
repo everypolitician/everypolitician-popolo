@@ -1,6 +1,6 @@
 module Everypolitician
   module Popolo
-    class Person < Entity
+    class Person < EntityWithDynamicMethods
       class Error < StandardError; end
 
       attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
