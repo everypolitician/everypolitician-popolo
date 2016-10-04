@@ -1,9 +1,6 @@
 module Everypolitician
   module Popolo
-    class Event < DynamicEntity
-      subclasses [Election, LegislativePeriod]
-      default_class Event
-
+    class Event < Entity
       def start_date
         document.fetch(:start_date, nil)
       end
@@ -25,8 +22,13 @@ module Everypolitician
       end
     end
 
+    class EventFactory < EntityFactory
+      subclasses [Election, LegislativePeriod]
+      default_class Event
+    end
+
     class Events < Collection
-      entity_class Event
+      entity_class EventFactory
 
       def elections
         where(classification: 'general election').sort_by(&:start_date)

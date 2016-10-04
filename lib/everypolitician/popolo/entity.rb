@@ -51,13 +51,9 @@ module Everypolitician
       end
     end
 
-    class DynamicEntity < Entity
+    class EntityFactory
       def self.new(doc, *args)
         find_class(doc[:classification]).new(doc, *args)
-      end
-
-      def self.classification(classification = nil)
-        @classification ||= classification
       end
 
       def self.subclasses(subclasses = [])
@@ -69,7 +65,7 @@ module Everypolitician
       end
 
       def self.find_class(classification)
-        @subclasses[classification] ||= subclasses.select { |s| s.classification == classification }.first || default_class
+        subclasses.select { |s| s.classification == classification }.first || default_class
       end
     end
   end
