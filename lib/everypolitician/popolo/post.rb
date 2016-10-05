@@ -1,6 +1,6 @@
 module Everypolitician
   module Popolo
-    class Post < Entity
+    class Post < EntityWithDynamicMethods
       attr_reader :label
     end
 
