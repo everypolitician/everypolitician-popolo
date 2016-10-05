@@ -48,11 +48,11 @@ module Everypolitician
       end
 
       def family_name
-        document.fetch(:family_name, [])
+        document.fetch(:family_name, nil)
       end
 
       def given_name
-        document.fetch(:given_name, [])
+        document.fetch(:given_name, nil)
       end
 
       def identifiers

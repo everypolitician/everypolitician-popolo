@@ -58,6 +58,6 @@ class PersonTest < Minitest::Test
   end
 
   def test_person_should_return_empty_array_if_data_is_not_defined
-    assert_equal [], person_one.family_name
+    assert_equal nil, person_one.family_name
   end
 end
