@@ -5,8 +5,6 @@ module Everypolitician
 
       attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
 
-      attr_writer :family_name, :given_name, :identifiers, :images, :other_names, :sources
-
       def links
         document.fetch(:links, [])
       end
