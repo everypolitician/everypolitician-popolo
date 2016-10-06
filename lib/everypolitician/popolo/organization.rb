@@ -1,8 +1,6 @@
 module Everypolitician
   module Popolo
     class Organization < Entity
-      attr_writer :classification, :identifiers, :image, :links, :name, :other_names, :seats
-
       def wikidata
         identifier('wikidata')
       end
