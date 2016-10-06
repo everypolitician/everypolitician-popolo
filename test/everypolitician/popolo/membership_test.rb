@@ -69,6 +69,10 @@ class MembershipTest < Minitest::Test
     assert_equal 'Isamaa ja Res Publica Liidu fraktsioon', memberships.first.on_behalf_of.name
   end
 
+  def test_membership_area
+    assert_equal 'Tartu linn', memberships.first.area.name
+  end
+
   def test_membership_inequality
     refute_equal memberships.first, memberships.drop(1).first
   end

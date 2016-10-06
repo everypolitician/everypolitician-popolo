@@ -41,6 +41,10 @@ module Everypolitician
         popolo.organizations.find_by(id: on_behalf_of_id)
       end
 
+      def area
+        popolo.areas.find_by(id: area_id)
+      end
+
       def ==(other)
         self.class == other.class && instance_variables.all? { |v| instance_variable_get(v) == other.instance_variable_get(v) }
       end
