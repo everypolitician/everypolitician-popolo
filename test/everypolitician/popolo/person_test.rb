@@ -9,6 +9,10 @@ class PersonTest < Minitest::Test
     @ppl ||= Everypolitician::Popolo.read(fixture).persons
   end
 
+  def aadu
+    people.find_by(name: 'Aadu Must')
+  end
+
   def taavi
     people.find_by(name: 'Taavi Rõivas')
   end
@@ -100,6 +104,14 @@ class PersonTest < Minitest::Test
     assert_equal 'Taavi Rõivas', taavi.sort_name
   end
 
+  def test_family_name
+    assert_equal 'Nestor', eiki.family_name
+  end
+
+  def test_given_name
+    assert_equal 'Eiki', eiki.given_name
+  end
+
   def test_email
     assert_equal 'Taavi.Roivas@riigikogu.ee', taavi.email
   end
@@ -142,5 +154,28 @@ class PersonTest < Minitest::Test
   def test_memberships
     assert_equal 2, etti.memberships.size
     assert_equal '2014-03-27', etti.memberships.first.start_date
+  end
+
+  def test_images
+    image = { url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/SDE_Eiki_Nestor.jpg' }
+    assert_equal 2, eiki.images.count
+    assert_includes eiki.images, image
+  end
+
+  def test_sources
+    source = { url: 'http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/233ac42e-573c-400e-8568-0ac3d4c107f9/Aadu-Must' }
+    assert_equal aadu.sources.first, source
+  end
+
+  def test_other_names
+    other_name = { lang: 'et', name: 'Eiki Nestor', note: 'multilingual' }
+    assert_equal 24, eiki.other_names.count
+    assert_includes eiki.other_names, other_name
+  end
+
+  def test_links
+    link = { note: 'facebook', url: 'https://facebook.com/100000658185044' }
+    assert_equal 9, eiki.links.count
+    assert_includes eiki.links, link
   end
 end
