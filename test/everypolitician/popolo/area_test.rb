@@ -33,6 +33,18 @@ class AreaTest < Minitest::Test
     assert_equal 'constituency', tartu.type
   end
 
+  def test_other_names
+    other_name = { lang: 'fr', name: "Dixième circonscription législative d'Estonie", note: 'multilingual' }
+    assert_equal 3, tartu.other_names.count
+    assert_includes tartu.other_names, other_name
+  end
+
+  def test_identifiers
+    identifier = { identifier: 'Q3032626', scheme: 'wikidata' }
+    assert_equal 1, tartu.identifiers.count
+    assert_includes tartu.identifiers, identifier
+  end
+
   def test_wikidata
     skip unless tartu.respond_to? 'wikidata'
     assert_equal 'Q3032626', tartu.wikidata
