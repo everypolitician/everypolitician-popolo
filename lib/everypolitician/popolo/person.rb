@@ -3,7 +3,37 @@ module Everypolitician
     class Person < Entity
       class Error < StandardError; end
 
-      attr_accessor :name, :email, :image, :gender, :birth_date, :death_date, :honorific_prefix, :honorific_suffix
+      def name
+        document.fetch('name', nil)
+      end
+
+      def email
+        document.fetch('email', nil)
+      end
+
+      def image
+        document.fetch('image', nil)
+      end
+
+      def gender
+        document.fetch('gender', nil)
+      end
+
+      def birth_date
+        document.fetch('birth_date', nil)
+      end
+
+      def death_date
+        document.fetch('death_date', nil)
+      end
+
+      def honorific_prefix
+        document.fetch('honorific_prefix', nil)
+      end
+
+      def honorific_suffix
+        document.fetch('honorific_suffix', nil)
+      end
 
       def links
         document.fetch(:links, [])
@@ -43,6 +73,30 @@ module Everypolitician
 
       def sort_name
         name
+      end
+
+      def family_name
+        document.fetch(:family_name, nil)
+      end
+
+      def given_name
+        document.fetch(:given_name, nil)
+      end
+
+      def identifiers
+        document.fetch(:identifiers, [])
+      end
+
+      def images
+        document.fetch(:images, [])
+      end
+
+      def other_names
+        document.fetch(:other_names, [])
+      end
+
+      def sources
+        document.fetch(:sources, [])
       end
 
       def name_at(date)
