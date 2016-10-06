@@ -45,7 +45,7 @@ class MembershipTest < Minitest::Test
     assert_equal memberships.first, memberships.first
   end
 
-  def test_membership_on_behalf_of
+  def test_membership_on_behalf_of_id
     assert_equal 'IRL', memberships.first.on_behalf_of_id
   end
 
@@ -63,6 +63,10 @@ class MembershipTest < Minitest::Test
 
   def test_membership_organization
     assert_equal 'Riigikogu', memberships.first.organization.name
+  end
+
+  def test_membership_on_behalf_of
+    assert_equal 'Isamaa ja Res Publica Liidu fraktsioon', memberships.first.on_behalf_of.name
   end
 
   def test_membership_inequality
