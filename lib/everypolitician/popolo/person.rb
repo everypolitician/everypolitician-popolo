@@ -1,6 +1,6 @@
 module Everypolitician
   module Popolo
-    class Person < Entity
+    class Person < EntityWithDynamicMethods
       class Error < StandardError; end
 
       def name

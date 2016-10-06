@@ -1,6 +1,6 @@
 module Everypolitician
   module Popolo
-    class Organization < Entity
+    class Organization < EntityWithDynamicMethods
       def wikidata
         identifier('wikidata')
       end

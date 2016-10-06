@@ -1,6 +1,6 @@
 module Everypolitician
   module Popolo
-    class Event < Entity
+    class Event < EntityWithDynamicMethods
       def initialize(document, _p)
         @document = document
       end

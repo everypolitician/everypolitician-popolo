@@ -1,6 +1,6 @@
 module Everypolitician
   module Popolo
-    class Membership < Entity
+    class Membership < EntityWithDynamicMethods
       attr_accessor :person_id, :on_behalf_of_id, :organization_id, :area_id, :role, :start_date, :end_date
 
       def person
