@@ -6,7 +6,7 @@ module Everypolitician
       end
 
       def classification
-        document.fetch(:classification, [])
+        document.fetch(:classification, nil)
       end
 
       def identifiers
@@ -14,7 +14,7 @@ module Everypolitician
       end
 
       def image
-        document.fetch(:image, [])
+        document.fetch(:image, nil)
       end
 
       def links
@@ -22,7 +22,7 @@ module Everypolitician
       end
 
       def name
-        document.fetch(:name, [])
+        document.fetch(:name, nil)
       end
 
       def other_names
@@ -30,7 +30,7 @@ module Everypolitician
       end
 
       def seats
-        document.fetch(:seats, [])
+        document.fetch(:seats, nil)
       end
     end
 
