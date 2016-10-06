@@ -61,6 +61,10 @@ class MembershipTest < Minitest::Test
     assert_equal '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c', memberships.first.organization_id
   end
 
+  def test_membership_organization
+    assert_equal 'Riigikogu', memberships.first.organization.name
+  end
+
   def test_membership_inequality
     refute_equal memberships.first, memberships.drop(1).first
   end
