@@ -1,10 +1,48 @@
 module Everypolitician
   module Popolo
     class Membership < Entity
-      attr_accessor :person_id, :on_behalf_of_id, :organization_id, :area_id, :role, :start_date, :end_date
+      def person_id
+        document.fetch(:person_id, nil)
+      end
+
+      def on_behalf_of_id
+        document.fetch(:on_behalf_of_id, nil)
+      end
+
+      def organization_id
+        document.fetch(:organization_id, nil)
+      end
+
+      def area_id
+        document.fetch(:area_id, nil)
+      end
+
+      def role
+        document.fetch(:role, nil)
+      end
+
+      def start_date
+        document.fetch(:start_date, nil)
+      end
+
+      def end_date
+        document.fetch(:end_date, nil)
+      end
 
       def person
         popolo.persons.find_by(id: person_id)
+      end
+
+      def organization
+        popolo.organizations.find_by(id: organization_id)
+      end
+
+      def on_behalf_of
+        popolo.organizations.find_by(id: on_behalf_of_id)
+      end
+
+      def area
+        popolo.areas.find_by(id: area_id)
       end
 
       def ==(other)
