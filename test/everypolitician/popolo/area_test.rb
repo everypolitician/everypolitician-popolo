@@ -13,6 +13,10 @@ class AreaTest < Minitest::Test
     areas.find_by(name: 'Tartu linn')
   end
 
+  def ida
+    areas.find_by(name: 'Ida-Virumaa')
+  end
+
   def test_areas_class
     assert_instance_of Everypolitician::Popolo::Areas, areas
   end
@@ -30,17 +34,20 @@ class AreaTest < Minitest::Test
   end
 
   def test_type
+    assert_equal nil, ida.type
     assert_equal 'constituency', tartu.type
   end
 
   def test_other_names
     other_name = { lang: 'fr', name: "Dixième circonscription législative d'Estonie", note: 'multilingual' }
+    assert_equal [], ida.other_names
     assert_equal 3, tartu.other_names.count
     assert_includes tartu.other_names, other_name
   end
 
   def test_identifiers
     identifier = { identifier: 'Q3032626', scheme: 'wikidata' }
+    assert_equal [], ida.identifiers
     assert_equal 1, tartu.identifiers.count
     assert_includes tartu.identifiers, identifier
   end
