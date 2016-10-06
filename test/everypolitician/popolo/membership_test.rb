@@ -45,6 +45,22 @@ class MembershipTest < Minitest::Test
     assert_equal memberships.first, memberships.first
   end
 
+  def test_membership_on_behalf_of
+    assert_equal 'IRL', memberships.first.on_behalf_of_id
+  end
+
+  def test_membership_area_id
+    assert_equal 'area/tartu_linn', memberships.first.area_id
+  end
+
+  def test_membership_role
+    assert_equal 'member', memberships.first.role
+  end
+
+  def test_membership_organization_id
+    assert_equal '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c', memberships.first.organization_id
+  end
+
   def test_membership_inequality
     refute_equal memberships.first, memberships.drop(1).first
   end
