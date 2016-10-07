@@ -54,9 +54,10 @@ class OrganizationTest < Minitest::Test
   end
 
   def test_links
+    link = { note: 'website', url: 'http://www.ekre.ee/' }
     assert_equal [], eva.links
-    assert_equal 0, eva.links.count
     assert_equal 1, ekre.links.count
+    assert_includes ekre.links, link
   end
 
   def test_organization_has_other_names
