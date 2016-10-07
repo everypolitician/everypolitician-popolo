@@ -65,6 +65,15 @@ class MembershipTest < Minitest::Test
     assert_equal 'Riigikogu', memberships.first.organization.name
   end
 
+  def test_membership_legislative_period_id
+    assert_equal 'term/13', memberships.first.legislative_period_id
+  end
+
+  def test_membership_legislative_period
+    assert_equal '13th Riigikogu', memberships.first.legislative_period.name
+    assert_equal '13th Riigikogu', memberships.first.term.name
+  end
+
   def test_membership_on_behalf_of
     assert_equal 'Isamaa ja Res Publica Liidu fraktsioon', memberships.first.on_behalf_of.name
   end
