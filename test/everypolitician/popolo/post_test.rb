@@ -35,6 +35,10 @@ class PostTest < Minitest::Test
     assert_equal '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c', mp.organization_id
   end
 
+  def test_organization
+    assert_equal 'Riigikogu', mp.organization.name
+  end
+
   def test_it_returns_nil_for_missing_label
     popolo = Everypolitician::Popolo::JSON.new(
       posts: [{ id: 'womens_representative' }]
