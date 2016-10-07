@@ -53,7 +53,6 @@ class AreaTest < Minitest::Test
   end
 
   def test_wikidata
-    skip unless tartu.respond_to? 'wikidata'
     assert_equal 'Q3032626', tartu.wikidata
   end
 end
