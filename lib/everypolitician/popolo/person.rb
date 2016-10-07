@@ -4,35 +4,35 @@ module Everypolitician
       class Error < StandardError; end
 
       def name
-        document.fetch('name', nil)
+        document.fetch(:name, nil)
       end
 
       def email
-        document.fetch('email', nil)
+        document.fetch(:email, nil)
       end
 
       def image
-        document.fetch('image', nil)
+        document.fetch(:image, nil)
       end
 
       def gender
-        document.fetch('gender', nil)
+        document.fetch(:gender, nil)
       end
 
       def birth_date
-        document.fetch('birth_date', nil)
+        document.fetch(:birth_date, nil)
       end
 
       def death_date
-        document.fetch('death_date', nil)
+        document.fetch(:death_date, nil)
       end
 
       def honorific_prefix
-        document.fetch('honorific_prefix', nil)
+        document.fetch(:honorific_prefix, nil)
       end
 
       def honorific_suffix
-        document.fetch('honorific_suffix', nil)
+        document.fetch(:honorific_suffix, nil)
       end
 
       def links
