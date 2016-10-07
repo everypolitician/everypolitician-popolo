@@ -1,9 +1,14 @@
 module Everypolitician
   module Popolo
     class Post < Entity
-      attr_reader :label
-    end
+      def label
+        document.fetch(:label, nil)
+      end
 
+      def organization_id
+        document.fetch(:organization_id, nil)
+      end
+    end
     class Posts < Collection
       entity_class Post
     end
