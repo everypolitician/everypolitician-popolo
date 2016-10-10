@@ -29884,7 +29884,31 @@
     },
     {
       "id": "area/ida-virumaa",
-      "name": "Ida-Virumaa"
+      "identifiers": [
+        {
+          "identifier": "Q3479058",
+          "scheme": "wikidata"
+        }
+      ],
+      "name": "Ida-Virumaa",
+      "other_names": [
+        {
+          "lang": "fr",
+          "name": "Septième circonscription législative d'Estonie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "et",
+          "name": "Valimisringkond nr 7",
+          "note": "multilingual"
+        },
+        {
+          "lang": "en",
+          "name": "Electoral District 7 (Ida-Virumaa)",
+          "note": "multilingual"
+        }
+      ],
+      "type": "constituency"
     },
     {
       "id": "area/järva-_ja_viljandimaa",
