@@ -38,6 +38,10 @@ module Everypolitician
       def identifier(scheme)
         identifiers.find(-> { {} }) { |i| i[:scheme] == scheme }[:identifier]
       end
+
+      def wikidata
+        identifier('wikidata')
+      end
     end
   end
 end
