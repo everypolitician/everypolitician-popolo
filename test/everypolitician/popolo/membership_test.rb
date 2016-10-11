@@ -73,6 +73,18 @@ class MembershipTest < Minitest::Test
     assert_equal 'Tartu linn', memberships.first.area.name
   end
 
+  def test_legislative_period_id
+    assert_equal 'term/13', memberships.first.legislative_period_id
+  end
+
+  def test_legislative_period
+    assert_equal '13th Riigikogu', memberships.first.legislative_period.name
+  end
+
+  def test_term
+    assert_equal '13th Riigikogu', memberships.first.term.name
+  end
+
   def test_membership_inequality
     refute_equal memberships.first, memberships.drop(1).first
   end

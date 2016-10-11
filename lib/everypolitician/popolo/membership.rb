@@ -17,6 +17,10 @@ module Everypolitician
         document.fetch(:area_id, nil)
       end
 
+      def legislative_period_id
+        document.fetch(:legislative_period_id, nil)
+      end
+
       def role
         document.fetch(:role, nil)
       end
@@ -44,6 +48,11 @@ module Everypolitician
       def area
         popolo.areas.find_by(id: area_id)
       end
+
+      def legislative_period
+        popolo.legislative_periods.find_by(id: legislative_period_id)
+      end
+      alias term legislative_period
 
       def ==(other)
         self.class == other.class && instance_variables.all? { |v| instance_variable_get(v) == other.instance_variable_get(v) }
