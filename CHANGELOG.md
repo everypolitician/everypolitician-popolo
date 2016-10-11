@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.8.0] - 2016-09-26
+
+### Added
+
+- `Popolo.latest_term` replaces `Popolo.current_term` and has the same
+  functionality. It will return the most recent term for the legislature
+  but it is not guaranteed that the term will be a concurent one. You
+  should check the `start_date` and `end_date` of the term to determine that.
+
+### Deprecated
+
+- `Popolo.current_term` - use `latest_term` instead.
+
 ## [0.7.0] - 2016-09-26
 
 ### Added
