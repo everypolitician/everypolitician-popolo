@@ -5,7 +5,7 @@ class EventTest < Minitest::Test
   end
 
   def events
-    @events ||= Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json').events
+    @events ||= popolo.events
   end
 
   def test_reading_popolo_events
