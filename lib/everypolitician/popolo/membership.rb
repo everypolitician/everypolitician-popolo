@@ -17,6 +17,10 @@ module Everypolitician
         document.fetch(:area_id, nil)
       end
 
+      def legislative_period_id
+        document.fetch(:legislative_period_id, nil)
+      end
+
       def role
         document.fetch(:role, nil)
       end
@@ -36,6 +40,12 @@ module Everypolitician
       def organization
         popolo.organizations.find_by(id: organization_id)
       end
+
+      def legislative_period
+        popolo.events.find_by(id: legislative_period_id)
+      end
+
+      alias term legislative_period
 
       def on_behalf_of
         popolo.organizations.find_by(id: on_behalf_of_id)
