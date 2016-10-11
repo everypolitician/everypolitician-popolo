@@ -65,7 +65,7 @@ module Everypolitician
       end
 
       def self.find_class(classification)
-        subclasses.select { |s| s.classification == classification }.first || default_class
+        subclasses.find { |s| s.classification == classification } || default_class
       end
     end
   end
