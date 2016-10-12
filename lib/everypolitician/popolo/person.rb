@@ -83,6 +83,10 @@ module Everypolitician
         document.fetch(:given_name, nil)
       end
 
+      def patronymic_name
+        document.fetch(:patronymic_name, nil)
+      end
+
       def identifiers
         document.fetch(:identifiers, [])
       end

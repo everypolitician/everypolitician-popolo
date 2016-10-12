@@ -1,12 +1,20 @@
 require 'test_helper'
 
 class PersonTest < Minitest::Test
-  def fixture
+  def estonia_fixture
     'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
+  def pakistan_fixture
+    'test/fixtures/pakistan-ep-popolo-v1.0.json'
+  end
+
   def people
-    @ppl ||= Everypolitician::Popolo.read(fixture).persons
+    @ppl ||= Everypolitician::Popolo.read(estonia_fixture).persons
+  end
+
+  def pakistan_people
+    @pakistan_ppl ||= Everypolitician::Popolo.read(pakistan_fixture).persons
   end
 
   def aadu
@@ -23,6 +31,10 @@ class PersonTest < Minitest::Test
 
   def etti
     people.find_by(name: 'Etti Kagarov')
+  end
+
+  def aaisha
+    pakistan_people.find_by(name: 'Aaisha Gulalai')
   end
 
   def test_people_class
@@ -110,6 +122,11 @@ class PersonTest < Minitest::Test
 
   def test_given_name
     assert_equal 'Eiki', eiki.given_name
+  end
+
+  def test_patronynic_name
+    assert_equal nil, eiki.patronymic_name
+    assert_equal 'd/o Shams-ul-Qayum Wazir', aaisha.patronymic_name
   end
 
   def test_email
