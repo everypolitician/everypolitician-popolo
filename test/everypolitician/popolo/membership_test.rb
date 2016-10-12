@@ -85,6 +85,12 @@ class MembershipTest < Minitest::Test
     assert_equal "women's_representative", nyeri.post_id
   end
 
+  def test_membership_post
+    assert_equal nil, memberships.first.post
+    assert_instance_of Everypolitician::Popolo::Post, nyeri.post
+    assert_equal "Women's Representative", nyeri.post.label
+  end
+
   def test_membership_legislative_period
     assert_equal '13th Riigikogu', memberships.first.legislative_period.name
     assert_equal '13th Riigikogu', memberships.first.term.name
