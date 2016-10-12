@@ -21,6 +21,10 @@ module Everypolitician
         document.fetch(:legislative_period_id, nil)
       end
 
+      def post_id
+        document.fetch(:post_id, nil)
+      end
+
       def role
         document.fetch(:role, nil)
       end
