@@ -9,12 +9,20 @@ class PersonTest < Minitest::Test
     'test/fixtures/pakistan-ep-popolo-v1.0.json'
   end
 
+  def burundi_fixture
+    'test/fixtures/burundi-ep-popolo-v1.0.json'
+  end
+
   def people
     @ppl ||= Everypolitician::Popolo.read(estonia_fixture).persons
   end
 
   def pakistan_people
     @pakistan_ppl ||= Everypolitician::Popolo.read(pakistan_fixture).persons
+  end
+
+  def burundi_people
+    @burundi_ppl ||= Everypolitician::Popolo.read(burundi_fixture).persons
   end
 
   def aadu
@@ -35,6 +43,10 @@ class PersonTest < Minitest::Test
 
   def aaisha
     pakistan_people.find_by(name: 'Aaisha Gulalai')
+  end
+
+  def ahishakiye
+    burundi_people.find_by(name: 'AHISHAKIYE Gloriose')
   end
 
   def test_people_class
@@ -141,6 +153,11 @@ class PersonTest < Minitest::Test
   def test_gender
     assert_equal 'male', taavi.gender
     assert_equal nil, etti.gender
+  end
+
+  def test_national_identity
+    assert_equal nil, etti.national_identity
+    assert_equal 'HUTU', ahishakiye.national_identity
   end
 
   def test_equality
