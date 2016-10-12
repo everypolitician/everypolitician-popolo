@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PersonTest < Minitest::Test
+class PersonTestBase < Minitest::Test
   def estonia_fixture
     'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
@@ -60,7 +60,9 @@ class PersonTest < Minitest::Test
   def agnes
     zimbabwe_people.find_by(name: 'Agnes Sibanda')
   end
+end
 
+class PersonTestBehaviour < PersonTestBase
   def test_people_class
     assert_instance_of Everypolitician::Popolo::People, people
   end
@@ -69,6 +71,21 @@ class PersonTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Person, people.first
   end
 
+  def test_equality
+    assert_equal taavi, taavi
+    refute_equal taavi, etti
+  end
+
+  def test_persons_subtraction
+    person1 = { id: '123', name: 'Alice' }
+    person2 = { id: '456', name: 'Bob', gender: 'male' }
+    all_people = Everypolitician::Popolo::People.new([person1, person2])
+    just_person_1 = Everypolitician::Popolo::People.new([person1])
+    assert_equal [Everypolitician::Popolo::Person.new(person2)], all_people - just_person_1
+  end
+end
+
+class PersonTestProperties < PersonTestBase
   def test_id_attribute
     assert_equal '6b71eefc-413d-4db6-88f0-d7ff845ebaf1', taavi[:id]
   end
@@ -175,19 +192,6 @@ class PersonTest < Minitest::Test
   def test_summary
     assert_equal nil, etti.summary
     assert_equal 'Bulawayo Province Member of the Senate.', agnes.summary
-  end
-
-  def test_equality
-    assert_equal taavi, taavi
-    refute_equal taavi, etti
-  end
-
-  def test_persons_subtraction
-    person1 = { id: '123', name: 'Alice' }
-    person2 = { id: '456', name: 'Bob', gender: 'male' }
-    all_people = Everypolitician::Popolo::People.new([person1, person2])
-    just_person_1 = Everypolitician::Popolo::People.new([person1])
-    assert_equal [Everypolitician::Popolo::Person.new(person2)], all_people - just_person_1
   end
 
   def test_honorific_prefix
