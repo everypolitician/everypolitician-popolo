@@ -34,6 +34,12 @@ module Everypolitician
       def seats
         document.fetch(:seats, nil)
       end
+
+      def srgb
+        document.fetch(:srgb, nil)
+      end
+      alias main_colour srgb
+      alias main_color srgb
     end
 
     class Organizations < Collection

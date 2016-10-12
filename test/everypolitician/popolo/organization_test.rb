@@ -5,8 +5,16 @@ class OrganizationTest < Minitest::Test
     'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
+  def ireland_fixture
+    'test/fixtures/ireland-ep-popolo-v1.0.json'
+  end
+
   def orgs
     @orgs ||= Everypolitician::Popolo.read(fixture).organizations
+  end
+
+  def ireland_orgs
+    @ireland_orgs ||= Everypolitician::Popolo.read(ireland_fixture).organizations
   end
 
   def irl
@@ -23,6 +31,10 @@ class OrganizationTest < Minitest::Test
 
   def riigikogu
     orgs.find_by(id: '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c')
+  end
+
+  def sinn_fein
+    ireland_orgs.find_by(id: 'SF')
   end
 
   def test_organizations_type
@@ -69,6 +81,16 @@ class OrganizationTest < Minitest::Test
   def test_seats
     assert_equal nil, irl.seats
     assert_equal 101, riigikogu.seats
+  end
+
+  def test_srgb
+    assert_equal nil, irl.srgb
+    assert_equal '008800', sinn_fein.srgb
+  end
+
+  def test_main_colour
+    assert_equal nil, irl.main_colour
+    assert_equal '008800', sinn_fein.main_colour
   end
 
   def test_equality
