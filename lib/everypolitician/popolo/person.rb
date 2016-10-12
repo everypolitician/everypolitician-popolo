@@ -23,6 +23,10 @@ module Everypolitician
         document.fetch(:national_identity, nil)
       end
 
+      def summary
+        document.fetch(:summary, nil)
+      end
+
       def birth_date
         document.fetch(:birth_date, nil)
       end

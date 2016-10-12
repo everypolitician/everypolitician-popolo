@@ -1,0 +1,2470 @@
+{
+  "posts": [
+
+  ],
+  "persons": [
+    {
+      "gender": "female",
+      "id": "bc8a1be7-b0f5-4a8a-a3b2-f89b09f77bfd",
+      "identifiers": [
+        {
+          "identifier": "315",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Address Matiirira",
+      "sort_name": "Matiirira, Address",
+      "summary": "Mashonaland East Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "e12ed27b-84bf-4b57-a21f-d19c9c1716b2",
+      "identifiers": [
+        {
+          "identifier": "280",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Agnes Sibanda",
+      "sort_name": "Sibanda, Agnes",
+      "summary": "Bulawayo Province Member of the Senate."
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0773 690 122"
+        }
+      ],
+      "gender": "female",
+      "id": "585613d3-5c9a-492d-994b-3acba8828fd7",
+      "identifiers": [
+        {
+          "identifier": "291",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/97aac835489da277e8dd12c494d3dea5_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/97aac835489da277e8dd12c494d3dea5_XL.jpg"
+        }
+      ],
+      "name": "Alice Chimbudzi",
+      "sort_name": "Chimbudzi, Alice",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-alice-chimbudzi"
+        }
+      ],
+      "summary": "Mashonaland Central Province Member of Senate"
+    },
+    {
+      "gender": "female",
+      "id": "088e1e76-2539-4495-8a63-aa45c9de5c4e",
+      "identifiers": [
+        {
+          "identifier": "310",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Alma Mkhwebu",
+      "sort_name": "Mkhwebu, Alma",
+      "summary": "Matebeleland South Province Member of Senate."
+    },
+    {
+      "gender": "female",
+      "id": "93c58a43-9f12-4755-b309-cc0d69c8aea2",
+      "identifiers": [
+        {
+          "identifier": "305",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/71ac5b80685e4596720322591f3b2a98_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/71ac5b80685e4596720322591f3b2a98_XL.jpg"
+        }
+      ],
+      "name": "Alphina Juba",
+      "sort_name": "Juba, Alphina",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-alphina-juba"
+        }
+      ],
+      "summary": "Matebeleland North Province Member of Senate"
+    },
+    {
+      "gender": "female",
+      "id": "a3c33d8e-ee77-4088-a189-0c99b69cf8cb",
+      "identifiers": [
+        {
+          "identifier": "316",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/masuku-angeline-_1.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/masuku-angeline-_1.jpg"
+        },
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/ff3a9cd8c9cb4ea5f84f60d5e056cc7c_XL.jpg"
+        }
+      ],
+      "name": "Angelina Masuku",
+      "other_names": [
+        {
+          "name": "Angelinah Masuku",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Masuku, Angelina",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-angelinah-masuku"
+        }
+      ],
+      "summary": "Senator for Bulawayo Province & Matebeleland South Governor"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "email",
+          "value": "cainmathema@yahoo.com"
+        }
+      ],
+      "email": "cainmathema@yahoo.com",
+      "gender": "male",
+      "id": "4c38c3ae-cabf-4dbe-a307-67898d664a46",
+      "identifiers": [
+        {
+          "identifier": "317",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Cain-Matema-250_1.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Cain-Matema-250_1.jpg"
+        },
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/587746ff6320613e33bbe5dba0deac7f_XL.jpg"
+        }
+      ],
+      "name": "Cain G. Mathema",
+      "other_names": [
+        {
+          "name": "Cain Mathema",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Mathema, Cain G.",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-cain-mathema"
+        }
+      ],
+      "summary": "Senator and Minister of State for Matebeleland North Province"
+    },
+    {
+      "gender": "male",
+      "id": "dd007b82-8129-40d7-b274-158a37c52700",
+      "identifiers": [
+        {
+          "identifier": "318",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Charles Tawengwa",
+      "sort_name": "Tawengwa, Charles",
+      "summary": "Harare Province Member of the Senate"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "email",
+          "value": "chenchim@gmail.com"
+        }
+      ],
+      "email": "chenchim@gmail.com",
+      "gender": "male",
+      "id": "50c06ed1-1c34-41ef-bf87-cdb7fad00230",
+      "identifiers": [
+        {
+          "identifier": "319",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Chen-Chimutengwende.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Chen-Chimutengwende.jpg"
+        },
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/675d28c04794e3c683f4419536c4c15f_XL.jpg"
+        }
+      ],
+      "name": "Chenhamo C. C. Chimutengwede",
+      "other_names": [
+        {
+          "name": "Chen Chenhamo Chakezha Chimutengwende",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Chimutengwede, Chenhamo C. C.",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/hon-chen-chenhamo-chakezha-chimutengwende"
+        }
+      ],
+      "summary": "Mashonaland Central Province Member of the Senate"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0712872799/0775414422/07155 2495-4"
+        }
+      ],
+      "gender": "male",
+      "id": "12b52991-e46d-4ec4-a598-497458ec6682",
+      "identifiers": [
+        {
+          "identifier": "321",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/247b6f95024acacb9e1c80decc27ce13_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/247b6f95024acacb9e1c80decc27ce13_XL.jpg"
+        }
+      ],
+      "name": "Damian D. E. Mumvuri",
+      "other_names": [
+        {
+          "name": "Damian Diamonds Elias Mumvuri",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Mumvuri, Damian D. E.",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-damian-diamonds-elias-mumvuri"
+        }
+      ],
+      "summary": "Mashonaland Central Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "57801f32-edf1-49c5-b9b5-4faf419849f8",
+      "identifiers": [
+        {
+          "identifier": "322",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/b02aa2a324e02550b2c16c7a3489589f_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/b02aa2a324e02550b2c16c7a3489589f_XL.jpg"
+        }
+      ],
+      "name": "Dorothy Tholakele Khumalo",
+      "sort_name": "Khumalo, Dorothy Tholakele",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-dorothy-tholakele-khumalo"
+        }
+      ],
+      "summary": "Bulawayo Province Member of the Senate"
+    },
+    {
+      "gender": "male",
+      "id": "d285dbf1-4177-44ea-abfb-ea04be3bdf0e",
+      "identifiers": [
+        {
+          "identifier": "323",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/MAVHAIRE-DZIKAMAI.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/MAVHAIRE-DZIKAMAI.jpg"
+        }
+      ],
+      "name": "Dzikamai Calisto Mavhaire",
+      "sort_name": "Mavhaire, Dzikamai Calisto",
+      "summary": "Masvigo Province Member of the Senate and Minister of Energy and Power Development"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "email",
+          "value": "edna@palzim.gov.zw"
+        }
+      ],
+      "email": "edna@palzim.gov.zw",
+      "gender": "female",
+      "id": "141ed0d7-8a5f-415e-9dcd-04425d5a918f",
+      "identifiers": [
+        {
+          "identifier": "324",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Edina_madzongwe.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Edina_madzongwe.jpg"
+        },
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/aaa036e4cb16038f90e128d8e39c714f_XL.jpg"
+        }
+      ],
+      "name": "Edna Madzongwe",
+      "sort_name": "Madzongwe, Edna",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/hon-edna-madzongwe"
+        }
+      ],
+      "summary": "Senator for Mashonaland West Province and Senate President"
+    },
+    {
+      "gender": "female",
+      "id": "ddb83339-e5fb-4cbe-ba4a-0414493849e6",
+      "identifiers": [
+        {
+          "identifier": "325",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Farirai Ethel Mabhungu",
+      "sort_name": "Mabhungu, Farirai Ethel",
+      "summary": "Masvingo Province Member of the Senate"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0712325371"
+        },
+        {
+          "type": "email",
+          "value": "florabuka@yahoo.com"
+        }
+      ],
+      "email": "florabuka@yahoo.com",
+      "gender": "female",
+      "id": "338ff3bf-ff63-4e5d-a405-496fac227f49",
+      "identifiers": [
+        {
+          "identifier": "220",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Hon_Flora_Buka.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Hon_Flora_Buka.jpg"
+        },
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/a3f555faced8925f4deb25af19d6abff_XL.jpg"
+        }
+      ],
+      "name": "Flora Buka",
+      "sort_name": "Buka, Flora",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-flora-buka"
+        }
+      ],
+      "summary": "Midlands Province Member of the Senate and Minister of State for Presidential Affairs"
+    },
+    {
+      "gender": "female",
+      "id": "7d36228c-b876-4d13-97f6-f0b1515e8220",
+      "identifiers": [
+        {
+          "identifier": "326",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/1a012eeaeb122a02203dc2dc6959bb93_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/1a012eeaeb122a02203dc2dc6959bb93_XL.jpg"
+        }
+      ],
+      "name": "Grace Tsitsi Jadagu",
+      "sort_name": "Jadagu, Grace Tsitsi",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-grace-tsitsi-jadagu"
+        }
+      ],
+      "summary": "Harare Province Member of the Senate"
+    },
+    {
+      "gender": "male",
+      "id": "0e698a8d-ab80-47cc-a4f8-ffc1caf19aaa",
+      "identifiers": [
+        {
+          "identifier": "327",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Herbert M. Sinampande",
+      "sort_name": "Sinampande, Herbert M.",
+      "summary": "Matebeleland North Province Member of the Senate"
+    },
+    {
+      "gender": "male",
+      "id": "a2c2a1d8-c838-4597-8bff-3cbb4f6e493a",
+      "identifiers": [
+        {
+          "identifier": "328",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Hon-Machaya-Jaison-Max-Kokerai-1.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Hon-Machaya-Jaison-Max-Kokerai-1.jpg"
+        }
+      ],
+      "name": "Jaison Max Korerai Machaya",
+      "sort_name": "Machaya, Jaison Max Korerai",
+      "summary": "Midlands Province Member of the Senate"
+    },
+    {
+      "gender": "male",
+      "id": "15907131-c323-4879-a299-47eca817c6f7",
+      "identifiers": [
+        {
+          "identifier": "329",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "James Makore",
+      "sort_name": "Makore, James",
+      "summary": "Harare Province Member of the Senate."
+    },
+    {
+      "contact_details": [
+        {
+          "type": "email",
+          "value": "janechifamba@operamail.com"
+        }
+      ],
+      "email": "janechifamba@operamail.com",
+      "gender": "female",
+      "id": "068e9451-6c1d-4add-bd66-1b0d78817ae6",
+      "identifiers": [
+        {
+          "identifier": "298",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/cc49f8fe58339a73a36a496e4b8c3389_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/cc49f8fe58339a73a36a496e4b8c3389_XL.jpg"
+        }
+      ],
+      "name": "Jane Chifamba",
+      "sort_name": "Chifamba, Jane",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-jane-chifamba"
+        }
+      ],
+      "summary": "Mashonaland East Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "a46dddee-1bce-40e2-af44-a1c77e99b395",
+      "identifiers": [
+        {
+          "identifier": "292",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Jenia Manyeruke",
+      "sort_name": "Manyeruke, Jenia"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0773 897 341"
+        }
+      ],
+      "gender": "male",
+      "id": "293ae5d1-e260-4c39-8cf0-9b2594f23fbf",
+      "identifiers": [
+        {
+          "identifier": "330",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Josiah_Hungwe_1.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Josiah_Hungwe_1.jpg"
+        },
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/1162815ad9bf895f2061c0defe3b0cae_XL.jpg"
+        }
+      ],
+      "name": "Josiah D. Hungwe",
+      "other_names": [
+        {
+          "name": "Josaya Hungwe",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Hungwe, Josiah D.",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-josaya-hungwe"
+        }
+      ],
+      "summary": "Senator and Minister of State for Liaising on Psychomotor Activities in Education Vocational Training"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0772 603 639"
+        },
+        {
+          "type": "email",
+          "value": "joycedhodha@gmail.com"
+        }
+      ],
+      "email": "joycedhodha@gmail.com",
+      "gender": "female",
+      "id": "43fd344d-20d5-4fa2-a1a7-67c9a0016c37",
+      "identifiers": [
+        {
+          "identifier": "312",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/792d891071ec9b83dd6c57c327a3baa5_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/792d891071ec9b83dd6c57c327a3baa5_XL.jpg"
+        }
+      ],
+      "name": "Joyce Ndhlovu",
+      "other_names": [
+        {
+          "name": "Joyce Ndlovu",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Ndhlovu, Joyce",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-joyce-ndlovu"
+        }
+      ],
+      "summary": "Matebeleland South Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "598b8321-a392-47ce-a3cc-4b1c30a351dc",
+      "identifiers": [
+        {
+          "identifier": "289",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Judith Mawire",
+      "sort_name": "Mawire, Judith",
+      "summary": "Manicaland Province Member of the Senate."
+    },
+    {
+      "id": "6094a6ab-5b09-4b9d-b4e9-6cb56c697a77",
+      "identifiers": [
+        {
+          "identifier": "331",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Keresina Chabuka",
+      "sort_name": "Chabuka, Keresina"
+    },
+    {
+      "gender": "male",
+      "id": "fb88eb6e-1ad9-4cf3-8d4c-31c69f65a73a",
+      "identifiers": [
+        {
+          "identifier": "332",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Kumbirai Kangai",
+      "sort_name": "Kangai, Kumbirai",
+      "summary": "Manicaland Province Member of the Senate."
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0779701082"
+        },
+        {
+          "type": "email",
+          "value": "lilimikoro@gmail.com"
+        }
+      ],
+      "email": "lilimikoro@gmail.com",
+      "gender": "female",
+      "id": "28a9d5c7-42f8-4492-ad2a-45e8ace060d4",
+      "identifiers": [
+        {
+          "identifier": "333",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/31776f6e6bf414b76f4b8377969aab66_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/31776f6e6bf414b76f4b8377969aab66_XL.jpg"
+        }
+      ],
+      "name": "Lilian Timveos",
+      "sort_name": "Timveos, Lilian",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-lilian-timveos"
+        }
+      ],
+      "summary": "Mdlands Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "c12dbe18-fd88-4c6a-9a8a-16f1494250f7",
+      "identifiers": [
+        {
+          "identifier": "232",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Lwazi Sibanda",
+      "sort_name": "Sibanda, Lwazi",
+      "summary": "Matebeleland North Province Member of the Senate."
+    },
+    {
+      "gender": "male",
+      "id": "5c13ea67-c7fb-47bb-bbb5-d5b91080d9bb",
+      "identifiers": [
+        {
+          "identifier": "334",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Mail Nkomo",
+      "sort_name": "Nkomo, Mail",
+      "summary": "Matebeleland North Member of the Senate"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0773012239"
+        }
+      ],
+      "gender": "female",
+      "id": "21baa68a-7e9a-42b2-851b-4c4fddd50532",
+      "identifiers": [
+        {
+          "identifier": "294",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/17c2b3ce4732475c7746c079f65d091b_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/17c2b3ce4732475c7746c079f65d091b_XL.jpg"
+        }
+      ],
+      "name": "Martha Muronzi",
+      "sort_name": "Muronzi, Martha",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-martha-muronzi"
+        }
+      ],
+      "summary": "Mashonaland Central Province Member of the Senate."
+    },
+    {
+      "gender": "male",
+      "id": "4cc5f143-8995-4b70-8eb7-8c4b5e5e29a0",
+      "identifiers": [
+        {
+          "identifier": "335",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Matson M. Hlalo",
+      "sort_name": "Hlalo, Matson M.",
+      "summary": "Bulawayo Province Member of the Senate."
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0773 348 230/ 0712 352 772"
+        }
+      ],
+      "gender": "female",
+      "id": "31fcda44-a079-45e7-ad88-0b319f7bd874",
+      "identifiers": [
+        {
+          "identifier": "308",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/a121e39f639f5564abd14d939cc78407_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/a121e39f639f5564abd14d939cc78407_XL.jpg"
+        }
+      ],
+      "name": "Medelina Bhebhe",
+      "other_names": [
+        {
+          "name": "Medelina Bhebe",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Bhebhe, Medelina",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-medelina-bhebe"
+        }
+      ],
+      "summary": "Mashonaland North Member of the Senate"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0772 424 573"
+        },
+        {
+          "type": "email",
+          "value": "carter@201.co.zw"
+        }
+      ],
+      "email": "carter@201.co.zw",
+      "gender": "male",
+      "id": "8d143647-ddd3-4f12-bf53-f7ac16929bcc",
+      "identifiers": [
+        {
+          "identifier": "336",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/fc5dee0557d5c28746f896256ed98905_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/fc5dee0557d5c28746f896256ed98905_XL.jpg"
+        }
+      ],
+      "name": "Michael Norman Carter",
+      "other_names": [
+        {
+          "name": "Micheal Carter",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Carter, Michael Norman",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-micheal-carter"
+        }
+      ],
+      "summary": "Bulawayo Province Member of the Senate."
+    },
+    {
+      "gender": "male",
+      "id": "66c56c4a-0490-4667-bf6c-43de064ec1f2",
+      "identifiers": [
+        {
+          "identifier": "337",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Michael R. Nyambuya",
+      "sort_name": "Nyambuya, Michael R.",
+      "summary": "Manicaland Province Member of the Senate."
+    },
+    {
+      "gender": "male",
+      "id": "59f7274b-262a-4ab9-98de-924d1319f72b",
+      "identifiers": [
+        {
+          "identifier": "338",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Mike M. Byton",
+      "sort_name": "Byton, Mike M.",
+      "summary": "Mashonaland West Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "64f4a4a3-7310-48ab-a001-590526fa08f1",
+      "identifiers": [
+        {
+          "identifier": "222",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Miriam-Chikukwa-300x225.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Miriam-Chikukwa-300x225.jpg"
+        }
+      ],
+      "name": "Miriam Chikukwa",
+      "sort_name": "Chikukwa, Miriam",
+      "summary": "Harare Province Member of the Senate and Minister of State for Provincial Affairs for Harare Province."
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0772930088"
+        },
+        {
+          "type": "email",
+          "value": "maravamisheck@gmail.com"
+        }
+      ],
+      "email": "maravamisheck@gmail.com",
+      "gender": "male",
+      "id": "5cf83ebd-ef11-4f2b-a95a-743e57f2eaa3",
+      "identifiers": [
+        {
+          "identifier": "339",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/bd453c22415554e4edc70886420e179c_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/bd453c22415554e4edc70886420e179c_XL.jpg"
+        }
+      ],
+      "name": "Misheck Marava",
+      "sort_name": "Marava, Misheck",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-misheck-marava"
+        }
+      ],
+      "summary": "Masvingo Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "8e912cf7-1ddb-4734-a9dc-97d3842c34d3",
+      "identifiers": [
+        {
+          "identifier": "340",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Mlotshwa Sithembile",
+      "sort_name": "Sithembile, Mlotshwa",
+      "summary": "Matebeleland South member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "b6177278-ccbf-4a38-b316-34beadb21952",
+      "identifiers": [
+        {
+          "identifier": "231",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Molly Mkandla",
+      "sort_name": "Mkandla, Molly",
+      "summary": "Matebeleland North Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "ff357188-ea43-49e3-9fdb-8482b7d3f908",
+      "identifiers": [
+        {
+          "identifier": "288",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Hon_Monica_Mutsvangwa.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Hon_Monica_Mutsvangwa.jpg"
+        }
+      ],
+      "name": "Monica Mutsvangwa",
+      "sort_name": "Mutsvangwa, Monica",
+      "summary": "Manicaland Province Member of the Senate. Chairperson of the Zimbabwe Women's Parliamentary Caucus."
+    },
+    {
+      "gender": "female",
+      "id": "23b9e11a-e42f-4cfc-9d7e-1c4cd1574187",
+      "identifiers": [
+        {
+          "identifier": "341",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Monicah Mavhunga",
+      "sort_name": "Mavhunga, Monicah",
+      "summary": "Mashonaland Central Province Member of the Senate."
+    },
+    {
+      "gender": "male",
+      "id": "fbea5e10-fe85-49a6-a826-86c5fe699d58",
+      "identifiers": [
+        {
+          "identifier": "342",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/MorganKomichi.JPG",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/MorganKomichi.JPG"
+        }
+      ],
+      "name": "Morgen Komichi",
+      "sort_name": "Komichi, Morgen",
+      "summary": "Midlands Province Member of the National Assembly."
+    },
+    {
+      "gender": "female",
+      "id": "830fe605-9eb7-4949-9b29-f7856d0203d2",
+      "identifiers": [
+        {
+          "identifier": "343",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Muhlava Otilia Maluleke",
+      "sort_name": "Maluleke, Muhlava Otilia",
+      "summary": "Masvingo Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "fb92bda9-8d7f-4b39-882b-5ed7635ede0e",
+      "identifiers": [
+        {
+          "identifier": "344",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Olivia_Muchena_1.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Olivia_Muchena_1.jpg"
+        }
+      ],
+      "name": "Olivia N. Muchena",
+      "sort_name": "Muchena, Olivia N.",
+      "summary": "Mashonaland East Province Member of the Senate and Minister of Higher and Tertiary Education, Science and Technology Development"
+    },
+    {
+      "gender": "male",
+      "id": "3eca436f-6e04-4ec3-91cb-89d1e8324f74",
+      "identifiers": [
+        {
+          "identifier": "345",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/David-Parirenyatwa_1.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/David-Parirenyatwa_1.jpg"
+        }
+      ],
+      "name": "Pagwese David Parirenyatwa",
+      "sort_name": "Parirenyatwa, Pagwese David",
+      "summary": "Mashonaland East Province Member of the Senate and Minister of Health and Child Care."
+    },
+    {
+      "gender": "male",
+      "id": "51b6aefe-4b3f-4065-a8c1-cc7f90bae4c0",
+      "identifiers": [
+        {
+          "identifier": "346",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Patrick Chitaka",
+      "sort_name": "Chitaka, Patrick",
+      "summary": "Manicaland Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "265d92f6-9944-4e05-bc78-577e7551450c",
+      "identifiers": [
+        {
+          "identifier": "347",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Prisca Mupfumira",
+      "sort_name": "Mupfumira, Prisca",
+      "summary": "Mashonaland West Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "ae321f04-24da-4903-ba13-9c9f71ad67c9",
+      "identifiers": [
+        {
+          "identifier": "287",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Hon_Rorana_Muchihwa.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Hon_Rorana_Muchihwa.jpg"
+        }
+      ],
+      "name": "Rorana Muchihwa",
+      "sort_name": "Muchihwa, Rorana",
+      "summary": "Harare Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "1fedea19-dd14-4e27-8ace-da5f2a808cbd",
+      "identifiers": [
+        {
+          "identifier": "296",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Rosemary Goto",
+      "sort_name": "Goto, Rosemary",
+      "summary": "Mashonaland East Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "d6f50110-074f-4087-98c4-e8d89047a2e5",
+      "identifiers": [
+        {
+          "identifier": "306",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/aee1a5aa76ef36d981450ff04a00740a_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/aee1a5aa76ef36d981450ff04a00740a_XL.jpg"
+        }
+      ],
+      "name": "Rosemary Nyathi",
+      "sort_name": "Nyathi, Rosemary",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-rosemary-nyathi"
+        }
+      ],
+      "summary": "Mashonaland North Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "a85beb62-a427-4778-bb75-45a6b40fae54",
+      "identifiers": [
+        {
+          "identifier": "348",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Ruth Mafoko Labode",
+      "sort_name": "Labode, Ruth Mafoko",
+      "summary": "Matebeleland North Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "4621c4fc-975d-457c-8557-c4215381e9a6",
+      "identifiers": [
+        {
+          "identifier": "349",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/sekaiholland.png",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/sekaiholland.png"
+        }
+      ],
+      "name": "Sekai Masikana Holland",
+      "sort_name": "Holland, Sekai Masikana",
+      "summary": "Harare Province Member of the Senate & Former Co- Minister of State for National Healing, Reconciliation and Integration (2009-2013)"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "0773 274 149"
+        },
+        {
+          "type": "email",
+          "value": "shuvaibenmahofa@gmail.com"
+        }
+      ],
+      "email": "shuvaibenmahofa@gmail.com",
+      "gender": "female",
+      "id": "7f09a9fb-bd90-450d-9c84-0de512747af8",
+      "identifiers": [
+        {
+          "identifier": "350",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Shuvai_mahofa.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Shuvai_mahofa.jpg"
+        },
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/8952442977db6da9e768909045378306_XL.jpg"
+        }
+      ],
+      "name": "Shuvai Ben Mahofa",
+      "other_names": [
+        {
+          "name": "Shuvai Mahofa",
+          "note": "alternate"
+        }
+      ],
+      "sort_name": "Mahofa, Shuvai Ben",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-shuvai-mahofa"
+        }
+      ],
+      "summary": "Masvingo Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "9991f901-44d3-49ec-ad6d-0c3522252925",
+      "identifiers": [
+        {
+          "identifier": "351",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Sibusisiwe Budha",
+      "sort_name": "Budha, Sibusisiwe",
+      "summary": "Matebeleland North province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "4a32aee7-2edc-482d-971b-2b3ef498dbd1",
+      "identifiers": [
+        {
+          "identifier": "229",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Sikhanyisiwe Mpofu",
+      "sort_name": "Mpofu, Sikhanyisiwe",
+      "summary": "Matebeleland North Province Member of the Senate"
+    },
+    {
+      "gender": "male",
+      "id": "28149819-ab79-431d-8731-1096eafd4359",
+      "identifiers": [
+        {
+          "identifier": "353",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Simon-Khaya-Moyo1.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Simon-Khaya-Moyo1.jpg"
+        }
+      ],
+      "name": "Simon K. Moyo",
+      "sort_name": "Moyo, Simon K.",
+      "summary": "Matebeleland South Province Member of the Senate, ZANU PF National Chairperson and Senior Minister of State."
+    },
+    {
+      "gender": "female",
+      "id": "de9bcd51-3713-44d1-a897-2b9781a0a3f6",
+      "identifiers": [
+        {
+          "identifier": "281",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Siphiwe Ncube",
+      "sort_name": "Ncube, Siphiwe",
+      "summary": "Bulawayo Province Member of the Senate"
+    },
+    {
+      "contact_details": [
+        {
+          "type": "cell",
+          "value": "/ 0773 103 483"
+        },
+        {
+          "type": "email",
+          "value": "larosasthe@yahoo.com"
+        }
+      ],
+      "email": "larosasthe@yahoo.com",
+      "gender": "female",
+      "id": "2444e830-fe08-436f-88d0-0443504c04e0",
+      "identifiers": [
+        {
+          "identifier": "311",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/f5564d3515aba744065b44b196ea6e3a_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/f5564d3515aba744065b44b196ea6e3a_XL.jpg"
+        }
+      ],
+      "name": "Sithembile Mlotshwa",
+      "sort_name": "Mlotshwa, Sithembile",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-sithembile-mlotshwa"
+        }
+      ],
+      "summary": "Mashonaland South Province Member of the Senate"
+    },
+    {
+      "gender": "male",
+      "id": "f3a967d0-38ff-47f2-a8a6-5cf762e8028e",
+      "identifiers": [
+        {
+          "identifier": "354",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Sekeramai.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Sekeramai.jpg"
+        }
+      ],
+      "name": "Sydney T. Sekeramayi",
+      "sort_name": "Sekeramayi, Sydney T.",
+      "summary": "Mashonaland East Province Member of the Senate and Minister of Defence"
+    },
+    {
+      "gender": "male",
+      "id": "73332a26-5f7e-42cb-9942-dd20d4d3c648",
+      "identifiers": [
+        {
+          "identifier": "356",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.parlzim.gov.zw/media/k2/items/cache/a12228b73ec867e8092bb529c347c8be_XL.jpg",
+      "images": [
+        {
+          "url": "http://www.parlzim.gov.zw/media/k2/items/cache/a12228b73ec867e8092bb529c347c8be_XL.jpg"
+        }
+      ],
+      "name": "Tapera Machingaifa",
+      "sort_name": "Machingaifa, Tapera",
+      "sources": [
+        {
+          "url": "http://www.parlzim.gov.zw/component/k2/hon-tapera-machingaifa"
+        }
+      ],
+      "summary": "Mashonaland West Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "5e186507-1f8a-45a3-9bf4-ea8605f59e8c",
+      "identifiers": [
+        {
+          "identifier": "235",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/news_bThokozani-Khupe-250.jpeg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/news_bThokozani-Khupe-250.jpeg"
+        }
+      ],
+      "name": "Thokozani Khupe",
+      "sort_name": "Khupe, Thokozani",
+      "summary": "MDC-T Party Vice President & Bulawayo Province Member of the National Assembly. Former Deputy Prime Minister (2009-2013)"
+    },
+    {
+      "gender": "female",
+      "id": "e6faad5b-ac9a-4953-8d03-803a05311593",
+      "identifiers": [
+        {
+          "identifier": "357",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/Mathuthu.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/Mathuthu.jpg"
+        }
+      ],
+      "name": "Thokozile A. Mathuthu",
+      "sort_name": "Mathuthu, Thokozile A.",
+      "summary": "Mashonaland North Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "53e6114d-c481-4d25-a0b1-ac86b62266ef",
+      "identifiers": [
+        {
+          "identifier": "283",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Tholakele Khumalo",
+      "sort_name": "Khumalo, Tholakele",
+      "summary": "Bulawayo Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "a20886c3-d795-4faf-b5be-fed146d6c385",
+      "identifiers": [
+        {
+          "identifier": "358",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "image": "http://www.kuvakazim.com/media_root/images/tsitsi_muzenda.jpg",
+      "images": [
+        {
+          "url": "http://www.kuvakazim.com/media_root/images/tsitsi_muzenda.jpg"
+        }
+      ],
+      "name": "Tsitsi V. Muzenda",
+      "sort_name": "Muzenda, Tsitsi V.",
+      "summary": "Midlands Province Member of the Senate."
+    },
+    {
+      "gender": "female",
+      "id": "0976c7a9-3d3f-429d-b2db-3fd326e4582c",
+      "identifiers": [
+        {
+          "identifier": "301",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Violet Moeketsi",
+      "sort_name": "Moeketsi, Violet",
+      "summary": "Mashonaland West Province Member of the Senate"
+    },
+    {
+      "gender": "female",
+      "id": "21afc347-9470-46bb-a9b0-a55eb15d6dda",
+      "identifiers": [
+        {
+          "identifier": "300",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Virginia Muchenje",
+      "sort_name": "Muchenje, Virginia",
+      "summary": "Mashonaland Province Member of the Senate"
+    },
+    {
+      "gender": "male",
+      "id": "f6837337-54e5-4358-9825-9180dfcf44c7",
+      "identifiers": [
+        {
+          "identifier": "359",
+          "scheme": "kuvakazim"
+        }
+      ],
+      "name": "Watchy Sibanda",
+      "sort_name": "Sibanda, Watchy",
+      "summary": "Matebeleland South Prvince Member of the Senate"
+    }
+  ],
+  "organizations": [
+    {
+      "classification": "party",
+      "id": "party/mdc",
+      "identifiers": [
+        {
+          "identifier": "Q15980776",
+          "scheme": "wikidata"
+        }
+      ],
+      "links": [
+        {
+          "note": "website",
+          "url": "http://www.mdczim.net"
+        }
+      ],
+      "name": "MDC",
+      "other_names": [
+        {
+          "lang": "en",
+          "name": "Movement for Democratic Change – Ncube",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Movimento per il Cambiamento Democratico",
+          "note": "multilingual"
+        }
+      ]
+    },
+    {
+      "classification": "party",
+      "id": "party/mdc-t",
+      "identifiers": [
+        {
+          "identifier": "Q1146616",
+          "scheme": "wikidata"
+        }
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Flag_of_the_Movement_for_Democratic_Change.svg",
+      "links": [
+        {
+          "note": "website",
+          "url": "http://www.mdczimbabwe.org/"
+        }
+      ],
+      "name": "MDC-T",
+      "other_names": [
+        {
+          "lang": "pt",
+          "name": "Movimento para a Mudança Democrática",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh-hans",
+          "name": "争取民主变革运动",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh-hant",
+          "name": "爭取民主變革運動",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh-hk",
+          "name": "爭取民主變革運動",
+          "note": "multilingual"
+        },
+        {
+          "lang": "pl",
+          "name": "Ruch na rzecz Demokratycznej Zmiany",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Mouvement pour le changement démocratique",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sr-el",
+          "name": "Pokret za demokratske promene – Cvangiraj",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sr-ec",
+          "name": "Покрет за демократске промене – Цвангирај",
+          "note": "multilingual"
+        },
+        {
+          "lang": "en",
+          "name": "Movement for Democratic Change – Tsvangirai",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Movimiento por el Cambio Democrático",
+          "note": "multilingual"
+        },
+        {
+          "lang": "af",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sn",
+          "name": "MDC",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Movimento per il Cambiamento Democratico",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "vi",
+          "name": "Phong trào Thay đổi vì Dân chủ",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fa",
+          "name": "جنبش برای تغییر دموکراتیک",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nl",
+          "name": "Beweging voor Democratische Verandering – Tsvangirai",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "Rörelsen för demokratisk förändring",
+          "note": "multilingual"
+        },
+        {
+          "lang": "da",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sr",
+          "name": "Покрет за демократске промене – Цвангирај",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh",
+          "name": "争取民主变革运动",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nb",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ru",
+          "name": "Движение за демократические перемены",
+          "note": "multilingual"
+        },
+        {
+          "lang": "cs",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ko",
+          "name": "민주변화운동 - 창기라이",
+          "note": "multilingual"
+        },
+        {
+          "lang": "uk",
+          "name": "Рух за демократичні зміни",
+          "note": "multilingual"
+        },
+        {
+          "lang": "pt",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Mouvement pour le changement democratique",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sr",
+          "name": "Покрет за демократске прмене – Цвангирај",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Movimiento por el cambio democratico",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Movimiento Democrático de Cambio",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Movimiento Democratico de Cambio",
+          "note": "multilingual"
+        },
+        {
+          "lang": "af",
+          "name": "MDC",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Movement for the Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Bewegung für den Demokratischen Wandel",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Bewegung für Demokratische Veränderung",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Bewegung für Demokratischen Wandel",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nl",
+          "name": "Beweging voor Democratische Verandering - Tsvangirai",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "MDC",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "The Movement for Democratic Change",
+          "note": "multilingual"
+        },
+        {
+          "lang": "da",
+          "name": "Bevægelsen for Demokratisk Forandring",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nb",
+          "name": "MDC",
+          "note": "multilingual"
+        },
+        {
+          "lang": "en",
+          "name": "Movement for Democratic Change",
+          "note": "multilingual"
+        }
+      ]
+    },
+    {
+      "classification": "legislature",
+      "id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "identifiers": [
+        {
+          "identifier": "Q659211",
+          "scheme": "wikidata"
+        }
+      ],
+      "name": "Senate",
+      "seats": 80
+    },
+    {
+      "classification": "party",
+      "id": "party/zanu_pf",
+      "identifiers": [
+        {
+          "identifier": "Q1910161",
+          "scheme": "wikidata"
+        }
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_ZANU-PF.svg",
+      "links": [
+        {
+          "note": "website",
+          "url": "http://www.zanupf.org.zw/"
+        }
+      ],
+      "name": "ZANU PF",
+      "other_names": [
+        {
+          "lang": "nl",
+          "name": "Zimbabwaanse Afrikaanse Nationale Unie – Patriottisch Front",
+          "note": "multilingual"
+        },
+        {
+          "lang": "cs",
+          "name": "Zimbabwská africká národní unie - Vlastenecká fronta",
+          "note": "multilingual"
+        },
+        {
+          "lang": "en",
+          "name": "Zimbabwe African National Union – Patriotic Front",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Unión Nacional Africana de Zimbabue - Frente Patriótico",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fi",
+          "name": "ZANU-PF",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Union nationale africaine du Zimbabwe - Front patriotique",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Unione Nazionale Africana Zimbabwe - Fronte Patriottico",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nn",
+          "name": "ZANU-PF",
+          "note": "multilingual"
+        },
+        {
+          "lang": "pl",
+          "name": "Narodowy Związek Zimbabwe - Front Patriotyczny",
+          "note": "multilingual"
+        },
+        {
+          "lang": "pt",
+          "name": "União Nacional Africana do Zimbábue - Frente Patriótica",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sr",
+          "name": "Афрички национални савез Зимбабвеа – Патриотски фронт",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "Zanu-PF",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ja",
+          "name": "ジンバブエ・アフリカ民族同盟愛国戦線",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ru",
+          "name": "Зимбабвийский африканский национальный союз — Патриотический фронт",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nb",
+          "name": "Zimbabwe African National Union – Patriotic Front",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh",
+          "name": "辛巴威非洲民族聯盟—愛國陣線",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sn",
+          "name": "Zanu-PF",
+          "note": "multilingual"
+        },
+        {
+          "lang": "eo",
+          "name": "ZANU-PF",
+          "note": "multilingual"
+        },
+        {
+          "lang": "hy",
+          "name": "Զիմբաբվեական աֆրիկային ազգային միություն - հայրենասիրական ռազմաճակատ",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ko",
+          "name": "짐바브웨 아프리카 민족 연맹 - 애국 전선",
+          "note": "multilingual"
+        },
+        {
+          "lang": "el",
+          "name": "Αφρικανική Εθνική Ένωση της Ζιμπάμπουε - Πατριωτικό Μέτωπο",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ja",
+          "name": "ジンバブエ・アフリカ民族同盟",
+          "note": "multilingual"
+        },
+        {
+          "lang": "en",
+          "name": "ZANU-PF",
+          "note": "multilingual"
+        },
+        {
+          "lang": "el",
+          "name": "ZANU-PF",
+          "note": "multilingual"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "sources": [
+      "http://kuvakazim.com/"
+    ]
+  },
+  "memberships": [
+    {
+      "area_id": "area/mashonaland_east",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "068e9451-6c1d-4add-bd66-1b0d78817ae6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_south",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "088e1e76-2539-4495-8a63-aa45c9de5c4e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_south",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "088e1e76-2539-4495-8a63-aa45c9de5c4e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_west",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "0976c7a9-3d3f-429d-b2db-3fd326e4582c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "0e698a8d-ab80-47cc-a4f8-ffc1caf19aaa",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_central",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "12b52991-e46d-4ec4-a598-497458ec6682",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_west",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "141ed0d7-8a5f-415e-9dcd-04425d5a918f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/harare",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "15907131-c323-4879-a299-47eca817c6f7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_east",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "1fedea19-dd14-4e27-8ace-da5f2a808cbd",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_west",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "21afc347-9470-46bb-a9b0-a55eb15d6dda",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_central",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "21baa68a-7e9a-42b2-851b-4c4fddd50532",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_central",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "23b9e11a-e42f-4cfc-9d7e-1c4cd1574187",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_south",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "2444e830-fe08-436f-88d0-0443504c04e0",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_west",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "265d92f6-9944-4e05-bc78-577e7551450c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_south",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "28149819-ab79-431d-8731-1096eafd4359",
+      "role": "member"
+    },
+    {
+      "area_id": "area/midlands",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "28a9d5c7-42f8-4492-ad2a-45e8ace060d4",
+      "role": "member"
+    },
+    {
+      "area_id": "area/masvingo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "293ae5d1-e260-4c39-8cf0-9b2594f23fbf",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "31fcda44-a079-45e7-ad88-0b319f7bd874",
+      "role": "member"
+    },
+    {
+      "area_id": "area/midlands",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "338ff3bf-ff63-4e5d-a405-496fac227f49",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_east",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "3eca436f-6e04-4ec3-91cb-89d1e8324f74",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_south",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "43fd344d-20d5-4fa2-a1a7-67c9a0016c37",
+      "role": "member"
+    },
+    {
+      "area_id": "area/harare",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "4621c4fc-975d-457c-8557-c4215381e9a6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "4a32aee7-2edc-482d-971b-2b3ef498dbd1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "4c38c3ae-cabf-4dbe-a307-67898d664a46",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bulawayo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "4cc5f143-8995-4b70-8eb7-8c4b5e5e29a0",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_central",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "50c06ed1-1c34-41ef-bf87-cdb7fad00230",
+      "role": "member"
+    },
+    {
+      "area_id": "area/manicaland",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "51b6aefe-4b3f-4065-a8c1-cc7f90bae4c0",
+      "role": "member"
+    },
+    {
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "53e6114d-c481-4d25-a0b1-ac86b62266ef",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bulawayo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "57801f32-edf1-49c5-b9b5-4faf419849f8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_central",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "585613d3-5c9a-492d-994b-3acba8828fd7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/manicaland",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "598b8321-a392-47ce-a3cc-4b1c30a351dc",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_west",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "59f7274b-262a-4ab9-98de-924d1319f72b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "5c13ea67-c7fb-47bb-bbb5-d5b91080d9bb",
+      "role": "member"
+    },
+    {
+      "area_id": "area/masvingo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "5cf83ebd-ef11-4f2b-a95a-743e57f2eaa3",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bulawayo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "5e186507-1f8a-45a3-9bf4-ea8605f59e8c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/manicaland",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "6094a6ab-5b09-4b9d-b4e9-6cb56c697a77",
+      "role": "member"
+    },
+    {
+      "area_id": "area/harare",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "64f4a4a3-7310-48ab-a001-590526fa08f1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/manicaland",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "66c56c4a-0490-4667-bf6c-43de064ec1f2",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_west",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "73332a26-5f7e-42cb-9942-dd20d4d3c648",
+      "role": "member"
+    },
+    {
+      "area_id": "area/harare",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "7d36228c-b876-4d13-97f6-f0b1515e8220",
+      "role": "member"
+    },
+    {
+      "area_id": "area/masvingo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "7f09a9fb-bd90-450d-9c84-0de512747af8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/masvingo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "830fe605-9eb7-4949-9b29-f7856d0203d2",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bulawayo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "8d143647-ddd3-4f12-bf53-f7ac16929bcc",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_south",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "8e912cf7-1ddb-4734-a9dc-97d3842c34d3",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "93c58a43-9f12-4755-b309-cc0d69c8aea2",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "9991f901-44d3-49ec-ad6d-0c3522252925",
+      "role": "member"
+    },
+    {
+      "area_id": "area/midlands",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "a20886c3-d795-4faf-b5be-fed146d6c385",
+      "role": "member"
+    },
+    {
+      "area_id": "area/midlands",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "a2c2a1d8-c838-4597-8bff-3cbb4f6e493a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bulawayo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "a3c33d8e-ee77-4088-a189-0c99b69cf8cb",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_central",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "a46dddee-1bce-40e2-af44-a1c77e99b395",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "a85beb62-a427-4778-bb75-45a6b40fae54",
+      "role": "member"
+    },
+    {
+      "area_id": "area/harare",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "ae321f04-24da-4903-ba13-9c9f71ad67c9",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "b6177278-ccbf-4a38-b316-34beadb21952",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_east",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "bc8a1be7-b0f5-4a8a-a3b2-f89b09f77bfd",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "c12dbe18-fd88-4c6a-9a8a-16f1494250f7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/masvingo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "d285dbf1-4177-44ea-abfb-ea04be3bdf0e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "d6f50110-074f-4087-98c4-e8d89047a2e5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/harare",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "dd007b82-8129-40d7-b274-158a37c52700",
+      "role": "member"
+    },
+    {
+      "area_id": "area/masvingo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "ddb83339-e5fb-4cbe-ba4a-0414493849e6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bulawayo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "de9bcd51-3713-44d1-a897-2b9781a0a3f6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bulawayo",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "e12ed27b-84bf-4b57-a21f-d19c9c1716b2",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_north",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "e6faad5b-ac9a-4953-8d03-803a05311593",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_east",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "f3a967d0-38ff-47f2-a8a6-5cf762e8028e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/matebeleland_south",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "f6837337-54e5-4358-9825-9180dfcf44c7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/manicaland",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "fb88eb6e-1ad9-4cf3-8d4c-31c69f65a73a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mashonaland_east",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "fb92bda9-8d7f-4b39-882b-5ed7635ede0e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/midlands",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/mdc-t",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "fbea5e10-fe85-49a6-a826-86c5fe699d58",
+      "role": "member"
+    },
+    {
+      "area_id": "area/manicaland",
+      "legislative_period_id": "term/8",
+      "on_behalf_of_id": "party/zanu_pf",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "person_id": "ff357188-ea43-49e3-9fdb-8482b7d3f908",
+      "role": "member"
+    }
+  ],
+  "events": [
+    {
+      "classification": "legislative period",
+      "id": "term/8",
+      "name": "8th Parliament",
+      "organization_id": "713672e7-18c5-4d1d-abd1-8d597b143847",
+      "start_date": "2013-09-17"
+    }
+  ],
+  "areas": [
+    {
+      "id": "area/bulawayo",
+      "name": "Bulawayo",
+      "type": "constituency"
+    },
+    {
+      "id": "area/harare",
+      "name": "Harare",
+      "type": "constituency"
+    },
+    {
+      "id": "area/manicaland",
+      "name": "Manicaland",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mashonaland_central",
+      "name": "Mashonaland central",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mashonaland_east",
+      "name": "Mashonaland East",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mashonaland_north",
+      "name": "Mashonaland North",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mashonaland_south",
+      "name": "Mashonaland South",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mashonaland_west",
+      "name": "Mashonaland West",
+      "type": "constituency"
+    },
+    {
+      "id": "area/masvingo",
+      "name": "Masvingo",
+      "type": "constituency"
+    },
+    {
+      "id": "area/matebeleland_north",
+      "name": "Matebeleland North",
+      "type": "constituency"
+    },
+    {
+      "id": "area/matebeleland_south",
+      "name": "Matebeleland South",
+      "type": "constituency"
+    },
+    {
+      "id": "area/midlands",
+      "name": "Midlands",
+      "type": "constituency"
+    }
+  ]
+}

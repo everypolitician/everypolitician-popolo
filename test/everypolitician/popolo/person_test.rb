@@ -13,6 +13,10 @@ class PersonTest < Minitest::Test
     'test/fixtures/burundi-ep-popolo-v1.0.json'
   end
 
+  def zimbabwe_fixture
+    'test/fixtures/zimbabwe-senate-ep-popolo-v1.0.json'
+  end
+
   def people
     @ppl ||= Everypolitician::Popolo.read(estonia_fixture).persons
   end
@@ -23,6 +27,10 @@ class PersonTest < Minitest::Test
 
   def burundi_people
     @burundi_ppl ||= Everypolitician::Popolo.read(burundi_fixture).persons
+  end
+
+  def zimbabwe_people
+    @zimbabwe_ppl ||= Everypolitician::Popolo.read(zimbabwe_fixture).persons
   end
 
   def aadu
@@ -47,6 +55,10 @@ class PersonTest < Minitest::Test
 
   def ahishakiye
     burundi_people.find_by(name: 'AHISHAKIYE Gloriose')
+  end
+
+  def agnes
+    zimbabwe_people.find_by(name: 'Agnes Sibanda')
   end
 
   def test_people_class
@@ -158,6 +170,11 @@ class PersonTest < Minitest::Test
   def test_national_identity
     assert_equal nil, etti.national_identity
     assert_equal 'HUTU', ahishakiye.national_identity
+  end
+
+  def test_summary
+    assert_equal nil, etti.summary
+    assert_equal 'Bulawayo Province Member of the Senate.', agnes.summary
   end
 
   def test_equality
