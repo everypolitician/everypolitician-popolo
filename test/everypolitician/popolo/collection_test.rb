@@ -29,13 +29,16 @@ class CollectionTest < Minitest::Test
   def test_where_finding_multiple_parties
     assert_equal popolo.organizations.count, 8
     assert_equal popolo.organizations.where(classification: 'party').count, 7
+    assert_instance_of Everypolitician::Popolo::Organizations, popolo.organizations.where(classification: 'party')
   end
 
   def test_where_finding_no_items
-    assert_equal popolo.organizations.where(classification: 'business'), []
+    assert_equal popolo.organizations.where(classification: 'business').count, 0
   end
 
   def test_where_finding_on_memberships
+    mem = popolo.memberships.where(person_id: '0259486a-0410-49f3-aef9-8b79c15741a7', legislative_period_id: 'term/13')
+    assert_instance_of Everypolitician::Popolo::Memberships, mem
     assert_equal popolo.memberships.where(person_id: '0259486a-0410-49f3-aef9-8b79c15741a7', legislative_period_id: 'term/13').count, 1
   end
 
