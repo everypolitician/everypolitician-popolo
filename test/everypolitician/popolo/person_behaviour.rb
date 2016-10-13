@@ -1,7 +1,22 @@
 require 'test_helper'
-require 'everypolitician/popolo/person_base'
 
-class PersonTestBehaviour < PersonTestBase
+class PersonTestBehaviour
+  def estonia_fixture
+    'test/fixtures/estonia-ep-popolo-v1.0.json'
+  end
+
+  def people
+    @ppl ||= Everypolitician::Popolo.read(estonia_fixture).persons
+  end
+
+  def taavi
+    people.find_by(name: 'Taavi Rõivas')
+  end
+
+  def etti
+    people.find_by(name: 'Etti Kagarov')
+  end
+
   def test_people_class
     assert_instance_of Everypolitician::Popolo::People, people
   end
