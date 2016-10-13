@@ -38,8 +38,8 @@ module Everypolitician
       def srgb
         document.fetch(:srgb, nil)
       end
-      alias main_colour srgb
-      alias main_color srgb
+      alias associated_colour srgb
+      alias associated_color srgb
     end
 
     class Organizations < Collection

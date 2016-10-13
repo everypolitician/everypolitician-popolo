@@ -88,9 +88,9 @@ class OrganizationTest < Minitest::Test
     assert_equal '008800', sinn_fein.srgb
   end
 
-  def test_main_colour
-    assert_equal nil, irl.main_colour
-    assert_equal '008800', sinn_fein.main_colour
+  def test_associated_colour
+    assert_equal nil, irl.associated_colour
+    assert_equal '008800', sinn_fein.associated_colour
   end
 
   def test_equality
