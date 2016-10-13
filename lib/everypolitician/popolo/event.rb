@@ -13,10 +13,6 @@ module Everypolitician
         document[:end_date]
       end
 
-      def id
-        document[:id]
-      end
-
       def name
         document[:name]
       end
