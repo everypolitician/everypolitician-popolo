@@ -5,8 +5,19 @@ class MembershipTest < Minitest::Test
     'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
+  def kenya_fixture
+    'test/fixtures/kenya-ep-popolo-v1.0.json'
+  end
+
   def memberships
     @mems ||= Everypolitician::Popolo.read(fixture).memberships
+  end
+
+  def nyeri
+    Everypolitician::Popolo.read(kenya_fixture).memberships.where(
+      person_id:             '037a05a5-bee2-44f1-bfaa-d864ac35196f',
+      legislative_period_id: 'term/11'
+    ).first
   end
 
   def test_memberships_class
@@ -67,6 +78,17 @@ class MembershipTest < Minitest::Test
 
   def test_membership_legislative_period_id
     assert_equal 'term/13', memberships.first.legislative_period_id
+  end
+
+  def test_membership_post_id
+    assert_equal nil, memberships.first.post_id
+    assert_equal "women's_representative", nyeri.post_id
+  end
+
+  def test_membership_post
+    assert_equal nil, memberships.first.post
+    assert_instance_of Everypolitician::Popolo::Post, nyeri.post
+    assert_equal "Women's Representative", nyeri.post.label
   end
 
   def test_membership_legislative_period
