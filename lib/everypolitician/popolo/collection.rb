@@ -35,6 +35,10 @@ module Everypolitician
         self.class.new(attributes.map { |k, v| index_for(k.to_sym)[v].to_a }.reduce(:&).map(&:document) || [], popolo)
       end
 
+      def empty?
+        count.zero?
+      end
+
       private
 
       def index_for(attr)
