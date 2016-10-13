@@ -45,6 +45,7 @@ class CollectionTest < Minitest::Test
   def test_where_finding_some_attributes_with_no_matches
     popolo = Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json')
 
+    assert_equal popolo.organizations.where(classification: 'party', name: 'The Reds').empty?, true
     assert_equal popolo.organizations.where(classification: 'party', name: 'The Reds').count, 0
     assert_equal popolo.organizations.where(name: 'The Reds', classification: 'party').count, 0
   end
