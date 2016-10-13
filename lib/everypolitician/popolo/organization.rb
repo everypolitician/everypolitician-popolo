@@ -1,10 +1,6 @@
 module Everypolitician
   module Popolo
     class Organization < Entity
-      def wikidata
-        identifier('wikidata')
-      end
-
       def classification
         document.fetch(:classification, nil)
       end

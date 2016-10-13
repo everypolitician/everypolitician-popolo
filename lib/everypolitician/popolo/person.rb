@@ -75,10 +75,6 @@ module Everypolitician
         link('facebook')
       end
 
-      def wikidata
-        identifier('wikidata')
-      end
-
       def sort_name
         name
       end

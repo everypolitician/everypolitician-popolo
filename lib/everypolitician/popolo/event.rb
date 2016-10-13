@@ -13,10 +13,6 @@ module Everypolitician
         document[:end_date]
       end
 
-      def id
-        document[:id]
-      end
-
       def name
         document[:name]
       end
@@ -27,10 +23,6 @@ module Everypolitician
 
       def organization_id
         document[:organization_id]
-      end
-
-      def wikidata
-        identifier('wikidata')
       end
 
       private
