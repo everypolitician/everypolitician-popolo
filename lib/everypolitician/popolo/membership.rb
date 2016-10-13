@@ -21,6 +21,10 @@ module Everypolitician
         document.fetch(:legislative_period_id, nil)
       end
 
+      def post_id
+        document.fetch(:post_id, nil)
+      end
+
       def role
         document.fetch(:role, nil)
       end
@@ -53,6 +57,10 @@ module Everypolitician
 
       def area
         popolo.areas.find_by(id: area_id)
+      end
+
+      def post
+        popolo.posts.find_by(id: post_id)
       end
 
       def ==(other)
