@@ -1,33 +1,25 @@
 module Everypolitician
   module Popolo
     class Event < Entity
-      def initialize(document, _p)
-        @document = document
-      end
-
       def start_date
-        document[:start_date]
+        document.fetch(:start_date, nil)
       end
 
       def end_date
-        document[:end_date]
+        document.fetch(:end_date, nil)
       end
 
       def name
-        document[:name]
+        document.fetch(:name, nil)
       end
 
       def classification
-        document[:classification]
+        document.fetch(:classification, nil)
       end
 
       def organization_id
-        document[:organization_id]
+        document.fetch(:organization_id, nil)
       end
-
-      private
-
-      attr_reader :document
     end
 
     class Events < Collection
