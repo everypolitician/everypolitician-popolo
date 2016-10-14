@@ -1,0 +1,5381 @@
+{
+  "posts": [
+
+  ],
+  "persons": [
+    {
+      "id": "7a4b7901-cdea-48d6-856b-7e283a0c1109",
+      "identifiers": [
+        {
+          "identifier": "2010-1",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "AHINGEJEJE Alfred",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "4c56a67b-9ccb-4e4f-a7eb-75a5400faa07",
+      "identifiers": [
+        {
+          "identifier": "2015-1",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "AHISHAKIYE Gloriose",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "e2e53d17-9088-44a9-8880-5829dc4dad43",
+      "identifiers": [
+        {
+          "identifier": "2010-2",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "ARAKAZA Christine",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "eccf8fba-9422-4de8-90bf-bd658c265ad5",
+      "identifiers": [
+        {
+          "identifier": "2015-2",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BANYIKWA Adolphe",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "2ba9eed7-f938-42e4-abe8-0c7795ddedf3",
+      "identifiers": [
+        {
+          "identifier": "2015-3",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BARAMPAMA Chantal",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "419430a9-47b1-4f5d-9de7-f496acdc0a15",
+      "identifiers": [
+        {
+          "identifier": "2010-3",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BARAMPAMA Rémy",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "c5471c98-86a0-4af7-bdc6-2d6d12fe2a2d",
+      "identifiers": [
+        {
+          "identifier": "2015-4",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BARANYANKA Joselyne",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "female",
+      "id": "41ee5a47-7195-416f-8522-169505478ccf",
+      "identifiers": [
+        {
+          "identifier": "2015-5",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BARANYIZIGIYE Jacqueline",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "87673328-7abc-4ea6-b59b-dee90a2f7864",
+      "identifiers": [
+        {
+          "identifier": "2010-4",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BARARUFISE Marceline",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "1385d5f9-7bbe-4dc3-ad51-966e4c0e228e",
+      "identifiers": [
+        {
+          "identifier": "2010-5",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BAREKEBAVUGE Alexis",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "22cfd2d8-7ab4-4829-b28b-3c3520e9c318",
+      "identifiers": [
+        {
+          "identifier": "2015-6",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BASHINGWA Evole",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "6d2e14d6-94ad-4c71-8a5e-d21ff13c06d3",
+      "identifiers": [
+        {
+          "identifier": "2015-7",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BAVAKURE Domitien",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "7953bd8b-b7b4-4c71-a537-5dffefaf94f2",
+      "identifiers": [
+        {
+          "identifier": "2015-8",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BAZIRAHOMPONYO YE Rémégie",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "d1750b83-81cb-44dc-a8ae-e09aa0a92697",
+      "identifiers": [
+        {
+          "identifier": "2010-6",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BERAHINO Gloriose",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "30395bcf-5b17-4384-840a-c6593667e352",
+      "identifiers": [
+        {
+          "identifier": "2010-7",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BIGIRIMANA Alphonsine",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "43218df8-945f-48ca-850f-c78706ff10ea",
+      "identifiers": [
+        {
+          "identifier": "2015-10",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BIKORIMANA Jérôme",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "e016132b-b7fb-4b38-957f-c20788f42e6c",
+      "identifiers": [
+        {
+          "identifier": "2015-11",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BIZIMUNGU Simon",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "dd9a1b3a-7784-41fc-a5d0-4fe5bfe64ce8",
+      "identifiers": [
+        {
+          "identifier": "2015-12",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BIZUMUREMYI Pascal",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "e86e433f-2a35-420c-8d2d-0082ebb0715e",
+      "identifiers": [
+        {
+          "identifier": "2010-11",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BOSOKOZA Bernard",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "4da47090-8864-461d-9b7d-08043dbb929f",
+      "identifiers": [
+        {
+          "identifier": "2010-8",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BUCUMI Moïse",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "d620f6de-c581-43cc-b596-2e4b1f49a6b9",
+      "identifiers": [
+        {
+          "identifier": "2010-9",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BUCUMI Pasteur",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "3655b91b-edd1-405d-8eac-ae092e79766e",
+      "identifiers": [
+        {
+          "identifier": "2010-10",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BUKUMBANYA Henri",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "a4f4c7bf-cf2d-40ea-9aca-9f5f336b16a5",
+      "identifiers": [
+        {
+          "identifier": "2015-13",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BUKURU Renate",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "f0fd32dd-b8b2-4786-adc1-453104cd90a8",
+      "identifiers": [
+        {
+          "identifier": "2015-14",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BURIKUKIYE Victor",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "a545b677-c325-4097-a6ce-3fee7604347f",
+      "identifiers": [
+        {
+          "identifier": "2015-15",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BUSOKOZA Bernard",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "aec6c8e8-3cb6-45f4-990c-27c175e76c2b",
+      "identifiers": [
+        {
+          "identifier": "2010-12",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BUTORE Joseph",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "98f0b956-5a0a-4cf5-810b-a9cb1cf8cad1",
+      "identifiers": [
+        {
+          "identifier": "2010-13",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "BUTOYI Stany",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "0b9b9623-000e-4695-861d-3f60a539fc0a",
+      "identifiers": [
+        {
+          "identifier": "2015-16",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "CIMPAYE Spéciose",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "female",
+      "id": "0e75b787-e64a-4f7e-89bf-3cc2105150af",
+      "identifiers": [
+        {
+          "identifier": "2015-17",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "CIZA Angèle",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "a298bf35-ad5d-44e0-b441-bd8cb8e7b8eb",
+      "identifiers": [
+        {
+          "identifier": "2015-18",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "COYITUNGIYE Claver",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "e4e2a519-b30b-4106-b828-0caf44764f3b",
+      "identifiers": [
+        {
+          "identifier": "2015-19",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "DUKUNDANE Fleurette",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "9d5a1a2d-489d-4058-8ac8-e1887fa68e06",
+      "identifiers": [
+        {
+          "identifier": "2015-9",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "Dr. BIGIRINDAVYI Ildéphonse",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "female",
+      "id": "2a716955-56f5-422b-b43f-cefc2ff0ff86",
+      "identifiers": [
+        {
+          "identifier": "2015-20",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GAFURERO Léocadie",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "8d28f97e-4c4c-41ad-bb37-346f6d8047b8",
+      "identifiers": [
+        {
+          "identifier": "2010-14",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GAFURERO Léocadie",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "6d440b9f-5f24-4e31-8289-625423961802",
+      "identifiers": [
+        {
+          "identifier": "2010-15",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GAHIMBARE Joselyne",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "14cb1828-7d69-4914-a3f3-17378de4a21c",
+      "identifiers": [
+        {
+          "identifier": "2010-16",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GAHUNGU Juvénal",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "122c6c1b-0f84-4289-bdfa-99f36fd13d74",
+      "identifiers": [
+        {
+          "identifier": "2015-21",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GAKOBWA Séraphine",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "69a358c8-a5b7-4d49-a783-d1a2a377d70c",
+      "identifiers": [
+        {
+          "identifier": "2015-22",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GASUHUKE Jacques",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "7600dacf-f374-463e-bfdf-f6ae656b0a5d",
+      "identifiers": [
+        {
+          "identifier": "2010-17",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GASUHUKE Jacques",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "b8ed519d-7a4f-4ba3-8572-2e1ef4be93a9",
+      "identifiers": [
+        {
+          "identifier": "2010-18",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "GASUTWA Bonaventure",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "78565ddb-4bea-4f6e-a246-c2d3310797d4",
+      "identifiers": [
+        {
+          "identifier": "2015-23",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HABONIMANA Odette",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "85a06950-07ee-4dee-a2a9-b24f3af4f33a",
+      "identifiers": [
+        {
+          "identifier": "2010-19",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HABONIMANA Odette",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "ae1e4fd8-d45a-4947-b725-18c94c41225c",
+      "identifiers": [
+        {
+          "identifier": "2010-20",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HAKIZIMANA Emilien",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "8a7ee3ff-14e2-4400-a6ba-37aa70016554",
+      "identifiers": [
+        {
+          "identifier": "2015-24",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HAKIZIMANA Léopold",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "2e083b50-0cef-4e90-9e5f-a26498232cfe",
+      "identifiers": [
+        {
+          "identifier": "2015-25",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HAKIZIMANA Pascal",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "80ee716a-3439-45d6-bc42-81a315e87296",
+      "identifiers": [
+        {
+          "identifier": "2015-26",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HATUNGIMANA Godeberthe",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "4ad030e4-ccac-4cc3-8287-4fbc2a5c1143",
+      "identifiers": [
+        {
+          "identifier": "2010-21",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HATUNGIMANA Léonidas",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "1d56b9f3-b771-45b4-b9ec-2cfe627fdf45",
+      "identifiers": [
+        {
+          "identifier": "2015-27",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HATUNGIMANA Venant",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "0e0bbc63-85a0-4d8e-b457-0d182a6eb977",
+      "identifiers": [
+        {
+          "identifier": "2015-28",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HAVYARIMANA Juvénal",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "592b640f-cf6d-40cf-a930-a08e6bc67580",
+      "identifiers": [
+        {
+          "identifier": "2010-22",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "HAVYARIMANA Juvénal",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "43804839-e4af-4c44-832b-d06ae781df27",
+      "identifiers": [
+        {
+          "identifier": "2010-23",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "IHOTORIHIGWA Jean",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "b7973f34-367e-4aae-8351-d823c869423b",
+      "identifiers": [
+        {
+          "identifier": "2015-29",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "INABIGENDERA Mireille",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "0b4da511-1356-42f1-a564-94534a44ac20",
+      "identifiers": [
+        {
+          "identifier": "2010-24",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "INAMAHORO Espérance",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "51c91b28-2131-4db0-b5e9-dc6dd0db063c",
+      "identifiers": [
+        {
+          "identifier": "2015-30",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "IRAKOZE Caritas",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "female",
+      "id": "43a60ed0-31e4-4109-9124-d2e75cfc3ab8",
+      "identifiers": [
+        {
+          "identifier": "2015-31",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "IRAKOZE Lydia",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "female",
+      "id": "445c3bda-d92c-47da-816f-9ca2dd723f29",
+      "identifiers": [
+        {
+          "identifier": "2015-32",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "IRAMBONA Joséphine",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "1a060f38-e074-4aec-92b3-33b99218fe29",
+      "identifiers": [
+        {
+          "identifier": "2015-33",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KABANGO Georges",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "03b153f5-4796-4731-a66f-2c1642d23486",
+      "identifiers": [
+        {
+          "identifier": "2010-25",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KABURA François",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "80ca82ec-c818-4f6e-a22d-1f0577ba169b",
+      "identifiers": [
+        {
+          "identifier": "2010-26",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KAMARIZA Justine",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "40e7cc98-ed59-4e97-ba33-e61c2e2632e7",
+      "identifiers": [
+        {
+          "identifier": "2015-34",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KAMERE Ange Denise",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "eb4cecce-0212-4443-9e48-15df9eaf4834",
+      "identifiers": [
+        {
+          "identifier": "2010-27",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KANGOYE Jovithe",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "b6b1d457-7967-4e47-a85d-06bde22b5f65",
+      "identifiers": [
+        {
+          "identifier": "2010-28",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KARENGA Ramadhan",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "e0070362-465f-4ab3-bab6-54c4baaa9b85",
+      "identifiers": [
+        {
+          "identifier": "2015-35",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KARERA Denis",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "80233e23-ffa5-4daf-bf15-fa2b2e6fd47d",
+      "identifiers": [
+        {
+          "identifier": "2015-36",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KARERWA MO- MAMO",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "805f41e0-4030-422c-b980-08c0319e8948",
+      "identifiers": [
+        {
+          "identifier": "2010-29",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KARERWA Mo-Mamo",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "bea615ab-4781-4457-af80-5ddbac03bb64",
+      "identifiers": [
+        {
+          "identifier": "2010-30",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "KUNTWARI Elias",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "08a4f930-a732-4f7f-a0d4-d3af77f683ff",
+      "identifiers": [
+        {
+          "identifier": "2015-37",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MALAYIKA Pamphile",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "1ab29d9e-8ce7-444c-94c5-4b167789515e",
+      "identifiers": [
+        {
+          "identifier": "2010-31",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MANIRAKIZA Abdallah",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "2468739b-e1a6-42ba-be7c-3cf0dc3b6366",
+      "identifiers": [
+        {
+          "identifier": "2015-38",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MANIRAKIZA Anatole",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "1f9c4878-8d29-4061-8631-0fd4115e0a52",
+      "identifiers": [
+        {
+          "identifier": "2015-39",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MANIRAKIZA Pascasie",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "c17b8a39-1509-4e67-9be0-02727ecd5e8d",
+      "identifiers": [
+        {
+          "identifier": "2015-40",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MANIRAMBONA Térence",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "2f5afa00-995f-4679-bd43-7ce608009eac",
+      "identifiers": [
+        {
+          "identifier": "2010-32",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MASUDI Selemani",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "cb648189-8293-4a69-8bfe-ae6766c68b4a",
+      "identifiers": [
+        {
+          "identifier": "2015-41",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MBONEKO Sauda",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "5723754f-eed8-47b9-b1bf-8b2bb42d48a1",
+      "identifiers": [
+        {
+          "identifier": "2015-43",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MBONIGABA Noé",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "87b4ea17-b4c3-4d60-8478-7dd924d3ff30",
+      "identifiers": [
+        {
+          "identifier": "2015-42",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MBONIHANKUYE François",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "a4010172-f70f-4a1c-9257-eb99352dcd6d",
+      "identifiers": [
+        {
+          "identifier": "2015-44",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MBONIMPA Adolphe",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "6bc92fe2-acb4-4ea9-b2b5-d78594ed1129",
+      "identifiers": [
+        {
+          "identifier": "2015-45",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MBONIMPA Freddy",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "5a03bc93-1824-4490-946e-7f66691043fc",
+      "identifiers": [
+        {
+          "identifier": "2015-46",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MBONINYIBUKA Gilbert",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "4f545173-7d46-4759-8e00-bfa6423c25da",
+      "identifiers": [
+        {
+          "identifier": "2010-33",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MIBURO Gaudence",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "fa3096da-39d2-47be-8eb6-1dbbf89db887",
+      "identifiers": [
+        {
+          "identifier": "2010-34",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MINANI Jean",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "f298a691-077d-40f9-a4bb-365aa0847813",
+      "identifiers": [
+        {
+          "identifier": "2010-35",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MINANI Marie Thérèse",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "f12b34af-6c36-4483-b7c7-2f53e7b83b28",
+      "identifiers": [
+        {
+          "identifier": "2015-47",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MISAGO Amédée",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "e84b8c44-d56f-46eb-bb68-9d6d0473fe8a",
+      "identifiers": [
+        {
+          "identifier": "2010-36",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MISAGO Sébastien",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "02ede8e7-a29b-4f23-a8a0-0b4d4720e20f",
+      "identifiers": [
+        {
+          "identifier": "2015-48",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MIZERO Mireille",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "f1036a0c-11f5-4d8a-bc74-06346c6478a4",
+      "identifiers": [
+        {
+          "identifier": "2015-49",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MPITABAVUMA François",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "a34b43fd-8342-4719-b08b-418a145928bd",
+      "identifiers": [
+        {
+          "identifier": "2010-37",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MUDUGU Poppon",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "34538c23-f9cc-4dca-b298-4952d8f9aced",
+      "identifiers": [
+        {
+          "identifier": "2015-50",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MUHIMPUNDU Xavière",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "614e0d82-4da7-4d13-b354-270f64c3b9c2",
+      "identifiers": [
+        {
+          "identifier": "2015-51",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MUHUNGU Jean Bosco",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "dc45f4e5-f4c0-405c-810f-8c7579ef0072",
+      "identifiers": [
+        {
+          "identifier": "2015-52",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MUKESHIMANA Léonidas",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "fae9f241-e916-4fbb-a196-5e2ea30060b0",
+      "identifiers": [
+        {
+          "identifier": "2015-53",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MUREKERISONI Jeanine",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "be0660f7-f801-4d25-8209-37cf6e0a2e9c",
+      "identifiers": [
+        {
+          "identifier": "2015-54",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MVUYEKURE Lazare",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "0f1fbd62-f1f2-4b55-8f22-4675e1702e9c",
+      "identifiers": [
+        {
+          "identifier": "2015-55",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "MWIDOGO Persille",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "e3be0046-7dfc-446b-9d64-0f6cb59cb8e3",
+      "identifiers": [
+        {
+          "identifier": "2010-38",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NAHAYO Claude",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "f5a5d101-bf4a-44ec-8bee-3e77346250eb",
+      "identifiers": [
+        {
+          "identifier": "2015-56",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NAHAYO Claude",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "13194acd-365c-4d0d-b1e9-b2b0933bb304",
+      "identifiers": [
+        {
+          "identifier": "2015-57",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NAHAYO Immaculée",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "e119e46f-5211-46c9-a85d-fe25ac81148f",
+      "identifiers": [
+        {
+          "identifier": "2015-58",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NAHINTIJE Julienne",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "590bb436-9c7b-459d-818b-75af4f7f39a8",
+      "identifiers": [
+        {
+          "identifier": "2010-39",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NANKWAHOMBA Melchior",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "cd64b34a-b4a4-4b8e-ba01-95b6c1eb3347",
+      "identifiers": [
+        {
+          "identifier": "2010-40",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NCAHINYERETSE Ladislas",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "c7132d13-891c-4726-902c-4dd7a1fc3d7a",
+      "identifiers": [
+        {
+          "identifier": "2015-59",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDABIRABE Gélase",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "3d833c69-aad5-49c4-98e2-fb4a36b2963d",
+      "identifiers": [
+        {
+          "identifier": "2015-60",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDARUVUKANYE Zénon",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "8a5d62e6-4fb4-495e-987d-f76c99444abc",
+      "identifiers": [
+        {
+          "identifier": "2015-61",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIMANISHA Canisius",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "8ffd6092-2cc2-4d28-943a-ea5ac7d3227a",
+      "identifiers": [
+        {
+          "identifier": "2015-62",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIRAGIJE Juvénal",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "03924d4d-c277-466e-99c8-11246db62aab",
+      "identifiers": [
+        {
+          "identifier": "2015-63",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYISENGA Bernard",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "16b4e99e-9572-41ea-b02d-937d6d91d190",
+      "identifiers": [
+        {
+          "identifier": "2010-41",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIZAMBA André",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "6399bf4e-52fa-4b1c-bfcd-d65144f21206",
+      "identifiers": [
+        {
+          "identifier": "2015-64",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIZAMBA André",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "62880eb3-e6ad-4903-9c1e-fcd41eb156c7",
+      "identifiers": [
+        {
+          "identifier": "2010-42",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIZEYE Gloriose",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "a9a9542b-2557-4f1b-9b23-c69ed6382626",
+      "identifiers": [
+        {
+          "identifier": "2015-65",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIZEYE Gloriose",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "e6e59ee5-fb37-4f2e-bfea-77d2d56d1fc5",
+      "identifiers": [
+        {
+          "identifier": "2010-43",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIZEYE Sylvestre",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "bdd4ca7c-2b3f-4b44-9bf3-b820fd8aef76",
+      "identifiers": [
+        {
+          "identifier": "2010-44",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDAYIZIGA Oscar",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "6f71a31a-b933-4da0-90ff-b943108d38b5",
+      "identifiers": [
+        {
+          "identifier": "2015-66",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIHOKUBWAYO Angèle",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "bff66727-a7bd-4398-a11f-9a9b9a272c95",
+      "identifiers": [
+        {
+          "identifier": "2010-45",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIHOKUBWAYO Norbert",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "c9e4ea58-9b4f-44bd-a0c2-a295b6a0a8a7",
+      "identifiers": [
+        {
+          "identifier": "2010-46",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIKUMANA Constantin",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "ca1f85e9-b29e-4e5d-aad6-a5ba0eceefaf",
+      "identifiers": [
+        {
+          "identifier": "2010-47",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIKUMANA Evariste",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "ddb59e28-07aa-4d1e-bd5f-8d42fb593317",
+      "identifiers": [
+        {
+          "identifier": "2010-48",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIKUMANA Juvénal",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "ee207ba3-1e40-4543-8eed-a3b738087d93",
+      "identifiers": [
+        {
+          "identifier": "2015-67",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIKUMANA Pierre Célestin",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "503a0dbb-0738-48c4-9e6a-cd07c848e1bb",
+      "identifiers": [
+        {
+          "identifier": "2015-68",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIKUMASABO Terence",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "6c4b3419-8b87-446f-bf4f-823d9ee0d658",
+      "identifiers": [
+        {
+          "identifier": "2010-49",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDIMURWANKO Anne-Marie",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "4641e869-9acf-4cc9-aab0-b7e3d7f11755",
+      "identifiers": [
+        {
+          "identifier": "2015-69",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDITIJE Charles",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "5d94bfa2-252e-4ecb-988e-a9c2a1e73dc5",
+      "identifiers": [
+        {
+          "identifier": "2010-50",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDITIJE Charles",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "059caeec-73ed-45d2-9327-b2ab137bb2e3",
+      "identifiers": [
+        {
+          "identifier": "2010-51",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDORICIMPA Gabriel",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "6b7d5651-b737-4954-80b1-68b7630741b0",
+      "identifiers": [
+        {
+          "identifier": "2010-52",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDURURUTSE Gaudence",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "a4bd095d-3195-4291-ab36-35dda267cc7a",
+      "identifiers": [
+        {
+          "identifier": "2015-70",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWAYO Gilbert",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "4b1d5336-fa9e-47b0-aea2-e7c65e42a993",
+      "identifiers": [
+        {
+          "identifier": "2015-71",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWIMANA Déogratias",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "6f8fbb64-e45e-43bd-b48b-1c319dc63787",
+      "identifiers": [
+        {
+          "identifier": "2015-72",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWIMANA Dévote",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "11038c09-0746-4bcb-9229-9e017c46d7a0",
+      "identifiers": [
+        {
+          "identifier": "2010-53",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWIMANA Edouard",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "559bccb6-c211-4838-a0c9-f673ce090c17",
+      "identifiers": [
+        {
+          "identifier": "2015-73",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWIMANA Edouard",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "e7b7b392-d9e0-4252-848d-c5703de58952",
+      "identifiers": [
+        {
+          "identifier": "2010-54",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWIMANA Godeberthe",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "06b068b9-af59-4cfc-a6d0-45a2f9d8d3c8",
+      "identifiers": [
+        {
+          "identifier": "2010-55",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWIMANA Sennel",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "2cc742c9-61b1-442c-91c3-f296364974f6",
+      "identifiers": [
+        {
+          "identifier": "2010-56",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWUBURUNDI Félicien",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "795bf7b1-21d0-4b38-a5c1-545bb028856f",
+      "identifiers": [
+        {
+          "identifier": "2015-74",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NDUWUMWAMI Rénovat",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "d8b0d291-48bf-411b-ad87-590f1f43f621",
+      "identifiers": [
+        {
+          "identifier": "2015-75",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NGAYIMPENDA Evariste",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "f5158cf0-521f-45e1-a41f-6ec53ea9e5ea",
+      "identifiers": [
+        {
+          "identifier": "2015-76",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NGENDABANKA Anglebert",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "01f1fa02-8c1d-4311-942b-3a7becb93002",
+      "identifiers": [
+        {
+          "identifier": "2010-57",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NGENDAKUMANA Jérémie",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "58c6f4e1-e0a6-4e61-aaef-33749d456d5c",
+      "identifiers": [
+        {
+          "identifier": "2015-77",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NGERAGEZE Egide",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "bfe20205-8f03-4944-912c-4b6e6e7c9c64",
+      "identifiers": [
+        {
+          "identifier": "2010-58",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIBIGIRA Ezéchiel",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "c60876fd-2c37-4616-a28f-f5a270072ec8",
+      "identifiers": [
+        {
+          "identifier": "2015-78",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIBIGIRA Ezéchiel",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "e5f43ece-4f3e-431a-b027-9a5fda47f735",
+      "identifiers": [
+        {
+          "identifier": "2010-59",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIHOREHO Félicité",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "5b4a0b5d-a38e-4600-9197-357f4070391f",
+      "identifiers": [
+        {
+          "identifier": "2015-79",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIMENYA Gloriose",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "ad5af98c-78c5-4e49-8671-620a38145c5e",
+      "identifiers": [
+        {
+          "identifier": "2010-60",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIMUSHIMIRIMANA Vianney",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "35e8c9d8-45e9-495c-9c7f-663f803a5c68",
+      "identifiers": [
+        {
+          "identifier": "2015-80",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NININAHAZWE Godelieve",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "236c1083-0f34-484a-80f7-454ff86c6528",
+      "identifiers": [
+        {
+          "identifier": "2015-81",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIRAGIRA Félix",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "ef7e2256-58e3-48fe-bd92-d465076971cb",
+      "identifiers": [
+        {
+          "identifier": "2010-61",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIRAGIRA Félix",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "11767d17-dffa-4c3d-a783-48a67e8d7a52",
+      "identifiers": [
+        {
+          "identifier": "2010-62",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NITEREKA Christine",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "79b02b69-6cfd-433f-8b7a-5f80a9bbbcc1",
+      "identifiers": [
+        {
+          "identifier": "2015-82",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYOBUHUNGIRO Justin",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "96599818-74b9-4f13-9b28-bb279620488a",
+      "identifiers": [
+        {
+          "identifier": "2015-83",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYONGABO Justine",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "1afa00fd-8fba-4a9e-8166-6beeab0d5623",
+      "identifiers": [
+        {
+          "identifier": "2010-67",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYONGEKO Ildégonde",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "22a3a349-9212-4c62-bf81-4c7db531de11",
+      "identifiers": [
+        {
+          "identifier": "2010-63",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYONKURU Spès",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "899bdc7a-d0b8-4b74-95a4-4d28288ae16d",
+      "identifiers": [
+        {
+          "identifier": "2015-84",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYONSENGA Gloriose",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "688f40fa-f13a-4883-9be1-50ff722aaf7c",
+      "identifiers": [
+        {
+          "identifier": "2015-85",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYONZIMA Constantin",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "7ae57739-d041-48dd-858e-db2c12f32158",
+      "identifiers": [
+        {
+          "identifier": "2010-64",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYOYANKANA Bonaventure",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "0a19b2d1-3fcb-4a4c-9e35-12dfdb4ca270",
+      "identifiers": [
+        {
+          "identifier": "2010-65",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYOYUNGURUZA Méthode",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "39767ead-f901-4950-be68-d6518461e199",
+      "identifiers": [
+        {
+          "identifier": "2010-66",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYUHIRE Félicité",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "5dae3040-eb1f-448b-b58b-d9789f76803a",
+      "identifiers": [
+        {
+          "identifier": "2015-86",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIYUKURI Salvator",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "301141e9-fe3b-4e65-bed0-fb20e4ad43ac",
+      "identifiers": [
+        {
+          "identifier": "2010-68",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NIZIGIYIMANA Pierre",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "16213cf9-163c-4cb4-99e3-fbb3c39ff688",
+      "identifiers": [
+        {
+          "identifier": "2010-69",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NKUNZIMANA Gérard",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "e5312c2c-4f35-447e-aeb0-a7a10f760ea0",
+      "identifiers": [
+        {
+          "identifier": "2015-87",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NKUNZIMANA Jean Claude",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "28bdb744-8e94-43c9-9128-081deddcc8b1",
+      "identifiers": [
+        {
+          "identifier": "2010-70",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NKURUNZIZA Aimé",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "93a7f87c-268c-4410-b567-4819ba8b0920",
+      "identifiers": [
+        {
+          "identifier": "2015-88",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NKURUNZIZA Jockie Chantal",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "c6de05f1-e75c-4f56-9c23-4c3bf33cb6b5",
+      "identifiers": [
+        {
+          "identifier": "2010-71",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NSABIMANA Marie Rose",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "5137970c-77b5-401b-b011-237cf5b6e0f9",
+      "identifiers": [
+        {
+          "identifier": "2010-72",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NSAVYIMANA Gisèle",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "83eefc48-1aaf-4a24-8532-59495d8b07ea",
+      "identifiers": [
+        {
+          "identifier": "2010-73",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NSESEMA Jean Marie Pascal",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "f4cb317f-c0ce-4900-aeee-adeb6ca57273",
+      "identifiers": [
+        {
+          "identifier": "2015-89",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NSHAMAJE Hillarie",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "07d60561-8c66-4ca7-b859-b75c0aa9747c",
+      "identifiers": [
+        {
+          "identifier": "2010-74",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NSHIMIRIMANA Georges",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "3490d32e-9de3-4145-95d3-8732f49b4235",
+      "identifiers": [
+        {
+          "identifier": "2015-90",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NSHIMIRIMANA Georges",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "81eb597a-5516-416e-a78b-cb06e8029795",
+      "identifiers": [
+        {
+          "identifier": "2015-91",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NSHIMIRIMANA Marie Chantal",
+      "national_identity": "TWA"
+    },
+    {
+      "gender": "female",
+      "id": "7d439608-c06a-4629-96ca-9b182fd06d76",
+      "identifiers": [
+        {
+          "identifier": "2015-92",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAGAHORAHO Jeanne Marie",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "c0a49e88-cd92-41e9-8b02-4e23886a3df6",
+      "identifiers": [
+        {
+          "identifier": "2015-93",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAHIMPERA Apollinaire",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "5b8ed852-9cc2-4a27-8d2d-f66dc7e77c03",
+      "identifiers": [
+        {
+          "identifier": "2015-94",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAHONDEREYE Adolphe",
+      "national_identity": "TWA"
+    },
+    {
+      "id": "6e03df33-0328-4066-b664-56cf3a2dd402",
+      "identifiers": [
+        {
+          "identifier": "2010-75",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAKAMURENGA Joseph",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "6b9caaa8-9771-42db-ae1d-a7704cf4b4a7",
+      "identifiers": [
+        {
+          "identifier": "2010-76",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAKARUTIMANA Joseph",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "ea60ceb7-f175-4552-9bc2-1e3658a54e46",
+      "identifiers": [
+        {
+          "identifier": "2015-95",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAKIRUTIMANA Aloys",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "eaca964f-f2c6-44e3-8d6c-41c93821461b",
+      "identifiers": [
+        {
+          "identifier": "2015-96",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAKIYIRUTA Obed",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "2ecc9fa0-8b3e-4656-a50d-69e020182f49",
+      "identifiers": [
+        {
+          "identifier": "2010-77",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTANGAMAJERI Diomède",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "079e967b-2c20-44c0-bcdd-bc4e67edd682",
+      "identifiers": [
+        {
+          "identifier": "2010-78",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTANYUNGU Festus",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "b81df25e-4e66-4a17-88d5-c3ab43264a72",
+      "identifiers": [
+        {
+          "identifier": "2010-79",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTANYUNGU Marie Rose",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "10236038-ef56-47bf-b21f-2e4989848a9b",
+      "identifiers": [
+        {
+          "identifier": "2010-80",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTASANO Oscar",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "4d5e4125-c526-4c23-adcb-4dc586be260a",
+      "identifiers": [
+        {
+          "identifier": "2010-81",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAVYOHANYUMA Pie",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "171925b8-a468-4a97-87b5-3c3db2e18471",
+      "identifiers": [
+        {
+          "identifier": "2010-82",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTAWUNKUNDA Ildephonse",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "f7f97f7a-d245-42b8-b44c-6de78514b8b0",
+      "identifiers": [
+        {
+          "identifier": "2015-97",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTEZUKOBAGIRA Emmanuel",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "a8892106-29ff-4756-9daf-4d8a2a76f4f5",
+      "identifiers": [
+        {
+          "identifier": "2015-98",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTIBASHARWA Ruth",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "261f65a2-4787-4cb2-8967-436c3c9625f1",
+      "identifiers": [
+        {
+          "identifier": "2010-83",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTIDENDEREZA Joseph",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "0dccd5dd-92b0-4a62-b087-dfd538e82e0c",
+      "identifiers": [
+        {
+          "identifier": "2010-84",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTIMPIRANGEZA Grégoire",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "782a6d24-cbe2-4295-b185-bffd9e2cb129",
+      "identifiers": [
+        {
+          "identifier": "2015-99",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTIMPIRANGEZA Grégoire",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "1dcd7b06-1398-4545-9945-53b87686af20",
+      "identifiers": [
+        {
+          "identifier": "2010-85",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTINANIRWA Consolate",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "0c121ac7-6366-474a-9e60-ee3395397be9",
+      "identifiers": [
+        {
+          "identifier": "2015-100",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTIRANDEKURA Gaudence",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "f7602a80-d626-46fb-8cc4-3924ae53f1c2",
+      "identifiers": [
+        {
+          "identifier": "2015-101",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NTISEZERANA Gabriel",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "bbd9774b-de2a-4b59-b343-64388b0fae60",
+      "identifiers": [
+        {
+          "identifier": "2010-86",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NUNZUBUMWE Gertrude",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "171e29d9-3b22-413a-aec4-f0431178496c",
+      "identifiers": [
+        {
+          "identifier": "2015-102",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NYABENDA Pascal",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "dfe0c532-047d-4c2a-a2c5-e421d697c13d",
+      "identifiers": [
+        {
+          "identifier": "2010-87",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NYABENDA Pascal",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "c7fb5844-c79d-4ab2-b897-feb2ec49b145",
+      "identifiers": [
+        {
+          "identifier": "2015-103",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NYANDWI Adrien",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "female",
+      "id": "8f7ae845-617e-45f9-9055-08ffe16e8f91",
+      "identifiers": [
+        {
+          "identifier": "2015-104",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NYANDWI Claire",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "b7cb2ff5-2497-4b84-b14b-b88b18d52e20",
+      "identifiers": [
+        {
+          "identifier": "2010-88",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NYENIMIGABO Jean Jacques",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "d5e61b2b-222e-46fb-afd9-90f8251ccf54",
+      "identifiers": [
+        {
+          "identifier": "2010-89",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NZEYIMANA Léontine",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "58c60cf8-16dc-4abe-befe-d9d389044479",
+      "identifiers": [
+        {
+          "identifier": "2015-105",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NZEYIMANA Nestor",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "0e0a29ed-254f-4dd8-964d-6443de9fc9d0",
+      "identifiers": [
+        {
+          "identifier": "2015-106",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NZEYIMANA Séraphine",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "bc82d775-92d3-4a7c-a25f-fe14eec5d2a9",
+      "identifiers": [
+        {
+          "identifier": "2015-107",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NZIGAMASABO J Baptiste",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "c9a67187-26e0-4d86-86e2-d34dcb123023",
+      "identifiers": [
+        {
+          "identifier": "2010-90",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NZIGAMASABO Jean Baptiste",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "ceb6aa95-0ea8-4e15-9632-547266a23f91",
+      "identifiers": [
+        {
+          "identifier": "2015-108",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NZIGAMASABO Révérien",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "female",
+      "id": "34d1cde2-9f2d-45a7-ae38-ee5d56db8ee3",
+      "identifiers": [
+        {
+          "identifier": "2015-109",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "NZIGAMISONI Consolate",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "08499b71-35c9-4eef-bb91-12c8bdd1e2d6",
+      "identifiers": [
+        {
+          "identifier": "2010-91",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "RUCARAGI Amédée",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "c7e19fae-afa3-4966-81bd-f2a3aa01cec6",
+      "identifiers": [
+        {
+          "identifier": "2010-92",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "RUKARA Mohamed",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "378d8730-6d19-4127-92b2-64d2743a482c",
+      "identifiers": [
+        {
+          "identifier": "2010-93",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "RUKUKI Claudine",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "7d28604d-ec36-43bb-a036-b7390f1fbce6",
+      "identifiers": [
+        {
+          "identifier": "2010-94",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "RURAHINDA Bénigne",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "edd6d213-97d4-43dd-b3a6-72ae84119616",
+      "identifiers": [
+        {
+          "identifier": "2015-110",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "RURAHINDA Bénigne",
+      "national_identity": "HUTU"
+    },
+    {
+      "gender": "male",
+      "id": "8af9b1b4-8e96-4b7c-afd2-e4f891c1b972",
+      "identifiers": [
+        {
+          "identifier": "2015-111",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "RWASA Agathon",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "7f52799c-59b6-4a63-95e3-71de7d6c8eb1",
+      "identifiers": [
+        {
+          "identifier": "2010-95",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "RYAHAMA Pasteur",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "32b191d0-96ce-45e3-8046-9cd6fa0bcd14",
+      "identifiers": [
+        {
+          "identifier": "2010-96",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SAHINGUVU Yves",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "60cd4841-2ea1-4ab8-be1f-4f65d82c7c8b",
+      "identifiers": [
+        {
+          "identifier": "2015-112",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SAHINGUVU Yves",
+      "national_identity": "TUTSI"
+    },
+    {
+      "gender": "male",
+      "id": "029aeb84-9327-488a-8591-62a04c9f4d90",
+      "identifiers": [
+        {
+          "identifier": "2015-113",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SAMAGORWA James",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "4f60d34e-1286-453c-967d-0ae02d4de14f",
+      "identifiers": [
+        {
+          "identifier": "2010-97",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SENDAZIRASA Annonciate",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "cce06ae6-5d43-465e-ad84-fca6b0f8c004",
+      "identifiers": [
+        {
+          "identifier": "2015-114",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SIBOMANA Thacien",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "ddc49d6c-eadf-4610-8fa0-4b2081d374fc",
+      "identifiers": [
+        {
+          "identifier": "2010-98",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SIMBAKIRA Etienne",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "d107c613-35b3-46ca-b164-7af5d862fff5",
+      "identifiers": [
+        {
+          "identifier": "2015-115",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SINDAYIGAYA Eric",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "60e5794d-8a94-4b35-b7b0-4da9be468906",
+      "identifiers": [
+        {
+          "identifier": "2010-99",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SINDAYIHEBURA Eric",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "a9a5a1bd-5c04-436e-b646-77848484a857",
+      "identifiers": [
+        {
+          "identifier": "2015-116",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SINDAYIHEBURA Sylvestre",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "228ea4a8-00c8-4e78-aec0-4bb671188fb9",
+      "identifiers": [
+        {
+          "identifier": "2010-100",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SINDOKOTSE Denise",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "b24424a5-5d20-4ada-8ae0-f5c07e980852",
+      "identifiers": [
+        {
+          "identifier": "2010-101",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SINOMENYA Salvator",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "65384d75-dd29-47b1-b71b-38c8c549e811",
+      "identifiers": [
+        {
+          "identifier": "2015-117",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SINZINKAYO Jean Pierre",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "bab6d2a2-d06b-427b-a91e-f486fc994a8e",
+      "identifiers": [
+        {
+          "identifier": "2010-102",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SINZOTUMA Cyprien",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "id": "4bff18ae-68f7-4c0e-94ae-adb2d207dedf",
+      "identifiers": [
+        {
+          "identifier": "2010-103",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SORONGO Yolande",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "6d479ec7-639e-45b5-ba58-c33ab6ff2a67",
+      "identifiers": [
+        {
+          "identifier": "2015-118",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "SUKUNOBA Vincent",
+      "national_identity": "TWA"
+    },
+    {
+      "id": "6dfb85a6-34ea-48a3-b8dc-3c668df36b18",
+      "identifiers": [
+        {
+          "identifier": "2010-104",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "TURINUMUGABO Ildephonse",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "d1e70cde-c7cb-4491-8d3a-dda7bff088cf",
+      "identifiers": [
+        {
+          "identifier": "2015-119",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "TUYAGA Anicet",
+      "national_identity": "HUTU"
+    },
+    {
+      "id": "518f53a7-66f8-438b-b3d5-2f1eb55a0631",
+      "identifiers": [
+        {
+          "identifier": "2010-105",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "UWIMANA Charlotte",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "male",
+      "id": "3d9fe7e4-7665-4c09-8732-d52ef00f0b89",
+      "identifiers": [
+        {
+          "identifier": "2015-120",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "UWIZEYE Ibrahim",
+      "national_identity": "TUTSI"
+    },
+    {
+      "id": "a7334c95-7284-4412-9b65-fe51cdbd8d4e",
+      "identifiers": [
+        {
+          "identifier": "2010-106",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "UWIZEYE Ibrahim",
+      "sources": [
+        {
+          "url": "http://www.assemblee.bi/spip.php?page=imprimer&id_article=418"
+        }
+      ]
+    },
+    {
+      "gender": "female",
+      "id": "b2703fb1-2767-4e73-b498-8eff13ebe1e1",
+      "identifiers": [
+        {
+          "identifier": "2015-121",
+          "scheme": "everypolitician_legacy"
+        }
+      ],
+      "name": "YAMUREMYE Léocadie",
+      "national_identity": "TUTSI"
+    }
+  ],
+  "organizations": [
+    {
+      "classification": "party",
+      "id": "-",
+      "name": "-"
+    },
+    {
+      "classification": "party",
+      "id": "party/abigenga_mizero",
+      "name": "ABIGENGA MIZERO"
+    },
+    {
+      "classification": "party",
+      "id": "party/abigenga_mizero_y’abarundi",
+      "identifiers": [
+        {
+          "identifier": "Q22079894",
+          "scheme": "wikidata"
+        }
+      ],
+      "name": "ABIGENGA MIZERO Y’ABARUNDI",
+      "other_names": [
+        {
+          "lang": "en",
+          "name": "Independents of Hope",
+          "note": "multilingual"
+        }
+      ]
+    },
+    {
+      "classification": "party",
+      "id": "party/amizero",
+      "name": "AMIZERO"
+    },
+    {
+      "classification": "legislature",
+      "id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "identifiers": [
+        {
+          "identifier": "Q720003",
+          "scheme": "wikidata"
+        }
+      ],
+      "name": "Assemblée nationale",
+      "seats": 118
+    },
+    {
+      "classification": "party",
+      "id": "CNDD-FDD",
+      "identifiers": [
+        {
+          "identifier": "Q2271402",
+          "scheme": "wikidata"
+        }
+      ],
+      "links": [
+        {
+          "note": "website",
+          "url": "http://cndd-fdd.org/"
+        }
+      ],
+      "name": "CNDD-FDD",
+      "other_names": [
+        {
+          "lang": "ja",
+          "name": "民主防衛国民会議・民主防衛勢力",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Conseil national pour la défense de la démocratie-Forces de défense de la démocratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "en",
+          "name": "National Council for the Defense of Democracy–Forces for the Defense of Democracy",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Consiglio Nazionale per la Difesa della Democrazia - Forza per la Difesa della Democrazia",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nb",
+          "name": "Conseil National pour la Défense de la Démocratie–Forces pour la Défense de la Démocratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "National Council for the Defense of Democracy–Forces for the Defense of Democracy",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Consejo Nacional para la Defensa de la Democracia - Fuerzas para la Defensa de la Democracia",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nl",
+          "name": "National Council for the Defense of Democracy–Forces for the Defense of Democracy",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh-hant",
+          "name": "爭取保衛民主全國委員會－爭取保衛民主力量",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh-cn",
+          "name": "争取保卫民主全国委员会－争取保卫民主力量",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ja",
+          "name": "CNDD-FDD",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "CNDD-FDD",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Conseil national pour la défense de la démocratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Conseil national pour la defense de la democratie-Forces de defense de la democratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Forces pour la défense de la démocratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Conseil national pour la défense de la démocratie-Forces pour la défense de la démocratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Forces de défense de la démocratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Conseil National Pour la Défense de la Démocratie-Forces pour la Défense de la Démocratie",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nb",
+          "name": "CNDD–FDD",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nb",
+          "name": "CNDD-FDD",
+          "note": "multilingual"
+        }
+      ]
+    },
+    {
+      "classification": "party",
+      "id": "FRODEBU NYAKURI",
+      "identifiers": [
+        {
+          "identifier": "Q18712988",
+          "scheme": "wikidata"
+        }
+      ],
+      "name": "FRODEBU NYAKURI",
+      "other_names": [
+        {
+          "lang": "en",
+          "name": "Front for Democracy in Burundi–Nyakuri",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "Frodebu-Nyakuri",
+          "note": "multilingual"
+        }
+      ]
+    },
+    {
+      "classification": "party",
+      "id": "TWA",
+      "name": "TWA"
+    },
+    {
+      "classification": "party",
+      "id": "UPRONA",
+      "identifiers": [
+        {
+          "identifier": "Q633163",
+          "scheme": "wikidata"
+        }
+      ],
+      "name": "UPRONA",
+      "other_names": [
+        {
+          "lang": "de",
+          "name": "Union für den nationalen Fortschritt",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ja",
+          "name": "民族進歩連合",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Union pour le progrès national",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Unión para el Progreso Nacional",
+          "note": "multilingual"
+        },
+        {
+          "lang": "en",
+          "name": "Union for National Progress",
+          "note": "multilingual"
+        },
+        {
+          "lang": "uk",
+          "name": "Союз за національний прогрес",
+          "note": "multilingual"
+        },
+        {
+          "lang": "nl",
+          "name": "UPRONA",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Unione per il Progresso Nazionale",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ru",
+          "name": "Союз за национальный прогресс",
+          "note": "multilingual"
+        },
+        {
+          "lang": "el",
+          "name": "Ένωση για την Εθνική Πρόοδο",
+          "note": "multilingual"
+        },
+        {
+          "lang": "sv",
+          "name": "Union for National Progress",
+          "note": "multilingual"
+        },
+        {
+          "lang": "zh",
+          "name": "國家進步聯盟",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Union for National Progress",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "UPRONA",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Union für nationalen Fortschritt",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Union pour le Progres national",
+          "note": "multilingual"
+        },
+        {
+          "lang": "de",
+          "name": "Union pour le Progrès national",
+          "note": "multilingual"
+        },
+        {
+          "lang": "ja",
+          "name": "国民進歩同盟",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "Union pour le progres national",
+          "note": "multilingual"
+        },
+        {
+          "lang": "fr",
+          "name": "UPRONA",
+          "note": "multilingual"
+        },
+        {
+          "lang": "es",
+          "name": "Union para el Progreso Nacional",
+          "note": "multilingual"
+        },
+        {
+          "lang": "it",
+          "name": "Union pour le Progrès national",
+          "note": "multilingual"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "sources": [
+      "http://www.assemblee.bi"
+    ]
+  },
+  "memberships": [
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "01f1fa02-8c1d-4311-942b-3a7becb93002",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "029aeb84-9327-488a-8591-62a04c9f4d90",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "02ede8e7-a29b-4f23-a8a0-0b4d4720e20f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mai_rie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "03924d4d-c277-466e-99c8-11246db62aab",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "03b153f5-4796-4731-a66f-2c1642d23486",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "059caeec-73ed-45d2-9327-b2ab137bb2e3",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "06b068b9-af59-4cfc-a6d0-45a2f9d8d3c8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "079e967b-2c20-44c0-bcdd-bc4e67edd682",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "07d60561-8c66-4ca7-b859-b75c0aa9747c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "08499b71-35c9-4eef-bb91-12c8bdd1e2d6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "08a4f930-a732-4f7f-a0d4-d3af77f683ff",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mwaro",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0a19b2d1-3fcb-4a4c-9e35-12dfdb4ca270",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0b4da511-1356-42f1-a564-94534a44ac20",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0b9b9623-000e-4695-861d-3f60a539fc0a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mwaro",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0c121ac7-6366-474a-9e60-ee3395397be9",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0dccd5dd-92b0-4a62-b087-dfd538e82e0c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rumonge",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0e0a29ed-254f-4dd8-964d-6443de9fc9d0",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0e0bbc63-85a0-4d8e-b457-0d182a6eb977",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0e75b787-e64a-4f7e-89bf-3cc2105150af",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "0f1fbd62-f1f2-4b55-8f22-4675e1702e9c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "10236038-ef56-47bf-b21f-2e4989848a9b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "11038c09-0746-4bcb-9229-9e017c46d7a0",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "11767d17-dffa-4c3d-a783-48a67e8d7a52",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "122c6c1b-0f84-4289-bdfa-99f36fd13d74",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "13194acd-365c-4d0d-b1e9-b2b0933bb304",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "1385d5f9-7bbe-4dc3-ad51-966e4c0e228e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-rural",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "FRODEBU NYAKURI",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "14cb1828-7d69-4914-a3f3-17378de4a21c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "16213cf9-163c-4cb4-99e3-fbb3c39ff688",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "16b4e99e-9572-41ea-b02d-937d6d91d190",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "171925b8-a468-4a97-87b5-3c3db2e18471",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "171e29d9-3b22-413a-aec4-f0431178496c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "1a060f38-e074-4aec-92b3-33b99218fe29",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "1ab29d9e-8ce7-444c-94c5-4b167789515e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mwaro",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "1afa00fd-8fba-4a9e-8166-6beeab0d5623",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "1d56b9f3-b771-45b4-b9ec-2cfe627fdf45",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "1dcd7b06-1398-4545-9945-53b87686af20",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "1f9c4878-8d29-4061-8631-0fd4115e0a52",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-rural",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "228ea4a8-00c8-4e78-aec0-4bb671188fb9",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "22a3a349-9212-4c62-bf81-4c7db531de11",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mairie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "22cfd2d8-7ab4-4829-b28b-3c3520e9c318",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "236c1083-0f34-484a-80f7-454ff86c6528",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "2468739b-e1a6-42ba-be7c-3cf0dc3b6366",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "FRODEBU NYAKURI",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "261f65a2-4787-4cb2-8967-436c3c9625f1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "28bdb744-8e94-43c9-9128-081deddcc8b1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "2a716955-56f5-422b-b43f-cefc2ff0ff86",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "2ba9eed7-f938-42e4-abe8-0c7795ddedf3",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-rural",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "2cc742c9-61b1-442c-91c3-f296364974f6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "2e083b50-0cef-4e90-9e5f-a26498232cfe",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mwaro",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "2ecc9fa0-8b3e-4656-a50d-69e020182f49",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "2f5afa00-995f-4679-bd43-7ce608009eac",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "301141e9-fe3b-4e65-bed0-fb20e4ad43ac",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "30395bcf-5b17-4384-840a-c6593667e352",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "32b191d0-96ce-45e3-8046-9cd6fa0bcd14",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "34538c23-f9cc-4dca-b298-4952d8f9aced",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "3490d32e-9de3-4145-95d3-8732f49b4235",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "34d1cde2-9f2d-45a7-ae38-ee5d56db8ee3",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mwaro",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "35e8c9d8-45e9-495c-9c7f-663f803a5c68",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "3655b91b-edd1-405d-8eac-ae092e79766e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "378d8730-6d19-4127-92b2-64d2743a482c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cankuzo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "39767ead-f901-4950-be68-d6518461e199",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "3d833c69-aad5-49c4-98e2-fb4a36b2963d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "3d9fe7e4-7665-4c09-8732-d52ef00f0b89",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "40e7cc98-ed59-4e97-ba33-e61c2e2632e7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-mairie",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "419430a9-47b1-4f5d-9de7-f496acdc0a15",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cankuzo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "41ee5a47-7195-416f-8522-169505478ccf",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "43218df8-945f-48ca-850f-c78706ff10ea",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "43804839-e4af-4c44-832b-d06ae781df27",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mairie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "43a60ed0-31e4-4109-9124-d2e75cfc3ab8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "445c3bda-d92c-47da-816f-9ca2dd723f29",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4641e869-9acf-4cc9-aab0-b7e3d7f11755",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cankuzo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4ad030e4-ccac-4cc3-8287-4fbc2a5c1143",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4b1d5336-fa9e-47b0-aea2-e7c65e42a993",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4bff18ae-68f7-4c0e-94ae-adb2d207dedf",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4c56a67b-9ccb-4e4f-a7eb-75a5400faa07",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4d5e4125-c526-4c23-adcb-4dc586be260a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4da47090-8864-461d-9b7d-08043dbb929f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4f545173-7d46-4759-8e00-bfa6423c25da",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "4f60d34e-1286-453c-967d-0ae02d4de14f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mwaro",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "503a0dbb-0738-48c4-9e6a-cd07c848e1bb",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "5137970c-77b5-401b-b011-237cf5b6e0f9",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "518f53a7-66f8-438b-b3d5-2f1eb55a0631",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "51c91b28-2131-4db0-b5e9-dc6dd0db063c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "559bccb6-c211-4838-a0c9-f673ce090c17",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "5723754f-eed8-47b9-b1bf-8b2bb42d48a1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "58c60cf8-16dc-4abe-befe-d9d389044479",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "58c6f4e1-e0a6-4e61-aaef-33749d456d5c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "590bb436-9c7b-459d-818b-75af4f7f39a8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "592b640f-cf6d-40cf-a930-a08e6bc67580",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "5a03bc93-1824-4490-946e-7f66691043fc",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rumonge",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "5b4a0b5d-a38e-4600-9197-357f4070391f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mairie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "-",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "5b8ed852-9cc2-4a27-8d2d-f66dc7e77c03",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "5d94bfa2-252e-4ecb-988e-a9c2a1e73dc5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "5dae3040-eb1f-448b-b58b-d9789f76803a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "60cd4841-2ea1-4ab8-be1f-4f65d82c7c8b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-mairie",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "60e5794d-8a94-4b35-b7b0-4da9be468906",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "614e0d82-4da7-4d13-b354-270f64c3b9c2",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "62880eb3-e6ad-4903-9c1e-fcd41eb156c7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6399bf4e-52fa-4b1c-bfcd-d65144f21206",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "65384d75-dd29-47b1-b71b-38c8c549e811",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "688f40fa-f13a-4883-9be1-50ff722aaf7c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cankuzo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/amizero",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "69a358c8-a5b7-4d49-a783-d1a2a377d70c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6b7d5651-b737-4954-80b1-68b7630741b0",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6b9caaa8-9771-42db-ae1d-a7704cf4b4a7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mairie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6bc92fe2-acb4-4ea9-b2b5-d78594ed1129",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6c4b3419-8b87-446f-bf4f-823d9ee0d658",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6d2e14d6-94ad-4c71-8a5e-d21ff13c06d3",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6d440b9f-5f24-4e31-8289-625423961802",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "-",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6d479ec7-639e-45b5-ba58-c33ab6ff2a67",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6dfb85a6-34ea-48a3-b8dc-3c668df36b18",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6e03df33-0328-4066-b664-56cf3a2dd402",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6f71a31a-b933-4da0-90ff-b943108d38b5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "6f8fbb64-e45e-43bd-b48b-1c319dc63787",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cankuzo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "7600dacf-f374-463e-bfdf-f6ae656b0a5d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "782a6d24-cbe2-4295-b185-bffd9e2cb129",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rumonge",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "78565ddb-4bea-4f6e-a246-c2d3310797d4",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "7953bd8b-b7b4-4c71-a537-5dffefaf94f2",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "795bf7b1-21d0-4b38-a5c1-545bb028856f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "79b02b69-6cfd-433f-8b7a-5f80a9bbbcc1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "-",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "7a4b7901-cdea-48d6-856b-7e283a0c1109",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "7ae57739-d041-48dd-858e-db2c12f32158",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-mairie",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "7d28604d-ec36-43bb-a036-b7390f1fbce6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "7d439608-c06a-4629-96ca-9b182fd06d76",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "7f52799c-59b6-4a63-95e3-71de7d6c8eb1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "80233e23-ffa5-4daf-bf15-fa2b2e6fd47d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "805f41e0-4030-422c-b980-08c0319e8948",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "80ca82ec-c818-4f6e-a22d-1f0577ba169b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "80ee716a-3439-45d6-bc42-81a315e87296",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "-",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "81eb597a-5516-416e-a78b-cb06e8029795",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "83eefc48-1aaf-4a24-8532-59495d8b07ea",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-rural",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "85a06950-07ee-4dee-a2a9-b24f3af4f33a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "87673328-7abc-4ea6-b59b-dee90a2f7864",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "87b4ea17-b4c3-4d60-8478-7dd924d3ff30",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "899bdc7a-d0b8-4b74-95a4-4d28288ae16d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "8a5d62e6-4fb4-495e-987d-f76c99444abc",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "8a7ee3ff-14e2-4400-a6ba-37aa70016554",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "8af9b1b4-8e96-4b7c-afd2-e4f891c1b972",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "8d28f97e-4c4c-41ad-bb37-346f6d8047b8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "8f7ae845-617e-45f9-9055-08ffe16e8f91",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "8ffd6092-2cc2-4d28-943a-ea5ac7d3227a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "93a7f87c-268c-4410-b567-4819ba8b0920",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cankuzo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "96599818-74b9-4f13-9b28-bb279620488a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "98f0b956-5a0a-4cf5-810b-a9cb1cf8cad1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "9d5a1a2d-489d-4058-8ac8-e1887fa68e06",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a298bf35-ad5d-44e0-b441-bd8cb8e7b8eb",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-mairie",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a34b43fd-8342-4719-b08b-418a145928bd",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a4010172-f70f-4a1c-9257-eb99352dcd6d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a4bd095d-3195-4291-ab36-35dda267cc7a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a4f4c7bf-cf2d-40ea-9aca-9f5f336b16a5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mairie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a545b677-c325-4097-a6ce-3fee7604347f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a7334c95-7284-4412-9b65-fe51cdbd8d4e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a8892106-29ff-4756-9daf-4d8a2a76f4f5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a9a5a1bd-5c04-436e-b646-77848484a857",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "a9a9542b-2557-4f1b-9b23-c69ed6382626",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ad5af98c-78c5-4e49-8671-620a38145c5e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ae1e4fd8-d45a-4947-b725-18c94c41225c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "aec6c8e8-3cb6-45f4-990c-27c175e76c2b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumb_ura-rural",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "FRODEBU NYAKURI",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "b24424a5-5d20-4ada-8ae0-f5c07e980852",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "b2703fb1-2767-4e73-b498-8eff13ebe1e1",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "b6b1d457-7967-4e47-a85d-06bde22b5f65",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "b7973f34-367e-4aae-8351-d823c869423b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "b7cb2ff5-2497-4b84-b14b-b88b18d52e20",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "b81df25e-4e66-4a17-88d5-c3ab43264a72",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "b8ed519d-7a4f-4ba3-8572-2e1ef4be93a9",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "bab6d2a2-d06b-427b-a91e-f486fc994a8e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "bbd9774b-de2a-4b59-b343-64388b0fae60",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "bc82d775-92d3-4a7c-a25f-fe14eec5d2a9",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "bdd4ca7c-2b3f-4b44-9bf3-b820fd8aef76",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "be0660f7-f801-4d25-8209-37cf6e0a2e9c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "TWA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "bea615ab-4781-4457-af80-5ddbac03bb64",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-rural",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "bfe20205-8f03-4944-912c-4b6e6e7c9c64",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "FRODEBU NYAKURI",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "bff66727-a7bd-4398-a11f-9a9b9a272c95",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c0a49e88-cd92-41e9-8b02-4e23886a3df6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c17b8a39-1509-4e67-9be0-02727ecd5e8d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c5471c98-86a0-4af7-bdc6-2d6d12fe2a2d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c60876fd-2c37-4616-a28f-f5a270072ec8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c6de05f1-e75c-4f56-9c23-4c3bf33cb6b5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c7132d13-891c-4726-902c-4dd7a1fc3d7a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-mairie",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c7e19fae-afa3-4966-81bd-f2a3aa01cec6",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c7fb5844-c79d-4ab2-b897-feb2ec49b145",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c9a67187-26e0-4d86-86e2-d34dcb123023",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "c9e4ea58-9b4f-44bd-a0c2-a295b6a0a8a7",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-mairie",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "-",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ca1f85e9-b29e-4e5d-aad6-a5ba0eceefaf",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "cb648189-8293-4a69-8bfe-ae6766c68b4a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "cce06ae6-5d43-465e-ad84-fca6b0f8c004",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "cd64b34a-b4a4-4b8e-ba01-95b6c1eb3347",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ceb6aa95-0ea8-4e15-9632-547266a23f91",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mairie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "d107c613-35b3-46ca-b164-7af5d862fff5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "d1750b83-81cb-44dc-a8ae-e09aa0a92697",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mwaro",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "d1e70cde-c7cb-4491-8d3a-dda7bff088cf",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "d5e61b2b-222e-46fb-afd9-90f8251ccf54",
+      "role": "member"
+    },
+    {
+      "area_id": "area/makamba",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "d620f6de-c581-43cc-b596-2e4b1f49a6b9",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rutana",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "d8b0d291-48bf-411b-ad87-590f1f43f621",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rumonge",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "dc45f4e5-f4c0-405c-810f-8c7579ef0072",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "dd9a1b3a-7784-41fc-a5d0-4fe5bfe64ce8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ddb59e28-07aa-4d1e-bd5f-8d42fb593317",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ddc49d6c-eadf-4610-8fa0-4b2081d374fc",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "dfe0c532-047d-4c2a-a2c5-e421d697c13d",
+      "role": "member"
+    },
+    {
+      "area_id": "area/gitega",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e0070362-465f-4ab3-bab6-54c4baaa9b85",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e016132b-b7fb-4b38-957f-c20788f42e6c",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kayanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e119e46f-5211-46c9-a85d-fe25ac81148f",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e2e53d17-9088-44a9-8880-5829dc4dad43",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e3be0046-7dfc-446b-9d64-0f6cb59cb8e3",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e4e2a519-b30b-4106-b828-0caf44764f3b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ruyigi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e5312c2c-4f35-447e-aeb0-a7a10f760ea0",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e5f43ece-4f3e-431a-b027-9a5fda47f735",
+      "role": "member"
+    },
+    {
+      "area_id": "area/karusi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e6e59ee5-fb37-4f2e-bfea-77d2d56d1fc5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muramvya",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e7b7b392-d9e0-4252-848d-c5703de58952",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e84b8c44-d56f-46eb-bb68-9d6d0473fe8a",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura-mairie",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "UPRONA",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "e86e433f-2a35-420c-8d2d-0082ebb0715e",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ea60ceb7-f175-4552-9bc2-1e3658a54e46",
+      "role": "member"
+    },
+    {
+      "area_id": "area/rumonge",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "eaca964f-f2c6-44e3-8d6c-41c93821461b",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cibitoke",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "eb4cecce-0212-4443-9e48-15df9eaf4834",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "eccf8fba-9422-4de8-90bf-bd658c265ad5",
+      "role": "member"
+    },
+    {
+      "area_id": "area/mairie",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "edd6d213-97d4-43dd-b3a6-72ae84119616",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bujumbura",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ee207ba3-1e40-4543-8eed-a3b738087d93",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "ef7e2256-58e3-48fe-bd92-d465076971cb",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f0fd32dd-b8b2-4786-adc1-453104cd90a8",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f1036a0c-11f5-4d8a-bc74-06346c6478a4",
+      "role": "member"
+    },
+    {
+      "area_id": "area/muyinga",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f12b34af-6c36-4483-b7c7-2f53e7b83b28",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f298a691-077d-40f9-a4bb-365aa0847813",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f4cb317f-c0ce-4900-aeee-adeb6ca57273",
+      "role": "member"
+    },
+    {
+      "area_id": "area/cankuzo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f5158cf0-521f-45e1-a41f-6ec53ea9e5ea",
+      "role": "member"
+    },
+    {
+      "area_id": "area/ngozi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f5a5d101-bf4a-44ec-8bee-3e77346250eb",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bubanza",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f7602a80-d626-46fb-8cc4-3924ae53f1c2",
+      "role": "member"
+    },
+    {
+      "area_id": "area/bururi",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "CNDD-FDD",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "f7f97f7a-d245-42b8-b44c-6de78514b8b0",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2010",
+      "on_behalf_of_id": "FRODEBU NYAKURI",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "fa3096da-39d2-47be-8eb6-1dbbf89db887",
+      "role": "member"
+    },
+    {
+      "area_id": "area/kirundo",
+      "legislative_period_id": "term/2015",
+      "on_behalf_of_id": "party/abigenga_mizero_y’abarundi",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "person_id": "fae9f241-e916-4fbb-a196-5e2ea30060b0",
+      "role": "member"
+    }
+  ],
+  "events": [
+    {
+      "classification": "general election",
+      "end_date": "1954",
+      "id": "Q20312279",
+      "name": "Burundian parliamentary election, 1954",
+      "start_date": "1954"
+    },
+    {
+      "classification": "general election",
+      "end_date": "1957",
+      "id": "Q20312340",
+      "name": "Burundian parliamentary election, 1957",
+      "start_date": "1957"
+    },
+    {
+      "classification": "general election",
+      "end_date": "1961",
+      "id": "Q2053354",
+      "name": "Burundian legislative election, 1961",
+      "start_date": "1961"
+    },
+    {
+      "classification": "general election",
+      "end_date": "1965",
+      "id": "Q5001004",
+      "name": "Burundian legislative election, 1965",
+      "start_date": "1965"
+    },
+    {
+      "classification": "general election",
+      "end_date": "1982",
+      "id": "Q5001005",
+      "name": "Burundian legislative election, 1982",
+      "start_date": "1982"
+    },
+    {
+      "classification": "general election",
+      "end_date": "1993",
+      "id": "Q5001006",
+      "name": "Burundian legislative election, 1993",
+      "start_date": "1993"
+    },
+    {
+      "classification": "general election",
+      "end_date": "2005",
+      "id": "Q2053371",
+      "name": "Burundian legislative election, 2005",
+      "start_date": "2005"
+    },
+    {
+      "classification": "legislative period",
+      "end_date": "2015-04-30",
+      "id": "term/2010",
+      "name": "2010–2015",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "start_date": "2010"
+    },
+    {
+      "classification": "general election",
+      "end_date": "2010-07-23",
+      "id": "Q1147011",
+      "name": "Burundian legislative election, 2010",
+      "start_date": "2010-07-23"
+    },
+    {
+      "classification": "general election",
+      "end_date": "2015-06-29",
+      "id": "Q18758205",
+      "name": "Burundian legislative election, 2015",
+      "start_date": "2015-06-29"
+    },
+    {
+      "classification": "legislative period",
+      "id": "term/2015",
+      "name": "2015–",
+      "organization_id": "c44a21e2-9af5-4da2-8696-f153906fad4d",
+      "start_date": "2015-07-27"
+    }
+  ],
+  "areas": [
+    {
+      "id": "area/bubanza",
+      "name": "BUBANZA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/bujumb_ura-rural",
+      "name": "BUJUMB URA-Rural",
+      "type": "constituency"
+    },
+    {
+      "id": "area/bujumbura",
+      "name": "BUJUMBURA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/bujumbura-mairie",
+      "name": "BUJUMBURA-Mairie",
+      "type": "constituency"
+    },
+    {
+      "id": "area/bujumbura-rural",
+      "name": "BUJUMBURA-Rural",
+      "type": "constituency"
+    },
+    {
+      "id": "area/bururi",
+      "name": "BURURI",
+      "type": "constituency"
+    },
+    {
+      "id": "area/cankuzo",
+      "name": "CANKUZO",
+      "type": "constituency"
+    },
+    {
+      "id": "area/cibitoke",
+      "name": "CIBITOKE",
+      "type": "constituency"
+    },
+    {
+      "id": "area/gitega",
+      "name": "GITEGA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/karusi",
+      "name": "KARUSI",
+      "type": "constituency"
+    },
+    {
+      "id": "area/kayanza",
+      "name": "KAYANZA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/kirundo",
+      "name": "KIRUNDO",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mai_rie",
+      "name": "MAI RIE",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mairie",
+      "name": "MAIRIE",
+      "type": "constituency"
+    },
+    {
+      "id": "area/makamba",
+      "name": "MAKAMBA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/muramvya",
+      "name": "MURAMVYA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/muyinga",
+      "name": "MUYINGA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/mwaro",
+      "name": "MWARO",
+      "type": "constituency"
+    },
+    {
+      "id": "area/ngozi",
+      "name": "NGOZI",
+      "type": "constituency"
+    },
+    {
+      "id": "area/rumonge",
+      "name": "RUMONGE",
+      "type": "constituency"
+    },
+    {
+      "id": "area/rutana",
+      "name": "RUTANA",
+      "type": "constituency"
+    },
+    {
+      "id": "area/ruyigi",
+      "name": "RUYIGI",
+      "type": "constituency"
+    }
+  ]
+}
