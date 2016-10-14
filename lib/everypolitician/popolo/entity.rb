@@ -50,23 +50,5 @@ module Everypolitician
         identifier('wikidata')
       end
     end
-
-    class EntityFactory
-      def self.new(doc, *args)
-        find_class(doc[:classification]).new(doc, *args)
-      end
-
-      def self.subclasses(subclasses = [])
-        @subclasses ||= subclasses
-      end
-
-      def self.default_class(default_class = nil)
-        @default_class ||= default_class
-      end
-
-      def self.find_class(classification)
-        subclasses.find { |s| s.classification == classification } || default_class
-      end
-    end
   end
 end
