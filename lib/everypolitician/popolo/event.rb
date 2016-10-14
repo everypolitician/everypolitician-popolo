@@ -31,11 +31,11 @@ module Everypolitician
       entity_class EventFactory
 
       def elections
-        where(classification: 'general election')
+        where(classification: Election.classification)
       end
 
       def legislative_periods
-        where(classification: 'legislative period')
+        where(classification: LegislativePeriod.classification)
       end
     end
   end
