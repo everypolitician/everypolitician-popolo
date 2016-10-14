@@ -19,6 +19,14 @@ module Everypolitician
         document.fetch(:gender, nil)
       end
 
+      def national_identity
+        document.fetch(:national_identity, nil)
+      end
+
+      def summary
+        document.fetch(:summary, nil)
+      end
+
       def birth_date
         document.fetch(:birth_date, nil)
       end
@@ -67,10 +75,6 @@ module Everypolitician
         link('facebook')
       end
 
-      def wikidata
-        identifier('wikidata')
-      end
-
       def sort_name
         name
       end
@@ -81,6 +85,10 @@ module Everypolitician
 
       def given_name
         document.fetch(:given_name, nil)
+      end
+
+      def patronymic_name
+        document.fetch(:patronymic_name, nil)
       end
 
       def identifiers

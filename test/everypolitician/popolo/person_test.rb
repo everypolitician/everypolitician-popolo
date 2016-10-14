@@ -1,12 +1,36 @@
 require 'test_helper'
 
-class PersonTest < Minitest::Test
-  def fixture
+class PersonTest
+  def estonia_fixture
     'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
+  def pakistan_fixture
+    'test/fixtures/pakistan-ep-popolo-v1.0.json'
+  end
+
+  def burundi_fixture
+    'test/fixtures/burundi-ep-popolo-v1.0.json'
+  end
+
+  def zimbabwe_fixture
+    'test/fixtures/zimbabwe-senate-ep-popolo-v1.0.json'
+  end
+
   def people
-    @ppl ||= Everypolitician::Popolo.read(fixture).persons
+    @ppl ||= Everypolitician::Popolo.read(estonia_fixture).persons
+  end
+
+  def pakistan_people
+    @pakistan_ppl ||= Everypolitician::Popolo.read(pakistan_fixture).persons
+  end
+
+  def burundi_people
+    @burundi_ppl ||= Everypolitician::Popolo.read(burundi_fixture).persons
+  end
+
+  def zimbabwe_people
+    @zimbabwe_ppl ||= Everypolitician::Popolo.read(zimbabwe_fixture).persons
   end
 
   def aadu
@@ -25,12 +49,16 @@ class PersonTest < Minitest::Test
     people.find_by(name: 'Etti Kagarov')
   end
 
-  def test_people_class
-    assert_instance_of Everypolitician::Popolo::People, people
+  def aaisha
+    pakistan_people.find_by(name: 'Aaisha Gulalai')
   end
 
-  def test_class
-    assert_instance_of Everypolitician::Popolo::Person, people.first
+  def ahishakiye
+    burundi_people.find_by(name: 'AHISHAKIYE Gloriose')
+  end
+
+  def agnes
+    zimbabwe_people.find_by(name: 'Agnes Sibanda')
   end
 
   def test_id_attribute
@@ -112,6 +140,11 @@ class PersonTest < Minitest::Test
     assert_equal 'Eiki', eiki.given_name
   end
 
+  def test_patronynic_name
+    assert_equal nil, eiki.patronymic_name
+    assert_equal 'd/o Shams-ul-Qayum Wazir', aaisha.patronymic_name
+  end
+
   def test_email
     assert_equal 'Taavi.Roivas@riigikogu.ee', taavi.email
   end
@@ -126,17 +159,14 @@ class PersonTest < Minitest::Test
     assert_equal nil, etti.gender
   end
 
-  def test_equality
-    assert_equal taavi, taavi
-    refute_equal taavi, etti
+  def test_national_identity
+    assert_equal nil, etti.national_identity
+    assert_equal 'HUTU', ahishakiye.national_identity
   end
 
-  def test_persons_subtraction
-    person1 = { id: '123', name: 'Alice' }
-    person2 = { id: '456', name: 'Bob', gender: 'male' }
-    all_people = Everypolitician::Popolo::People.new([person1, person2])
-    just_person_1 = Everypolitician::Popolo::People.new([person1])
-    assert_equal [Everypolitician::Popolo::Person.new(person2)], all_people - just_person_1
+  def test_summary
+    assert_equal nil, etti.summary
+    assert_equal 'Bulawayo Province Member of the Senate.', agnes.summary
   end
 
   def test_honorific_prefix

@@ -1,7 +1,6 @@
 module Everypolitician
   module Popolo
     class Entity
-      attr_accessor :id
       attr_reader :document
       attr_reader :popolo
 
@@ -16,6 +15,10 @@ module Everypolitician
             define_singleton_method(key) { value }
           end
         end
+      end
+
+      def id
+        document.fetch(:id, nil)
       end
 
       def [](key)
@@ -37,6 +40,10 @@ module Everypolitician
 
       def identifier(scheme)
         identifiers.find(-> { {} }) { |i| i[:scheme] == scheme }[:identifier]
+      end
+
+      def wikidata
+        identifier('wikidata')
       end
     end
   end
