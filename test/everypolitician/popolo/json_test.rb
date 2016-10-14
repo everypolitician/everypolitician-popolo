@@ -12,7 +12,7 @@ class JsonTest < Minitest::Test
   end
 
   def test_legislative_periods_ignores_other_event_types
-    assert_equal 2, popolo_json.legislative_periods.size
+    assert_equal 2, popolo_json.legislative_periods.count
   end
 
   def test_current_legislative_period_returns_correct_term
@@ -25,5 +25,11 @@ class JsonTest < Minitest::Test
 
   def test_current_term_returns_the_same_as_current_legislative_period
     assert_equal popolo_json.current_term, popolo_json.current_legislative_period
+  end
+
+  def test_that_terms_returns_only_legislative_period_objects
+    assert_equal popolo_json.terms.count, 2
+    assert_instance_of Everypolitician::Popolo::LegislativePeriod, popolo_json.terms.first
+    assert_instance_of Everypolitician::Popolo::LegislativePeriod, popolo_json.terms.to_a.last
   end
 end

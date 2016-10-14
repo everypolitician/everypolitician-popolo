@@ -22,8 +22,21 @@ module Everypolitician
       end
     end
 
+    class EventFactory < EntityFactory
+      subclasses [Election, LegislativePeriod]
+      default_class Event
+    end
+
     class Events < Collection
-      entity_class Event
+      entity_class EventFactory
+
+      def elections
+        where(classification: Election.classification)
+      end
+
+      def legislative_periods
+        where(classification: LegislativePeriod.classification)
+      end
     end
   end
 end

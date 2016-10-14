@@ -4,6 +4,10 @@ module Everypolitician
       attr_reader :document
       attr_reader :popolo
 
+      def self.classification(classification = nil)
+        @classification ||= classification
+      end
+
       def initialize(document, popolo = nil)
         @document = document
         @popolo = popolo
@@ -44,6 +48,24 @@ module Everypolitician
 
       def wikidata
         identifier('wikidata')
+      end
+    end
+
+    class EntityFactory
+      def self.new(doc, *args)
+        find_class(doc[:classification]).new(doc, *args)
+      end
+
+      def self.subclasses(subclasses = [])
+        @subclasses ||= subclasses
+      end
+
+      def self.default_class(default_class = nil)
+        @default_class ||= default_class
+      end
+
+      def self.find_class(classification)
+        subclasses.find { |s| s.classification == classification } || default_class
       end
     end
   end
