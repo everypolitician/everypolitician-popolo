@@ -1,10 +1,6 @@
 module Everypolitician
   module Popolo
     class Event < Entity
-      def initialize(document, _p)
-        @document = document
-      end
-
       def start_date
         document[:start_date]
       end
@@ -24,10 +20,6 @@ module Everypolitician
       def organization_id
         document[:organization_id]
       end
-
-      private
-
-      attr_reader :document
     end
 
     class Events < Collection
