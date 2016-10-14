@@ -8,6 +8,15 @@ module Everypolitician
         @classification ||= classification
       end
 
+      def self.inherited(subclass)
+        @subclasses ||= []
+        @subclasses.push(subclass)
+      end
+
+      def self.subclasses
+        @subclasses || []
+      end
+
       def initialize(document, popolo = nil)
         @document = document
         @popolo = popolo
