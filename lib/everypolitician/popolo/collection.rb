@@ -17,6 +17,7 @@ module Everypolitician
         @documents = documents ? documents.map { |p| class_for_entity(p[:classification]).new(p, popolo) } : []
         @popolo = popolo
         @indexes = {}
+        @of_class = {}
       end
 
       def each(&block)
@@ -38,6 +39,10 @@ module Everypolitician
 
       def empty?
         count.zero?
+      end
+
+      def of_class(klass)
+        @of_class[klass] ||= select { |e| e.class == klass }
       end
 
       private

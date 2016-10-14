@@ -26,11 +26,11 @@ module Everypolitician
       entity_class Event
 
       def elections
-        where(classification: Election.classification)
+        of_class(Election)
       end
 
       def legislative_periods
-        where(classification: LegislativePeriod.classification)
+        of_class(LegislativePeriod)
       end
     end
   end
