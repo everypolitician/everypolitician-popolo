@@ -73,6 +73,12 @@ module Everypolitician
 
     class Memberships < Collection
       entity_class Membership
+
+      def class_for_entity(document, popolo)
+        @entity_class[document[:organization_id]] ||= self.class.entity_class.subclasses.find do |e|
+          e.classification == popolo.organizations.find_by(id: document[:organization_id])[:classification]
+        end || self.class.entity_class
+      end
     end
   end
 end
