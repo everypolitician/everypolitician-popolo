@@ -14,7 +14,7 @@ module Everypolitician
 
       def initialize(documents, popolo = nil)
         @event_class = {}
-        @documents = documents ? documents.map { |p| class_for_entity(p[:classification]).new(p, popolo) } : []
+        @documents = documents ? documents.map { |p| class_for_entity(p).new(p, popolo) } : []
         @popolo = popolo
         @indexes = {}
         @of_class = {}
@@ -55,9 +55,9 @@ module Everypolitician
         self.class.new(entities.to_a.map(&:document), popolo)
       end
 
-      def class_for_entity(classification)
-        @event_class[classification] ||= self.class.entity_class.subclasses.select do |e|
-          e.classification == classification
+      def class_for_entity(document)
+        @event_class[document[:classification]] ||= self.class.entity_class.subclasses.select do |e|
+          e.classification == document[:classification]
         end.first || self.class.entity_class
       end
     end
