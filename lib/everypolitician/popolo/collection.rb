@@ -32,7 +32,7 @@ module Everypolitician
       end
 
       def where(attributes = {})
-        self.class.new(attributes.map { |k, v| index_for(k.to_sym)[v].to_a }.reduce(:&).map(&:document) || [], popolo)
+        new_collection(attributes.map { |k, v| index_for(k.to_sym)[v].to_a }.reduce(:&))
       end
 
       def empty?
@@ -43,6 +43,10 @@ module Everypolitician
 
       def index_for(attr)
         @indexes[attr] ||= group_by(&attr)
+      end
+
+      def new_collection(entities)
+        self.class.new(entities.to_a.map(&:document), popolo)
       end
     end
   end
