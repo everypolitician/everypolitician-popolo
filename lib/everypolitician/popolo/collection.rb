@@ -56,9 +56,9 @@ module Everypolitician
       end
 
       def class_for_entity(document)
-        @event_class[document[:classification]] ||= self.class.entity_class.subclasses.select do |e|
+        @event_class[document[:classification]] ||= self.class.entity_class.subclasses.find do |e|
           e.classification == document[:classification]
-        end.first || self.class.entity_class
+        end || self.class.entity_class
       end
     end
   end
