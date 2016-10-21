@@ -29,19 +29,23 @@ class CollectionTest < Minitest::Test
   def test_where_finding_multiple_parties
     assert_equal popolo.organizations.count, 8
     assert_equal popolo.organizations.where(classification: 'party').count, 7
+    assert_instance_of Everypolitician::Popolo::Organizations, popolo.organizations.where(classification: 'party')
   end
 
   def test_where_finding_no_items
-    assert_equal popolo.organizations.where(classification: 'business'), []
+    assert_equal popolo.organizations.where(classification: 'business').count, 0
   end
 
   def test_where_finding_on_memberships
+    mem = popolo.memberships.where(person_id: '0259486a-0410-49f3-aef9-8b79c15741a7', legislative_period_id: 'term/13')
+    assert_instance_of Everypolitician::Popolo::Memberships, mem
     assert_equal popolo.memberships.where(person_id: '0259486a-0410-49f3-aef9-8b79c15741a7', legislative_period_id: 'term/13').count, 1
   end
 
   def test_where_finding_some_attributes_with_no_matches
     popolo = Everypolitician::Popolo.read('test/fixtures/estonia-ep-popolo-v1.0.json')
 
+    assert_equal popolo.organizations.where(classification: 'party', name: 'The Reds').empty?, true
     assert_equal popolo.organizations.where(classification: 'party', name: 'The Reds').count, 0
     assert_equal popolo.organizations.where(name: 'The Reds', classification: 'party').count, 0
   end

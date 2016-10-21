@@ -182,7 +182,7 @@ class PersonTest
   end
 
   def test_memberships
-    assert_equal 2, etti.memberships.size
+    assert_equal 2, etti.memberships.count
     assert_equal '2014-03-27', etti.memberships.first.start_date
   end
 
