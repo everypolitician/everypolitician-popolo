@@ -55,10 +55,8 @@ module Everypolitician
         self.class.new(entities.to_a.map(&:document), popolo)
       end
 
-      def class_for_entity(document)
-        @event_class[document[:classification]] ||= self.class.entity_class.subclasses.find do |e|
-          e.classification == document[:classification]
-        end || self.class.entity_class
+      def class_for_entity(_document)
+        self.class.entity_class
       end
     end
   end
