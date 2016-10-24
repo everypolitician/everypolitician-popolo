@@ -58,5 +58,8 @@ class EventTest < Minitest::Test
     assert_equal memberships.count, 165
     assert_instance_of EveryPolitician::Popolo::Membership, memberships.first
     assert_equal memberships.first.person_id, '0259486a-0410-49f3-aef9-8b79c15741a7'
+    org_ids = memberships.map(&:organization_id).to_set
+    assert_equal org_ids.count, 1
+    assert_equal org_ids.first, '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c'
   end
 end

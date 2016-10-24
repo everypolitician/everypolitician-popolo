@@ -4,7 +4,7 @@ module Everypolitician
       classification 'legislative period'
 
       def memberships
-        @memberships ||= popolo.memberships.where(legislative_period_id: id)
+        @memberships ||= popolo.memberships.where(legislative_period_id: id, organization_id: organization_id)
       end
     end
     class LegislativePeriods < Collection
