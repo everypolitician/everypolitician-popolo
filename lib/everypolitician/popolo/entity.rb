@@ -4,6 +4,19 @@ module Everypolitician
       attr_reader :document
       attr_reader :popolo
 
+      def self.classification(classification = nil)
+        @classification ||= classification
+      end
+
+      def self.inherited(subclass)
+        @subclasses ||= []
+        @subclasses.push(subclass)
+      end
+
+      def self.subclasses
+        @subclasses || []
+      end
+
       def initialize(document, popolo = nil)
         @document = document
         @popolo = popolo
