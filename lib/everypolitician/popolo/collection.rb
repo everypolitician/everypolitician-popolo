@@ -13,7 +13,7 @@ module Everypolitician
       end
 
       def initialize(documents, popolo = nil)
-        @event_class = {}
+        @entity_class = {}
         @documents = documents ? documents.map { |p| class_for_entity(p).new(p, popolo) } : []
         @popolo = popolo
         @indexes = {}
