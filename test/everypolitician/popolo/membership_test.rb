@@ -98,6 +98,7 @@ class MembershipTest < Minitest::Test
 
   def test_membership_on_behalf_of
     assert_equal 'Isamaa ja Res Publica Liidu fraktsioon', memberships.first.on_behalf_of.name
+    assert_equal 'Isamaa ja Res Publica Liidu fraktsioon', memberships.first.party.name
   end
 
   def test_membership_area
