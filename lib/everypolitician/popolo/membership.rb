@@ -55,6 +55,8 @@ module Everypolitician
         popolo.organizations.find_by(id: on_behalf_of_id)
       end
 
+      alias party on_behalf_of
+
       def area
         popolo.areas.find_by(id: area_id)
       end
