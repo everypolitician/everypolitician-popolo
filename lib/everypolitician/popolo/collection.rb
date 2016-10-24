@@ -13,9 +13,11 @@ module Everypolitician
       end
 
       def initialize(documents, popolo = nil)
-        @documents = documents ? documents.map { |p| self.class.entity_class.new(p, popolo) } : []
+        @entity_class = {}
+        @documents = documents ? documents.map { |p| class_for_entity(p).new(p, popolo) } : []
         @popolo = popolo
         @indexes = {}
+        @of_class = {}
       end
 
       def each(&block)
@@ -39,6 +41,10 @@ module Everypolitician
         count.zero?
       end
 
+      def of_class(klass)
+        @of_class[klass] ||= select { |e| e.class == klass }
+      end
+
       private
 
       def index_for(attr)
@@ -47,6 +53,10 @@ module Everypolitician
 
       def new_collection(entities)
         self.class.new(entities.to_a.map(&:document), popolo)
+      end
+
+      def class_for_entity(_document)
+        self.class.entity_class
       end
     end
   end
