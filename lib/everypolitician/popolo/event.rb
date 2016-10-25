@@ -33,7 +33,7 @@ module Everypolitician
         of_class(LegislativePeriod)
       end
 
-      def class_for_entity(document, _popolo)
+      def class_for_entity(document)
         @entity_class[document[:classification]] ||= self.class.entity_class.subclasses.find do |e|
           e.classification == document[:classification]
         end || self.class.entity_class

@@ -14,8 +14,8 @@ module Everypolitician
 
       def initialize(documents, popolo = nil)
         @entity_class = {}
-        @documents = documents ? documents.map { |p| class_for_entity(p, popolo).new(p, popolo) } : []
         @popolo = popolo
+        @documents = documents ? documents.map { |p| class_for_entity(p).new(p, popolo) } : []
         @indexes = {}
         @of_class = {}
       end
@@ -55,7 +55,7 @@ module Everypolitician
         self.class.new(entities.to_a.map(&:document), popolo)
       end
 
-      def class_for_entity(_document, _popolo)
+      def class_for_entity(_document)
         self.class.entity_class
       end
     end
