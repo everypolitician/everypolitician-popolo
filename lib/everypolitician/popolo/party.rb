@@ -1,6 +1,7 @@
 module Everypolitician
   module Popolo
     class Party < Organization
+      classification 'party'
     end
 
     class Parties < Organizations

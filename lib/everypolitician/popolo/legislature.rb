@@ -1,6 +1,8 @@
 module Everypolitician
   module Popolo
     class Legislature < Organization
+      classification 'legislature'
+
       def seats
         document.fetch(:seats, nil)
       end

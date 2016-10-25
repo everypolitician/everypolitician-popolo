@@ -42,7 +42,8 @@ class OrganizationTest < Minitest::Test
   end
 
   def test_organization_type
-    assert_instance_of Everypolitician::Popolo::Organization, orgs.first
+    assert_instance_of Everypolitician::Popolo::Party, orgs.first
+    assert_instance_of Everypolitician::Popolo::Legislature, riigikogu
   end
 
   def test_classification
@@ -79,7 +80,7 @@ class OrganizationTest < Minitest::Test
   end
 
   def test_seats
-    assert_equal nil, irl.seats
+    assert_equal false, irl.respond_to?(:seats)
     assert_equal 101, riigikogu.seats
   end
 
