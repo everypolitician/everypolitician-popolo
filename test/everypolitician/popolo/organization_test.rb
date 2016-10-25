@@ -98,4 +98,14 @@ class OrganizationTest < Minitest::Test
     assert_equal orgs.first, orgs.first
     refute_equal orgs.first, orgs.drop(1).first
   end
+
+  def test_legislatures_method
+    assert_equal 1, orgs.legislatures.count
+    assert_equal 1, orgs.legislatures.map(&:classification).to_set.count
+  end
+
+  def test_parties_method
+    assert_equal 7, orgs.parties.count
+    assert_equal 1, orgs.parties.map(&:classification).to_set.count
+  end
 end

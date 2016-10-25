@@ -35,6 +35,14 @@ module Everypolitician
     class Organizations < Collection
       entity_class Organization
 
+      def legislatures
+        of_class(Legislature)
+      end
+
+      def parties
+        of_class(Party)
+      end
+
       def class_for_entity(document)
         @entity_class[document[:classification]] ||= self.class.entity_class.subclasses.find do |e|
           e.classification == document[:classification]
