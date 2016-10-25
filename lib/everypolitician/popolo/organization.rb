@@ -25,12 +25,6 @@ module Everypolitician
         document.fetch(:other_names, [])
       end
 
-      # TODO: this should be pushed into a Legislature class when we split
-      # this into Party and Legislature classes
-      def seats
-        document.fetch(:seats, nil)
-      end
-
       def srgb
         document.fetch(:srgb, nil)
       end
