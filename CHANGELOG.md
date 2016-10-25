@@ -9,7 +9,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - `Popolo.latest_term` replaces `Popolo.current_term` and has the same
   functionality. It will return the most recent term for the legislature
-  but it is not guaranteed that the term will be a concurent one. You
+  but it is not guaranteed that the term will be a current one. You
   should check the `start_date` and `end_date` of the term to determine that.
 
 ### Deprecated
