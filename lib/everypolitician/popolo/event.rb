@@ -22,7 +22,7 @@ module Everypolitician
       end
     end
 
-    class Events < Collection
+    class Events < ClassificationCollection
       entity_class Event
 
       def elections
@@ -31,12 +31,6 @@ module Everypolitician
 
       def legislative_periods
         of_class(LegislativePeriod)
-      end
-
-      def class_for_entity(document)
-        @entity_class[document[:classification]] ||= self.class.entity_class.subclasses.find do |e|
-          e.classification == document[:classification]
-        end || self.class.entity_class
       end
     end
   end

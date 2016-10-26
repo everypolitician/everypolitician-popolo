@@ -32,7 +32,7 @@ module Everypolitician
       alias associated_color srgb
     end
 
-    class Organizations < Collection
+    class Organizations < ClassificationCollection
       entity_class Organization
 
       def legislatures
@@ -41,12 +41,6 @@ module Everypolitician
 
       def parties
         of_class(Party)
-      end
-
-      def class_for_entity(document)
-        @entity_class[document[:classification]] ||= self.class.entity_class.subclasses.find do |e|
-          e.classification == document[:classification]
-        end || self.class.entity_class
       end
     end
   end
