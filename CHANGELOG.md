@@ -11,6 +11,23 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   functionality. It will return the most recent term for the legislature
   but it is not guaranteed that the term will be a current one. You
   should check the `start_date` and `end_date` of the term to determine that.
+- Added `Election` and `LegislativePeriod` classes for `Event`s.
+- `Collection.where` now returns a `Collection` rather and an `Array`
+- Added the following shortcut methods:
+  - `Membership.area`
+  - `Membership.legislative_period` or `Memberships.term`
+  - `Membership.person`
+  - `Membership.on_behalf_of` or `Membership.party`
+  - `Membership.organization`
+  - `Membership.post`
+  - `Post.organization`
+  - `Person.memberships`
+
+### Changed
+
+- Moving away from generating accessors to Popolo properties dynamically
+  which means that in future only properties that are used by
+  EveryPolitician will have accessors
 
 ### Deprecated
 
