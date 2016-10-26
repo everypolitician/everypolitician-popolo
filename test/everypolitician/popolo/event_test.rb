@@ -41,6 +41,7 @@ class EventTest < Minitest::Test
 
   def test_accessing_elections
     elections = popolo.elections
+    assert_instance_of Everypolitician::Popolo::Elections, elections
     assert_equal 14, elections.count
     election = elections.first
     assert_instance_of Everypolitician::Popolo::Election, election
