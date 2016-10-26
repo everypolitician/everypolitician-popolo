@@ -51,8 +51,8 @@ module Everypolitician
         @indexes[attr] ||= group_by(&attr)
       end
 
-      def new_collection(entities)
-        self.class.new(entities.to_a.map(&:document), popolo)
+      def new_collection(entities, klass = self.class)
+        klass.new(entities.to_a.map(&:document), popolo)
       end
 
       def class_for_entity(_document)
