@@ -17,7 +17,7 @@ module Everypolitician
         @documents = documents ? documents.map { |p| class_for_entity(p).new(p, popolo) } : []
         @popolo = popolo
         @indexes = {}
-        @of_class = {}
+        @of_collection = {}
       end
 
       def each(&block)
@@ -41,8 +41,8 @@ module Everypolitician
         count.zero?
       end
 
-      def of_class(klass, collection = self)
-        @of_class[klass] ||= new_collection(select { |e| e.class == klass }, collection)
+      def of_collection(collection)
+        @of_collection[collection] ||= new_collection(select { |e| e.class == collection.entity_class }, collection)
       end
 
       private

@@ -26,11 +26,11 @@ module Everypolitician
       entity_class Event
 
       def elections
-        of_class(Election, Elections)
+        of_collection(Elections)
       end
 
       def legislative_periods
-        of_class(LegislativePeriod, LegislativePeriods)
+        of_collection(LegislativePeriods)
       end
 
       def class_for_entity(document)
