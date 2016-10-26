@@ -41,8 +41,8 @@ module Everypolitician
         count.zero?
       end
 
-      def of_class(klass)
-        @of_class[klass] ||= select { |e| e.class == klass }
+      def of_class(klass, collection = self)
+        @of_class[klass] ||= new_collection(select { |e| e.class == klass }, collection)
       end
 
       private
