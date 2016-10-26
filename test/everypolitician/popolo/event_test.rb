@@ -33,6 +33,7 @@ class EventTest < Minitest::Test
 
   def test_accessing_legislative_periods
     terms = popolo.legislative_periods
+    assert_instance_of Everypolitician::Popolo::LegislativePeriods, terms
     assert_equal 2, terms.count
     term = terms.first
     assert_instance_of Everypolitician::Popolo::LegislativePeriod, term
