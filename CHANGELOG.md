@@ -12,10 +12,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   but it is not guaranteed that the term will be a current one. You
   should check the `start_date` and `end_date` of the term to determine that.
 - Added `Election` and `LegislativePeriod` classes for `Event`s.
-- `Collection#where` now returns a `Collection` rather and an `Array`
+- `Collection#where` now returns a `Collection` rather than an `Array`
 - Added the following shortcut methods:
   - `Membership#area`
-  - `Membership#legislative_period` or `Memberships#term`
+  - `Membership#legislative_period` or `Membership#term`
   - `Membership#person`
   - `Membership#on_behalf_of` or `Membership#party`
   - `Membership#organization`
