@@ -25,9 +25,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
-- Moving away from generating accessors to Popolo properties dynamically
-  which means that in future only properties that are used by
-  EveryPolitician will have accessors
+- Accessors are no longer generated dynamically for Popolo properties,
+  which means that all normal accessor methods will now exist even where
+  a record doesn’t have that property.
 
 ### Deprecated
 
