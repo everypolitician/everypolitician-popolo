@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.8.0] - 2016-10-28
+
+### Added
+
+- `Popolo#latest_term` replaces `Popolo#current_term` and has the same
+  functionality. It will return the most recent term for the legislature
+  but it is not guaranteed that the term will be a current one. You
+  should check the `start_date` and `end_date` of the term to determine that.
+- Added `Election` and `LegislativePeriod` classes for `Event`s.
+- `Collection#where` now returns a `Collection` rather than an `Array`
+- Added the following shortcut methods:
+  - `Membership#area`
+  - `Membership#legislative_period` or `Membership#term`
+  - `Membership#person`
+  - `Membership#on_behalf_of` or `Membership#party`
+  - `Membership#organization`
+  - `Membership#post`
+  - `Post#organization`
+  - `Person#memberships`
+
+### Changed
+
+- Accessors are no longer generated dynamically for Popolo properties,
+  which means that all normal accessor methods will now exist even where
+  a record doesn’t have that property.
+
+### Deprecated
+
+- `Popolo#current_term` - use `latest_term` instead.
+
 ## [0.7.0] - 2016-09-26
 
 ### Added
@@ -84,3 +114,4 @@ exist, rather than blowing up.
 [0.5.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.4.0...v0.5.0
 [0.6.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.5.0...v0.6.0
 [0.7.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.6.0...v0.7.0
+[0.8.0]: https://github.com/everypolitician/everypolitician-popolo/compare/v0.7.0...v0.8.0

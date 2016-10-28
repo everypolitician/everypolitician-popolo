@@ -57,10 +57,13 @@ module Everypolitician
       end
       alias terms legislative_periods
 
-      def current_legislative_period
+      def latest_legislative_period
         legislative_periods.max_by(&:start_date)
       end
-      alias current_term current_legislative_period
+      alias latest_term latest_legislative_period
+
+      alias current_legislative_period latest_legislative_period
+      alias current_term latest_legislative_period
     end
   end
 end
