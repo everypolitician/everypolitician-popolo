@@ -7,21 +7,21 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- `Popolo.latest_term` replaces `Popolo.current_term` and has the same
+- `Popolo#latest_term` replaces `Popolo#current_term` and has the same
   functionality. It will return the most recent term for the legislature
   but it is not guaranteed that the term will be a current one. You
   should check the `start_date` and `end_date` of the term to determine that.
 - Added `Election` and `LegislativePeriod` classes for `Event`s.
-- `Collection.where` now returns a `Collection` rather and an `Array`
+- `Collection#where` now returns a `Collection` rather and an `Array`
 - Added the following shortcut methods:
-  - `Membership.area`
-  - `Membership.legislative_period` or `Memberships.term`
-  - `Membership.person`
-  - `Membership.on_behalf_of` or `Membership.party`
-  - `Membership.organization`
-  - `Membership.post`
-  - `Post.organization`
-  - `Person.memberships`
+  - `Membership#area`
+  - `Membership#legislative_period` or `Memberships#term`
+  - `Membership#person`
+  - `Membership#on_behalf_of` or `Membership#party`
+  - `Membership#organization`
+  - `Membership#post`
+  - `Post#organization`
+  - `Person#memberships`
 
 ### Changed
 
@@ -31,7 +31,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Deprecated
 
-- `Popolo.current_term` - use `latest_term` instead.
+- `Popolo#current_term` - use `latest_term` instead.
 
 ## [0.7.0] - 2016-09-26
 
