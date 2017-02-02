@@ -22,4 +22,10 @@ do
     git checkout HEAD@{1} -- $d || true > /dev/null
 done
 
-! bundle exec rake test
+if bundle exec rake test
+then
+    echo "Your newly introduced tests should have failed on $TARGET_BRANCH"
+    exit 1
+else
+    echo "Your new tests failed on $TARGET_BRANCH, which is a good thing!"
+fi
