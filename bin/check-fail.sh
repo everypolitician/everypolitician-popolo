@@ -19,7 +19,7 @@ git checkout "$TARGET_BRANCH"
 
 for d in t tests test spec
 do
-    git checkout HEAD@{1} -- $d || true > /dev/null
+    git checkout HEAD@{1} -- $d 2> /dev/null || true
 done
 
 if bundle exec rake test
