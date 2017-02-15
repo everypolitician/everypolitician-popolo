@@ -9,8 +9,6 @@ then
 fi
 
 TARGET_BRANCH="$TRAVIS_BRANCH"
-PR_API_URL="https://api.github.com/repos/${TRAVIS_REPO_SLUG}/pulls/${TRAVIS_PULL_REQUEST}"
-echo "Going to check the URL: $PR_API_URL"
 if echo "$TRAVIS_PULL_REQUEST_BRANCH" | grep -qi "refactor\|check"
 then
     echo "The title of the PR indicates this is a refactoring; skipping this check"
