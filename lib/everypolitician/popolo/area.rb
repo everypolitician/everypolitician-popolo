@@ -16,10 +16,6 @@ module Everypolitician
       def type
         document.fetch(:type, nil)
       end
-
-      def wikidata
-        identifier('wikidata')
-      end
     end
 
     class Areas < Collection
