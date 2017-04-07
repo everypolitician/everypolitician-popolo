@@ -91,10 +91,6 @@ module Everypolitician
         document.fetch(:patronymic_name, nil)
       end
 
-      def identifiers
-        document.fetch(:identifiers, [])
-      end
-
       def images
         document.fetch(:images, [])
       end
