@@ -18,12 +18,12 @@ class CollectionTest < Minitest::Test
   end
 
   def test_find_by_finding_no_item
-    assert_equal nil, popolo.persons.find_by(name: 'Raavi Tõivas')
+    assert_nil popolo.persons.find_by(name: 'Raavi Tõivas')
   end
 
   def test_find_by_finding_an_organization_by_multiple_attributes
     assert_equal 'SDE', popolo.organizations.find_by(id: 'SDE', name: 'Sotsiaaldemokraatliku Erakonna fraktsioon').id
-    assert_equal nil, popolo.organizations.find_by(id: 'IRL', name: 'Sotsiaaldemokraatliku Erakonna fraktsioon')
+    assert_nil popolo.organizations.find_by(id: 'IRL', name: 'Sotsiaaldemokraatliku Erakonna fraktsioon')
   end
 
   def test_where_finding_multiple_parties

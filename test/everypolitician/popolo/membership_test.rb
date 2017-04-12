@@ -35,7 +35,7 @@ class MembershipTest < Minitest::Test
 
   def test_membership_with_no_start_date
     with_no_start_date = memberships.partition(&:start_date).last
-    assert_equal nil, with_no_start_date.first.start_date
+    assert_nil with_no_start_date.first.start_date
   end
 
   def test_membership_with_end_date
@@ -45,7 +45,7 @@ class MembershipTest < Minitest::Test
 
   def test_membership_with_no_end_date
     with_no_end_date = memberships.partition(&:end_date).last
-    assert_equal nil, with_no_end_date.first.end_date
+    assert_nil with_no_end_date.first.end_date
   end
 
   def test_membership_person
@@ -81,12 +81,12 @@ class MembershipTest < Minitest::Test
   end
 
   def test_membership_post_id
-    assert_equal nil, memberships.first.post_id
+    assert_nil memberships.first.post_id
     assert_equal "women's_representative", nyeri.post_id
   end
 
   def test_membership_post
-    assert_equal nil, memberships.first.post
+    assert_nil memberships.first.post
     assert_instance_of Everypolitician::Popolo::Post, nyeri.post
     assert_equal "Women's Representative", nyeri.post.label
   end
