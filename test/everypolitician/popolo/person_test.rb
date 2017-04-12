@@ -76,12 +76,12 @@ class PersonTest
 
   def test_twitter
     assert_equal 'taaviroivas', taavi.twitter
-    assert_equal nil, eiki.twitter
+    assert_nil eiki.twitter
   end
 
   def test_facebook
     assert_equal 'https://facebook.com/100000658185044', eiki.facebook
-    assert_equal nil, taavi.facebook
+    assert_nil taavi.facebook
   end
 
   # TODO: switch this test to be against live data
@@ -118,17 +118,17 @@ class PersonTest
   def test_contacts
     assert_equal '6316301', eiki.contact('phone')
     assert_equal '6316301', eiki.phone
-    assert_equal nil, eiki.fax
+    assert_nil eiki.fax
   end
 
   def test_no_contacts
-    assert_equal nil, taavi.contact('phone')
-    assert_equal nil, taavi.phone
-    assert_equal nil, taavi.fax
+    assert_nil taavi.contact('phone')
+    assert_nil taavi.phone
+    assert_nil taavi.fax
   end
 
   def test_sort_name
-    assert_equal nil, taavi['sort_name']
+    assert_nil taavi['sort_name']
     assert_equal 'Taavi Rõivas', taavi.sort_name
   end
 
@@ -141,7 +141,7 @@ class PersonTest
   end
 
   def test_patronynic_name
-    assert_equal nil, eiki.patronymic_name
+    assert_nil eiki.patronymic_name
     assert_equal 'd/o Shams-ul-Qayum Wazir', aaisha.patronymic_name
   end
 
@@ -151,32 +151,32 @@ class PersonTest
 
   def test_image
     assert_equal 'http://www.riigikogu.ee/wpcms/wp-content/uploads/ems/temp/8a941c7a-8333-484b-a720-8207dee2e4cc.jpg', eiki.image
-    assert_equal nil, etti.image
+    assert_nil etti.image
   end
 
   def test_gender
     assert_equal 'male', taavi.gender
-    assert_equal nil, etti.gender
+    assert_nil etti.gender
   end
 
   def test_national_identity
-    assert_equal nil, etti.national_identity
+    assert_nil etti.national_identity
     assert_equal 'HUTU', ahishakiye.national_identity
   end
 
   def test_summary
-    assert_equal nil, etti.summary
+    assert_nil etti.summary
     assert_equal 'Bulawayo Province Member of the Senate.', agnes.summary
   end
 
   def test_honorific_prefix
-    assert_equal nil, taavi.honorific_prefix
+    assert_nil taavi.honorific_prefix
     person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_prefix: 'Dr')
     assert_equal 'Dr', person.honorific_prefix
   end
 
   def test_honorific_suffix
-    assert_equal nil, taavi.honorific_suffix
+    assert_nil taavi.honorific_suffix
     person = Everypolitician::Popolo::Person.new(id: '123', name: 'Bob', honorific_suffix: 'PhD')
     assert_equal 'PhD', person.honorific_suffix
   end
