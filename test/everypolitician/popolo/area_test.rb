@@ -44,7 +44,7 @@ class AreaTest < Minitest::Test
   def test_type
     # we don't have any data that has a missing area type so generate one
     area = Everypolitician::Popolo::Area.new(id: 'an_area', name: 'An Area')
-    assert_equal nil, area.type
+    assert_nil area.type
     assert_equal 'constituency', tartu.type
   end
 
@@ -63,7 +63,7 @@ class AreaTest < Minitest::Test
   end
 
   def test_wikidata
-    assert_equal nil, adana.wikidata
+    assert_nil adana.wikidata
     assert_equal 'Q3032626', tartu.wikidata
   end
 end

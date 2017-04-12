@@ -79,17 +79,17 @@ class OrganizationTest < Minitest::Test
   end
 
   def test_seats
-    assert_equal nil, irl.seats
+    assert_nil irl.seats
     assert_equal 101, riigikogu.seats
   end
 
   def test_srgb
-    assert_equal nil, irl.srgb
+    assert_nil irl.srgb
     assert_equal '008800', sinn_fein.srgb
   end
 
   def test_associated_colour
-    assert_equal nil, irl.associated_colour
+    assert_nil irl.associated_colour
     assert_equal '008800', sinn_fein.associated_colour
   end
 
