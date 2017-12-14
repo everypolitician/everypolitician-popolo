@@ -31,10 +31,10 @@ class PersonTestBehaviour
   end
 
   def test_persons_subtraction
-    person1 = { id: '123', name: 'Alice' }
-    person2 = { id: '456', name: 'Bob', gender: 'male' }
-    all_people = Everypolitician::Popolo::People.new([person1, person2])
-    just_person_1 = Everypolitician::Popolo::People.new([person1])
-    assert_equal [Everypolitician::Popolo::Person.new(person2)], all_people - just_person_1
+    alice = { id: '123', name: 'Alice' }
+    bob = { id: '456', name: 'Bob', gender: 'male' }
+    all_people = Everypolitician::Popolo::People.new([alice, bob])
+    only_alice = Everypolitician::Popolo::People.new([alice])
+    assert_equal [Everypolitician::Popolo::Person.new(bob)], all_people - only_alice
   end
 end
