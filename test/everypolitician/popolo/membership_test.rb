@@ -25,7 +25,8 @@ class MembershipTest < Minitest::Test
   end
 
   def test_membership_class
-    assert_instance_of Everypolitician::Popolo::Membership, memberships.first
+    assert_kind_of Everypolitician::Popolo::Membership, memberships.first
+    assert_instance_of Everypolitician::Popolo::LegislativeMembership, memberships.first
   end
 
   def test_membership_with_start_date
