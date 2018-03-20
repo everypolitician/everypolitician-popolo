@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require_relative 'collection'
+require_relative 'event'
+
 module Everypolitician
   module Popolo
     class LegislativePeriod < Event

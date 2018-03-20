@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require_relative 'collection'
+require_relative 'entity'
+
 module Everypolitician
   module Popolo
     class Person < Entity
