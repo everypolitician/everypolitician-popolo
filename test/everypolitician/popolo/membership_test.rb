@@ -12,7 +12,7 @@ class MembershipTest < Minitest::Test
   end
 
   def memberships
-    @mems ||= Everypolitician::Popolo.read(fixture).memberships
+    @memberships ||= Everypolitician::Popolo.read(fixture).memberships
   end
 
   def nyeri

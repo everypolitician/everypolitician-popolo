@@ -20,19 +20,19 @@ class PersonTest
   end
 
   def people
-    @ppl ||= Everypolitician::Popolo.read(estonia_fixture).persons
+    @people ||= Everypolitician::Popolo.read(estonia_fixture).persons
   end
 
   def pakistan_people
-    @pakistan_ppl ||= Everypolitician::Popolo.read(pakistan_fixture).persons
+    @pakistan_people ||= Everypolitician::Popolo.read(pakistan_fixture).persons
   end
 
   def burundi_people
-    @burundi_ppl ||= Everypolitician::Popolo.read(burundi_fixture).persons
+    @burundi_people ||= Everypolitician::Popolo.read(burundi_fixture).persons
   end
 
   def zimbabwe_people
-    @zimbabwe_ppl ||= Everypolitician::Popolo.read(zimbabwe_fixture).persons
+    @zimbabwe_people ||= Everypolitician::Popolo.read(zimbabwe_fixture).persons
   end
 
   def aadu
