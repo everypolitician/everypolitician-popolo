@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 class PersonTestBehaviour
@@ -6,7 +8,7 @@ class PersonTestBehaviour
   end
 
   def people
-    @ppl ||= Everypolitician::Popolo.read(estonia_fixture).persons
+    @people ||= Everypolitician::Popolo.read(estonia_fixture).persons
   end
 
   def taavi
