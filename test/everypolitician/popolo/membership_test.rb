@@ -126,4 +126,8 @@ class KenyaMembershipTest < Minitest::Test
     assert_instance_of Everypolitician::Popolo::Post, nyeri.post
     assert_equal "Women's Representative", nyeri.post.label
   end
+
+  def test_membership_source
+    assert_equal 'http://info.mzalendo.com/person/priscilla-nyokabi-kanyua/', nyeri.sources.first[:url]
+  end
 end

@@ -42,6 +42,10 @@ module Everypolitician
         document.fetch(:end_date, nil)
       end
 
+      def sources
+        document.fetch(:sources, [])
+      end
+
       def person
         popolo.persons.find_by(id: person_id)
       end
