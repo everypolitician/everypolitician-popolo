@@ -2,24 +2,13 @@
 
 require 'test_helper'
 
-class MembershipTest < Minitest::Test
+class EstoniaMembershipTest < Minitest::Test
   def fixture
     'test/fixtures/estonia-ep-popolo-v1.0.json'
   end
 
-  def kenya_fixture
-    'test/fixtures/kenya-ep-popolo-v1.0.json'
-  end
-
   def memberships
     @memberships ||= Everypolitician::Popolo.read(fixture).memberships
-  end
-
-  def nyeri
-    Everypolitician::Popolo.read(kenya_fixture).memberships.where(
-      person_id:             '037a05a5-bee2-44f1-bfaa-d864ac35196f',
-      legislative_period_id: 'term/11'
-    ).first
   end
 
   def test_memberships_class
@@ -82,17 +71,6 @@ class MembershipTest < Minitest::Test
     assert_equal 'term/13', memberships.first.legislative_period_id
   end
 
-  def test_membership_post_id
-    assert_nil memberships.first.post_id
-    assert_equal "women's_representative", nyeri.post_id
-  end
-
-  def test_membership_post
-    assert_nil memberships.first.post
-    assert_instance_of Everypolitician::Popolo::Post, nyeri.post
-    assert_equal "Women's Representative", nyeri.post.label
-  end
-
   def test_membership_legislative_period
     assert_equal '13th Riigikogu', memberships.first.legislative_period.name
     assert_equal '13th Riigikogu', memberships.first.term.name
@@ -107,7 +85,45 @@ class MembershipTest < Minitest::Test
     assert_equal 'Tartu linn', memberships.first.area.name
   end
 
+  def test_membership_source
+    assert_equal 'Tartu linn', memberships.first.area.name
+  end
+
   def test_membership_inequality
     refute_equal memberships.first, memberships.drop(1).first
+  end
+
+  def test_membership_post
+    assert_nil memberships.first.post
+  end
+
+  def test_membership_post_id
+    assert_nil memberships.first.post_id
+  end
+end
+
+class KenyaMembershipTest < Minitest::Test
+  def kenya_fixture
+    'test/fixtures/kenya-ep-popolo-v1.0.json'
+  end
+
+  def memberships
+    @memberships ||= Everypolitician::Popolo.read(kenya_fixture).memberships
+  end
+
+  def nyeri
+    Everypolitician::Popolo.read(kenya_fixture).memberships.where(
+      person_id:             '037a05a5-bee2-44f1-bfaa-d864ac35196f',
+      legislative_period_id: 'term/11'
+    ).first
+  end
+
+  def test_membership_post_id
+    assert_equal "women's_representative", nyeri.post_id
+  end
+
+  def test_membership_post
+    assert_instance_of Everypolitician::Popolo::Post, nyeri.post
+    assert_equal "Women's Representative", nyeri.post.label
   end
 end
