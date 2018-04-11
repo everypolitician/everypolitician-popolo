@@ -2,6 +2,7 @@ language: ruby
 script:
   - bundle exec rake test
   - bundle exec rake rubocop
+  - bin/check-fail.sh
 cache: bundler
 rvm:
   - 2.1
