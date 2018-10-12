@@ -105,6 +105,16 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/everypolitician-popolo.
 
+## Releasing
+
+After you've added a new feature or fixed a bug you should release the gem to rubygems.org.
+
+TravisCI will take care of this for us as long as the release is tagged.
+
+For example, to release to release version `0.12.0`:
+
+    git tag -a -m "everypolitician-popolo v0.12.0" v0.12.0
+    git push origin --tags
 
 ## License
 
