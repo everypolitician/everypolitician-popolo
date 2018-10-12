@@ -1,19 +1,22 @@
 language: ruby
 script:
-  - bundle exec rake test
-  - bundle exec rake rubocop
+- bundle exec rake test
+- bundle exec rake rubocop
 cache: bundler
 rvm:
-  - 2.1
-  - 2.2
-  - 2.3
-  - 2.4
-  - 2.5
+- 2.1
+- 2.2
+- 2.3
+- 2.4
+- 2.5
 before_install:
-  - gem update --system
-  - gem install bundler --no-doc
+- gem update --system
+- gem install bundler --no-doc
 deploy:
   provider: rubygems
-  api_key: "$RUBYGEMS_API_KEY"
+  api_key:
+    secure: W+NXaXWzlyIA4rDr6HxV7WckySVWnnHBT6s6gl64D0efJtF5/lgs9qAV8rfD9iXmrtcKth6AbclOZR+kYmSwdAE7RFJnnYuLYqei9EmXx6KJkdz3GSzoHxj+aC8nFzVsYD4kVygcTK59WRSEka3PK3Oo1N/XfXQaciDH3ZE21jeRvUYSTVMXzNOoOMW6Qyfq2ehgm1ImRTwuI8DUSrXwHTlAG+iSl7RDrePCQEGSCbR3MUd/twOkuSa2UXd9zGZ/QGjtrri3QX6x62qzy1TpVtsCumRO4TgPWxKZD1o/u95+61rLdEJ4CyCz6LbbkY8N869xpiqnsOjsv/hyfkFdHxj3/UaK2SfkCbyf94oQz6sxqCNewTQo5pPLZFzNZxnE3d4H+nJCbgxMin3Nl8fyevnuq/06/9zLU6+9l+vkw80sT8CQYKg8xr1Qp5fkVRqcZgpaflga6wUJCb4SrKFZtoUOlLZkdRwhiebRd4z3+DG0p9+uE8NQefLhQXXlCFq888oGlUxRVbW+JOaY03tySk04D3lm3+ymNjORR8ORei0Yn6Ur+ursUB0P0el6tzMG2M66ck/y/LNdjQsCknRA+1hYwWFo3+cP9lQAE9WqvZQ0h77Zmc7lMlvHxSAgieFDQIck3X8VTYNS763D8OWkle7vZElI7mxhMAWzFMerH7M=
+  gem: everypolitician-popolo
   on:
     tags: true
+    repo: everypolitician/everypolitician-popolo
