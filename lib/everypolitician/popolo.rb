@@ -39,7 +39,7 @@ module Everypolitician
 
       def events
         # do the sorting at the popolo level so we still get an Events object back
-        @events ||= Events.new(popolo[:events].to_a.sort_by { |e| e[:start_date] }, self)
+        @events ||= Events.new(popolo[:events].to_a.sort_by { |e| e[:start_date].to_s }, self)
       end
 
       def posts

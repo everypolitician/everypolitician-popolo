@@ -66,4 +66,11 @@ class EventTest < Minitest::Test
     assert_equal org_ids.count, 1
     assert_equal org_ids.first, '1ba661a9-22ad-4d0f-8a60-fe8e28f2488c'
   end
+
+  def test_events_with_no_start_date
+    estonia = JSON.parse(File.read('test/fixtures/estonia-ep-popolo-v1.0.json'), symbolize_names: true)
+    estonia[:events].first.delete(:start_date)
+    popolo = EveryPolitician::Popolo::JSON.new(estonia)
+    assert_nil popolo.events.first.start_date
+  end
 end
